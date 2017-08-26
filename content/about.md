@@ -1,29 +1,18 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About VCMI"
 +++
 
-Hugo is a static site engine written in Go.
+We want to rewrite the entire H3 engine (VCMI is NOT another mod) giving it new possibilities. Years of intensive work resulted in creating application with impressive amount of features. Among current features are:
 
+* Complete gameplay mechanics
+* Almost all objects, abilities, spells and other content
+* Basic battle AI and adventure AI
+* Many GUI improvements: high resolutions, stack queue, creature window
+* Advanced and easy mod support - add new towns, creatures, heroes, artifacts and spells without limits or conflicts
+* Launcher for easy configuration - download mods from our server and install them immediatelly!
+* Random map generator that supports objects added by mods
+* Linux, macOS and Android ports
 
-It makes use of a variety of open source projects including:
+VCMI is an open-source project licensed under GNU GPL 2.0 or later.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+if you want help it, please contact us using our board.

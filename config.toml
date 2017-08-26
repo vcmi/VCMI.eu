@@ -1,7 +1,7 @@
 baseurl = "http://vcmi.eu/"
 languageCode = "en-us"
 title = "VCMI Project official website"
-theme = "hugo-future-imperfect"
+theme = "chronicles"
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = ""
@@ -46,18 +46,15 @@ googleAnalytics = ""
     paragraph = "Open-source engine for Heroes of Might and Magic III <i class='fa fa-hand-peace-o'></i>"
 
     about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+#    aboutUrl  = "//wiki.vcmi.eu/index.php?title=Main_Page"
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
 # This is optional
 [params.intro.pic]
     src       = "/img/main/logo.png"
-    # modify your picture in the shape of a circle or
-    # future imperfect's hexagonal shape
-    circle    = false
-    imperfect = true
     width     = "200"
-    alt       = "Hugo Future Imperfect"
+    alt       = "VCMI project"
 
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
@@ -67,50 +64,50 @@ googleAnalytics = ""
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
-    name = "News"
-    url = "/news"
-    identifier = "fa fa-newspaper-o"
+    name = "About"
+    url = "/about"
     weight = 1
 
 [[menu.main]]
-    name = "Categories"
-    url = "/categories"
-    weight = 2
+    name = "GitHub"
+    url = "https://github.com/vcmi/vcmi"
+    identifier = "fa fa-github"
+    weight = 10
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 3
+    name = "Slack"
+    url = "https://slack.vcmi.eu/"
+    identifier = "fa fa-slack"
+    weight = 20
+
+[[menu.main]]
+    name = "Bugs"
+    url = "https://bugs.vcmi.eu/"
+    identifier = "fa fa-bug"
+    weight = 30
+
+[[menu.main]]
+    name = "Wiki"
+    url = "https://wiki.vcmi.eu/"
+    identifier = "fa fa-book"
+    weight = 50
+
+
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
 [social]
-    github          = "jpescador"
-    bitbucket       = ""
-    jsfiddle        = ""
-    codepen         = ""
-    foursquare      = ""
-    dribbble        = ""
-    deviantart      = ""
-    behance         = ""
-    flickr          = ""
-    instagram       = ""
-    youtube         = ""
-    vimeo           = ""
-    vine            = ""
-    medium          = ""
-    wordpress       = ""
-    tumblr          = ""
-    xing            = ""
-    linkedin        = ""
-    slideshare      = ""
-    stackoverflow   = ""
+    youtube         = "UCUG0_L0mQo-Mq8ajPpHRGgw"
     reddit          = "vcmi"
-    pinterest       = ""
-    googleplus      = ""
+    steam           = "VCMI"
+    googleplus      = "VCMIOfficial"
     facebook        = "VCMIOfficial"
     facebook_admin  = ""
     twitter_domain  = ""
     twitter         = "VCMIOfficial"
+    vkontakte       = "VCMIOfficial"
     email           = ""
+    github          = ""
+    bitbucket       = ""
+    moddb           = "vcmi"
