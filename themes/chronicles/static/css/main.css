@@ -3257,6 +3257,19 @@
 			width: 10em;
 		}
 
+		#intro .dologo {
+			border-bottom: 0;
+			display: inline-block;
+			margin: 0 0 1em 0;
+			overflow: hidden;
+			position: relative;
+		}
+
+			#intro .dologo img {
+				display: block;
+				width: 280px;
+			}
+
 	#intro header h2 {
 		font-size: 2em;
 		font-weight: 900;

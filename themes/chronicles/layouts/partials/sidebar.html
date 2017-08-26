@@ -10,7 +10,7 @@
                 {{ else if $pic.imperfect }}
                     <a href="/" class="logo"><img src="{{ . }}" alt="{{ $pic.alt }}" /></a>
                 {{ else }}
-                    <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+                    <a href="/" class="logo"><img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" /></a>
                 {{ end }}
             {{ end }}
             {{ with .Site.Params.intro }}
@@ -45,8 +45,8 @@
                 <header>
                     <h3>Sponsors</h3>
                 </header>
-                <a href="https://www.digitalocean.com/" target="_blank" rel="noopener" class="no-underline">
-                    <img src="/img/main/digitalocean_logo.png" title="Hosting provided by DigitalOcean" alt="Hosting provided by DigitalOcean" width="200">
+                <a href="https://www.digitalocean.com/" target="_blank" rel="noopener" class="dologo">
+                    <img src="/img/main/digitalocean_logo.png" title="Hosting provided by DigitalOcean" alt="Hosting provided by DigitalOcean">
                   </a>
                 </p>
         </section>
@@ -142,7 +142,7 @@
             <p>{{ . }}</p>
 
             <ul class="actions">
-                <li><a href="" class="button">Learn More</a></li>
+                <li><a href="/about/" class="button">Learn More</a></li>
             </ul>
         </section>
         {{ end }}

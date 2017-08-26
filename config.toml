@@ -1,6 +1,6 @@
 baseurl = "http://vcmi.eu/"
 languageCode = "en-us"
-title = "VCMI Project official website"
+title = "VCMI Project"
 theme = "chronicles"
 preserveTaxonomyNames = true
 paginate = 3
@@ -42,11 +42,8 @@ googleAnalytics = ""
 # This is optional, but it's suggested to use
 [params.intro]
     header    = "VCMI engine"
-
     paragraph = "Open-source engine for Heroes of Might and Magic III"
-
-    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
-#    aboutUrl  = "//wiki.vcmi.eu/index.php?title=Main_Page"
+    about     = "VCMI is work-in-progress attempt to recreate engine for Heroes III, giving it new and extended possibilities. To use VCMI you need to own original data files."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -87,10 +84,17 @@ googleAnalytics = ""
     weight = 30
 
 [[menu.main]]
+    name = "Forums"
+    url = "https://forum.vcmi.eu/"
+    identifier = "fa fa-comments"
+    weight = 40
+
+[[menu.main]]
     name = "Wiki"
     url = "https://wiki.vcmi.eu/"
     identifier = "fa fa-book"
     weight = 50
+
 
 
 
