@@ -9,7 +9,7 @@ googleAnalytics = ""
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+    description          = "VCMI is an open-source engine for Heroes of Might and Magic III"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "VCMI engine"
     # Social media buttons that appear on the sidebar
