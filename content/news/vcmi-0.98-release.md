@@ -1,7 +1,7 @@
 +++
 categories = ["Releases", "Stable"]
 date = "2015-04-01"
-description = "Learn how to create a theme on Hugo"
+description = ""
 featured = "placeholder.jpg"
 featuredalt = ""
 featuredpath = "date"
