@@ -1,8 +1,8 @@
 +++
-categories = ["Hugo"]
+categories = ["Releases", "Stable"]
 date = "2016-11-01"
 description = "Learn how to create a theme on Hugo"
-featured = "0.99.jpg"
+featured = "placeholder.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
@@ -18,7 +18,7 @@ A lot of work has been done to ensure game stability. A number of "impossible" c
 RMG has undergone huge improvement, it is now not only closely resembling OH3, but also works much faster. Bonus is about 150 random map templates ported from original game and fan favourites.
 Pretty much every aspect has been improved. Pay close attention to spells and cheat codes. Flying spells and artifacts have been restored as well as ability icons in Creature Window. Over 1400 commits were done since previous release 0.98, which means something.
 
-Since 0.98f over 100 bugs have been fixed. Since 0.98 it's difficult to count. For the first time in history more bugs are being fixed than reported ;)
+Since 0.98f [over 100 bugs](http://bugs.vcmi.eu/changelog_page.php?version_id=87) have been fixed. Since 0.98 it's difficult to count. For the first time in history more bugs are being fixed than reported ;)
 
 ## Changelog:
 ```
@@ -57,3 +57,5 @@ RANDOM MAP GENERATOR:
 * Added Seer Huts with quests that match OH3
 * RMG will guarantee at least 100 pairs of Monoliths are available even if there are not enough different defs
 ```
+
+Also welcome our latest contributors Dydzio and Chocimier.
