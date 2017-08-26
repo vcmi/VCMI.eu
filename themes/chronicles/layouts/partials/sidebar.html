@@ -19,7 +19,19 @@
                     <p>{{ .paragraph | safeHTML }}</p>
                 </header>
             {{ end }}
+            <ul class=icons>
+                <header>
+                    <h3>Supported platforms</h3>
+                </header>
+              <li><i class='fa fa-windows fa-4x'></i></li>
+              <li><i class='fa fa-apple fa-4x'></i></li>
+              <li><i class='fa fa-linux fa-4x'></i></li>
+              <li><a href="https://play.google.com/store/apps/details?id=is.xyz.vcmi&hl=ru" target="_blank"><i class='fa fa-android fa-4x'></i></a></li>
+            </ul>
             <ul class="icons">
+                <header>
+                    <h3>Follow us</h3>
+                </header>
                 {{ if .RSSLink }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss fa-2x"></a></li>
@@ -28,8 +40,15 @@
                     {{ partial "social" . }}
                 {{ end }}
             </ul>
-            
-            <p><a href="https://www.digitalocean.com/" target="_blank" rel="noopener" class="no-underline"><img src="/img/main/digitalocean_logo.png" title="Hosting provided by DigitalOcean" alt="Hosting provided by DigitalOcean" width="200"></a></p>
+
+            <p>
+                <header>
+                    <h3>Sponsors</h3>
+                </header>
+                <a href="https://www.digitalocean.com/" target="_blank" rel="noopener" class="no-underline">
+                    <img src="/img/main/digitalocean_logo.png" title="Hosting provided by DigitalOcean" alt="Hosting provided by DigitalOcean" width="200">
+                  </a>
+                </p>
         </section>
 
     <!-- Posts List

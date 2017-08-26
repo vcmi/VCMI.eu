@@ -43,7 +43,7 @@ googleAnalytics = ""
 [params.intro]
     header    = "VCMI engine"
 
-    paragraph = "Open-source engine for Heroes of Might and Magic III <i class='fa fa-hand-peace-o'></i>"
+    paragraph = "Open-source engine for Heroes of Might and Magic III"
 
     about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 #    aboutUrl  = "//wiki.vcmi.eu/index.php?title=Main_Page"
