@@ -26,18 +26,18 @@
               <li><i class='fa fa-windows fa-4x'></i></li>
               <li><i class='fa fa-apple fa-4x'></i></li>
               <li><i class='fa fa-linux fa-4x'></i></li>
-              <li><a href="https://play.google.com/store/apps/details?id=is.xyz.vcmi&hl=ru" target="_blank"><i class='fa fa-android fa-4x'></i></a></li>
+              <li><a href="https://play.google.com/store/apps/details?id=is.xyz.vcmi" target="_blank"><i class='fa fa-android fa-4x'></i></a></li>
             </ul>
             <ul class="icons">
                 <header>
                     <h3>Follow us</h3>
                 </header>
+                {{ if .Site.Params.socialAppearAtTop }}
+                    {{ partial "social" . }}
+                {{ end }}
                 {{ if .RSSLink }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss fa-2x"></a></li>
-                {{ end }}
-                {{ if .Site.Params.socialAppearAtTop }}
-                    {{ partial "social" . }}
                 {{ end }}
             </ul>
 
@@ -150,12 +150,12 @@
     <!-- Footer -->
         <section id="footer">
             <ul class="icons">
+                {{ if .Site.Params.socialAppearAtBottom }}
+                    {{ partial "social" . }}
+                {{ end }}
                 {{ if .RSSLink }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss fa-2x"></a></li>
-                {{ end }}
-                {{ if .Site.Params.socialAppearAtBottom }}
-                    {{ partial "social" . }}
                 {{ end }}
             </ul>
 

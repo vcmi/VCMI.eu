@@ -1,0 +1,61 @@
+language: go
+
+go:
+  - master
+
+sudo: false
+
+git:
+  depth: 10
+
+branches:
+  only:
+    - master
+
+install:
+# Dirty hack to make Travis use full clone
+  - cd $HOME
+  - rm -rf $TRAVIS_REPO_SLUG
+  - git clone https://github.com/$TRAVIS_REPO_SLUG.git $TRAVIS_REPO_SLUG
+  - cd $TRAVIS_REPO_SLUG
+  - git checkout -qf $TRAVIS_COMMIT
+# Workaround used to make sure hugo install won't fail
+# https://discourse.gohugo.io/t/govendor-fails-during-build-from-source/8084
+  - go get -u -v github.com/kardianos/govendor
+  - go get -u -v github.com/gohugoio/hugo
+  - (cd $GOPATH/src/github.com/gohugoio/hugo && govendor sync && go install)
+
+script:
+  - cd $HOME && cd $TRAVIS_REPO_SLUG
+  - if [[ $TRAVIS_PULL_REQUEST == 'false' ]];
+    then
+      git remote set-url origin git@github.com:$TRAVIS_REPO_SLUG.git
+
+      echo "Publishing to gh-pages...";
+      openssl aes-256-cbc -K $encrypted_ddc1dd92af8d_key -iv $encrypted_ddc1dd92af8d_iv -in deploy-key.enc -out deploy-key -d;
+      chmod 600 deploy-key;
+      eval "$(ssh-agent -s)";
+      ssh-add deploy-key;
+      git config user.name "Travis Update";
+      git config user.email "noreply@vcmi.eu";
+
+      echo "Checkout gh-pages at public...";
+      git worktree add -B gh-pages public origin/gh-pages;
+
+      cd public;
+      git rm -rf *;
+      git clean -fd;
+      cd ..;
+
+      hugo;
+      cd public;
+      git add --all;
+      git commit -m "Publishing to gh-pages";
+      cd ..;
+
+      git push origin gh-pages;
+    else
+      hugo;
+    fi
+
+skip_cleanup: true
