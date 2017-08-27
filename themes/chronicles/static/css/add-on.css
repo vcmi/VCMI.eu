@@ -162,8 +162,8 @@ blockquote p {
         }
 
 .pagination .button {
-    /*background: white;*/
-	background-image: url(/img/main/cellpic1.jpg);
+    background-color: #620300;
+    background-image: url(/img/main/cellpic1.jpg);
 }
 
 /** Social Share Button CSS **/
@@ -337,8 +337,8 @@ body.is-share-visible #wrapper {
 		}
 
 .post {
-	
-	background-image: url(/img/main/gen_background.jpg);
+    background-color: #3f1902;
+    background-image: url(/img/main/gen_background.jpg);
     margin: 0 0 2em 0;
 }
 
@@ -371,8 +371,8 @@ ul.pagination li {
     }
 
 #back-to-top {
-	/*background-color: white;*/
-	background-image: url(/img/main/cellpic1.jpg);
+    background-color: #620300;
+    background-image: url(/img/main/cellpic1.jpg);
     bottom: 5px;
     color: #aaaaaa;
     display: none;
@@ -389,16 +389,8 @@ ul.pagination li {
     }
 
 
-    
-#share-menu {
-	background-image: url(/img/main/gen_background.jpg);
-}
 
-.no-underline img{
-   text-decoration: none !important;
-   border:0px !important;
-   outline:none;
-   border-width: 0px;
-   outline-width:0px;
-   border-bottom: none;
+#share-menu {
+    background-color: #3f1902;
+    background-image: url(/img/main/gen_background.jpg);
 }

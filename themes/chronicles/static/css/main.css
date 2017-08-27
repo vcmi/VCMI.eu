@@ -1408,8 +1408,8 @@
 	}
 
 	body {
-    /*background: #f4f4f4;*/
-    background-image: url(/img/main/border_background.jpg);
+		background-color: #000;
+		background-image: url(/img/main/border_background.jpg);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1709,7 +1709,7 @@
 		-webkit-transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
 		-ms-transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
 		transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
-/*		background-color: transparent;*/
+		background-color: #620300;
 		background-image: url(/img/main/cellpic1.jpg);
 		border: 0;
 		box-shadow: inset 0 0 0 1px rgba(160, 160, 160, 0.3);
@@ -2961,7 +2961,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		/*background-color: #ffffff;*/
+		background-color: #620300;
 		background-image: url(/img/main/cellpic1.jpg);
 		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
 		height: 3.5em;
@@ -3157,6 +3157,7 @@
 /* Wrapper */
 
 	#wrapper {
+		background-color: #36281d;
 		background-image: url(/img/main/body_background.jpg);
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3357,7 +3358,7 @@
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		/*background: #ffffff;*/
+		background-color: #620300;
 		background-image: url(/img/main/cellpic1.jpg);
 		border-left: solid 1px rgba(160, 160, 160, 0.3);
 		box-shadow: none;
