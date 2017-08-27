@@ -2974,6 +2974,9 @@
 		width: 90em;
 		max-width: 100%;
 		margin: 0 auto;
+
+		border-left: dotted 1px rgba(160, 160, 160, 0.3);
+		border-right: dotted 1px rgba(160, 160, 160, 0.3);
 	}
 
 		#header a {
@@ -3172,6 +3175,9 @@
 		opacity: 1;
 		padding: 4.5em;
 		width: 90em;
+
+		border-left: dotted 1px rgba(160, 160, 160, 0.3);
+		border-right: dotted 1px rgba(160, 160, 160, 0.3);
 	}
 
 		body.is-menu-visible #wrapper {
