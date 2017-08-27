@@ -19,14 +19,11 @@
                     <p>{{ .paragraph | safeHTML }}</p>
                 </header>
             {{ end }}
-            <ul class=icons>
+            <ul class="icons">
                 <header>
-                    <h3>Supported platforms</h3>
+                    <h3>Download for</h3>
                 </header>
-              <li><i class='fa fa-windows fa-4x'></i></li>
-              <li><i class='fa fa-apple fa-4x'></i></li>
-              <li><i class='fa fa-linux fa-4x'></i></li>
-              <li><a href="https://play.google.com/store/apps/details?id=is.xyz.vcmi" target="_blank"><i class='fa fa-android fa-4x'></i></a></li>
+                {{ partial "platforms" . }}
             </ul>
             <ul class="icons">
                 <header>

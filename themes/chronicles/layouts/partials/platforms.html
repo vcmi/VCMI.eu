@@ -1,0 +1,9 @@
+<!-- Platform download links -->
+{{ range .Site.Menus.platforms }}
+    <li>
+        <a href="{{ .URL }}">
+            <i class="{{ .Identifier }}"></i>
+            <!-- <p>{{ .Name }}</p> -->
+        </a>
+    </li>
+{{ end }}
