@@ -32,10 +32,6 @@
                 {{ if .Site.Params.socialAppearAtTop }}
                     {{ partial "social" . }}
                 {{ end }}
-                {{ if .RSSLink }}
-                    <li><a href="{{ .RSSLink }}" type="application/rss+xml"
-                        target="_blank" title="RSS" class="fa fa-rss fa-2x"></a></li>
-                {{ end }}
             </ul>
 
             <p>
@@ -149,10 +145,6 @@
             <ul class="icons">
                 {{ if .Site.Params.socialAppearAtBottom }}
                     {{ partial "social" . }}
-                {{ end }}
-                {{ if .RSSLink }}
-                    <li><a href="{{ .RSSLink }}" type="application/rss+xml"
-                        target="_blank" title="RSS" class="fa fa-rss fa-2x"></a></li>
                 {{ end }}
             </ul>
 

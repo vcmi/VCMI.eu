@@ -123,17 +123,57 @@ googleAnalytics = ""
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
-[social]
-    youtube         = "UCUG0_L0mQo-Mq8ajPpHRGgw"
-    reddit          = "vcmi"
-    steam           = "VCMI"
-    googleplus      = "VCMIOfficial"
-    facebook        = "VCMIOfficial"
-    facebook_admin  = ""
-    twitter_domain  = ""
-    twitter         = "VCMIOfficial"
-    vkontakte       = "VCMIOfficial"
-    email           = ""
-    github          = ""
-    bitbucket       = ""
-    moddb           = "vcmi"
+
+[[menu.social]]
+    name = "Facebook"
+    url = "https://facebook.com/VCMIOfficial"
+    identifier = "fa fa-2x fa-facebook"
+    weight = 10
+
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/VCMIOfficial"
+    identifier = "fa fa-2x fa-twitter"
+    weight = 20
+
+[[menu.social]]
+    name = "Google+"
+    url = "https://plus.google.com/VCMIOfficial"
+    weight = 30
+    identifier = "fa fa-2x fa-google-plus"
+
+[[menu.social]]
+    name = "YouTube"
+    url = "https://youtube.com/UCUG0_L0mQo-Mq8ajPpHRGgw"
+    weight = 40
+    identifier = "fa fa-2x fa-youtube"
+
+[[menu.social]]
+    name = "Reddit"
+    url = "https://reddit.com/r/vcmi/"
+    weight = 50
+    identifier = "fa fa-2x fa-reddit"
+
+[[menu.social]]
+    name = "Steam"
+    url = "https://steamcommunity.com/groups/VCMI"
+    weight = 60
+    identifier = "fa fa-2x fa-steam-square"
+
+[[menu.social]]
+    name = "VKontakte"
+    url = "https://vk.com/VCMIOfficial"
+    weight = 70
+    identifier = "fa fa-2x fa-vk"
+
+[[menu.social]]
+    name = "Mod DB"
+    url = "http://www.moddb.com/engines/vcmi"
+    weight = 80
+    identifier = "fa fa-2x fa-wrench"
+
+[[menu.social]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 90
+    identifier = "fa fa-2x fa-rss"
