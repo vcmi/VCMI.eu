@@ -50,7 +50,7 @@ script:
       hugo;
       cd public;
       git add --all;
-      git commit -m "Publishing to gh-pages";
+      git commit -m "Update > ${TRAVIS_COMMIT_MESSAGE}" -m "$TRAVIS_COMMIT";
       cd ..;
 
       git push origin gh-pages;
