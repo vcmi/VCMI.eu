@@ -61,5 +61,10 @@ script:
 skip_cleanup: true
 
 notifications:
+  email:
+    recipients:
+    - noreply@vcmi.eu
+    on_success: change
+    on_failure: always
   slack:
     secure: lCOdz0nbDflXqmnloIrMUXA3Rwunyd6OZ9XKXjOz8g8LWPXP0hW2XkF4o+TUpMG7FKyUj5E7GYcen9oH2AdTSJMtkQlRUfMmImInDIv3kF3eEPQLkMvUH3pb/4ShvqpITadt01q8etXVjGUgnxwR2ShOXGWY5UvEbeT1Td2ct+VQ5yQhR/jHZUgQJn6PqCRooXTKSxG7RDaWROpS8kmlvObV/RXor58zkMbFOO7GaIU26hBxHMt7YLRzAYZ/QLxufmVoKsenONUTUEkNyyLNfWBsexS8ayWznreHvl2XacLhi+TZ/5atLnRQfk4B+WDapc+wMsN3GwwRJ+28+FL47YiGT+pIlLMfBwQN+9CaxoCfktqCUN8Pu9Wisj4leR9xgcUhEtbisWRCdQAHwtaQbHzh75uxkBTfUNvrxFvl+w9iiN0a1ijbzMB2J8VouKDWCCQizqxLaoZdIsuvJxC/SFSmjMP1/423wHjOefhrxxVYOQrEuu09yFDpGasnrRlpdu1MY3auVJR1AgeBFKcNSQrB/tYHy3C0t78BJxeePX7eoIGQCTje/G/jRC+cTO2ISpYMeIwzd1kdnjqO9n+C3xaa8FwlHE7I1aWlOPljGqE8nRlDwgysalpfPdbfILVOVv99WC5vp6zmBY7+NENKrsHrlBitV7gG+ChIicMpY44=
