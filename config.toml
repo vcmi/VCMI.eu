@@ -1,4 +1,4 @@
-baseurl = "http://vcmi.eu/"
+baseurl = "https://new-website-preview.vcmi.eu/"
 languageCode = "en-us"
 title = "VCMI Project"
 theme = "chronicles"
