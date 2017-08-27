@@ -1408,8 +1408,8 @@
 	}
 
 	body {
-	/*background: #f4f4f4;*/
-		background-image: url(/img/main/body_background.jpg);
+    /*background: #f4f4f4;*/
+    background-image: url(/img/main/border_background.jpg);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2949,7 +2949,7 @@
 /* Header */
 
 	body {
-		padding-top: 3.5em;
+		/**padding-top: 3.5em; */
 	}
 
 	#header {
@@ -2967,10 +2967,13 @@
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
-		position: fixed;
-		top: 0;
-		width: 100%;
+/**		position: fixed;
+		top: 0; */
 		z-index: 10000;
+
+		width: 90em;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 
 		#header a {
@@ -3151,6 +3154,7 @@
 /* Wrapper */
 
 	#wrapper {
+		background-image: url(/img/main/body_background.jpg);
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
