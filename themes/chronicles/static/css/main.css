@@ -2977,6 +2977,9 @@
 
 		border-left: dotted 1px rgba(160, 160, 160, 0.3);
 		border-right: dotted 1px rgba(160, 160, 160, 0.3);
+
+		/* Top menu left padding */
+		padding-left: 3em;
 	}
 
 		#header a {
@@ -3191,12 +3194,21 @@
 				padding: 3em;
 			}
 
+			/* Top menu left padding */
+			#header {
+				padding-left: 1.5em;
+			}
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			#wrapper {
 				display: block;
+			}
+
+			/* Top menu left padding */
+			#header {
+				padding-left: 0em;
 			}
 
 		}
