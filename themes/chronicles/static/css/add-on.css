@@ -163,7 +163,7 @@ blockquote p {
 
 .pagination .button {
     background-color: #620300;
-    background-image: url(/img/main/cellpic1.jpg);
+    background-image: url(/img/background_red.jpg);
 }
 
 /** Social Share Button CSS **/
@@ -338,7 +338,7 @@ body.is-share-visible #wrapper {
 
 .post {
     background-color: #3f1902;
-    background-image: url(/img/main/gen_background.jpg);
+    background-image: url(/img/background_gen.jpg);
     margin: 0 0 2em 0;
 }
 
@@ -372,7 +372,7 @@ ul.pagination li {
 
 #back-to-top {
     background-color: #620300;
-    background-image: url(/img/main/cellpic1.jpg);
+    background-image: url(/img/background_red.jpg);
     bottom: 5px;
     color: #aaaaaa;
     display: none;
@@ -392,5 +392,5 @@ ul.pagination li {
 
 #share-menu {
     background-color: #3f1902;
-    background-image: url(/img/main/gen_background.jpg);
+    background-image: url(/img/background_gen.jpg);
 }
