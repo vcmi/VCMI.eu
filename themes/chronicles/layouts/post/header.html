@@ -24,6 +24,9 @@
         {{ if .Site.Params.includeReadingTime }}
             <p>{{ .ReadingTime }} minute read</p>
         {{ end }}
+        {{ with .Params.forumurl }}
+            <p><b><a href="{{ . }}">View Comments</a></b></p>
+        {{ end }}
         <!--<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>-->
     </div>
 </header>
