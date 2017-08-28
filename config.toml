@@ -42,7 +42,7 @@ googleAnalytics = ""
 # This is optional, but it's suggested to use
 [params.intro]
     header    = "VCMI engine"
-    paragraph = "Open-source engine for Heroes of Might and Magic III"
+    paragraph = "Open-source engine for <nobr>Heroes of Might and Magic III</nobr>"
     about     = "VCMI is work-in-progress attempt to recreate engine for Heroes III, giving it new and extended possibilities. To use VCMI you need to own original data files."
 
 # This will also appear on the sidebar.
