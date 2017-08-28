@@ -3184,6 +3184,10 @@
 		border-right: dotted 1px rgba(160, 160, 160, 0.3);
 	}
 
+		body.is-menu-visible #header {
+			opacity: 0.15;
+		}
+
 		body.is-menu-visible #wrapper {
 			opacity: 0.15;
 		}
