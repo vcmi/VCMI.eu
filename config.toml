@@ -1,4 +1,4 @@
-baseurl = "http://vcmi.eu/"
+baseurl = "https://vcmi.eu/"
 languageCode = "en-us"
 title = "VCMI Project"
 theme = "chronicles"
@@ -98,25 +98,25 @@ googleAnalytics = ""
 # Platform download list
 [[menu.platforms]]
     name = "Windows"
-    url = "https://wiki.vcmi.eu/index.php?title=Installation_on_Windows"
+    url = "https://wiki.vcmi.eu/Installation_on_Windows"
     identifier = "fa fa-4x fa-windows"
     weight = 10
 
 [[menu.platforms]]
     name = "macOS"
-    url = "https://wiki.vcmi.eu/index.php?title=Installation_on_macOS"
+    url = "https://wiki.vcmi.eu/Installation_on_macOS"
     identifier = "fa fa-4x fa-apple"
     weight = 20
 
 [[menu.platforms]]
     name = "Linux"
-    url = "https://wiki.vcmi.eu/index.php?title=Installation_on_Linux"
+    url = "https://wiki.vcmi.eu/Installation_on_Linux"
     identifier = "fa fa-4x fa-linux"
     weight = 30
 
 [[menu.platforms]]
     name = "Android"
-    url = "https://wiki.vcmi.eu/index.php?title=Installation_on_Android"
+    url = "https://wiki.vcmi.eu/Installation_on_Android"
     identifier = "fa fa-4x fa-android"
     weight = 40
 
@@ -138,7 +138,7 @@ googleAnalytics = ""
 
 [[menu.social]]
     name = "Google+"
-    url = "https://plus.google.com/VCMIOfficial"
+    url = "https://google.com/+VCMIOfficial"
     weight = 30
     identifier = "fa fa-2x fa-google-plus"
 
