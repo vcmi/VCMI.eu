@@ -34,6 +34,11 @@
 
         {{ template "_internal/twitter_cards.html" . }}
         {{ template "_internal/opengraph.html" . }}
+
+        {{ with .Site.Params.openGraphDefaultImage }}
+            <meta name="og:image" content="{{ . }}">
+        {{ end }}
+
         {{ template "_internal/schema.html" . }}
         {{ template "_internal/google_news.html" . }}
 

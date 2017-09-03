@@ -17,6 +17,8 @@ googleAnalytics = ""
     socialAppearAtBottom = true
     # set this to the section name if section is not post
     viewMorePostLink     = "/news/"
+    # Default image for Open Graph
+    openGraphDefaultImage = "https://vcmi.eu/img/main/logo.png"
 
 # Optional Params
     categoriesByCount    = true
