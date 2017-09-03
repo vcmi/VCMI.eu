@@ -23,7 +23,7 @@ After several years we started shipping working builds for Mac again. All you ne
 
 ## Newer Android builds are available
 
-While Android support is not yet fully integrated into our continuous integration newer APK for VCMI are available for download. Builds still lagging behind latest version, but they in much better shape compared to older 0.97 version available on Google Play.
+While Android support is not yet fully integrated into our continuous integration newer APK for VCMI are available for download. Builds still lagging behind latest version, but they in much better shape compared to older 0.97 version.
 
 ## Development on Windows become much easier
 
