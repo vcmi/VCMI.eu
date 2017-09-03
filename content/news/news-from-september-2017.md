@@ -39,7 +39,7 @@ download links and full instructions.
 ## Newer Android builds are available
 
 While Android support is not yet fully integrated into our continuous
-integration newer, APKs for VCMI are available for download. The
+integration, newer APKs for VCMI are available for download. The
 builds are still lagging behind latest version, but they’re in much
 better shape compared to the older 0.97 version.
 
