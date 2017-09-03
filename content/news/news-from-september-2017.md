@@ -13,7 +13,7 @@ forumurl = "https://forum.vcmi.eu/t/news-from-september-2017/4292"
 +++
 ## New website, forum and more
 
-Project now have modern static website using HUGO as generator. Everybody are welcome to contribute [on GitHub](https://github.com/vcmi/VCMI.eu). There also links to all of our social networks so check them and follow if you want to be notified once next stable version is released.
+Project now have modern static website using HUGO as generator. Everybody is welcome to contribute [on GitHub](https://github.com/vcmi/VCMI.eu). There also links to all of our social networks so check them and follow if you want to be notified once next stable version is released.
 
 Thanks to DigitalOcean for providing us with servers our forums has moved from phpBB2 to Discourse. It's modern forum software that provide many useful features and looks much better on mobile devices. Once you registered on forum you can login on Wiki and Bug tracker with single click.
 
