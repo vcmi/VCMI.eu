@@ -9,10 +9,15 @@
         {{ with $.Scratch.Get "generalTitle" }}
             <title>{{ . }}</title>
         {{ else }}
-            {{ with .Title }}
-                <title>{{ . }}</title>
-            {{ else }}
+            {{ $title := (.Title | title ) }}
+            {{ $siteTitle := (.Site.Title) }}
+            {{ if eq $siteTitle $title }}
                 <title>{{ .Site.Title }}</title>
+            {{ else }}
+              <title>{{ with .Title }}
+                  {{ . }} -
+              {{ end }}
+              {{ .Site.Title }}</title>
             {{ end }}
         {{ end }}
 
