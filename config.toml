@@ -68,6 +68,11 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.main]]
+    name = "FAQ"
+    url = "/faq"
+    weight = 1
+
+[[menu.main]]
     name = "Forums"
     url = "https://forum.vcmi.eu/"
     identifier = "fa fa-comments"
