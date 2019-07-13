@@ -3,8 +3,6 @@ language: go
 go:
   - 1.12.x
 
-sudo: false
-
 git:
   depth: 10
 
@@ -24,9 +22,8 @@ install:
 #  - go get -u -v github.com/kardianos/govendor
 #  - go get -u -v github.com/gohugoio/hugo
 #  - (cd $GOPATH/src/github.com/gohugoio/hugo && govendor sync && go install)
-  - go get -u -v github.com/kardianos/govendor
-  - govendor get github.com/gohugoio/hugo
-  - go install github.com/gohugoio/hugo
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.55.6_Linux-64bit.deb
 
 script:
   - cd $HOME && cd $TRAVIS_REPO_SLUG
