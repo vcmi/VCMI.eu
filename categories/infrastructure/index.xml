@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Infrastructure on VCMI Project</title>
-    <link>https://vcmi.eu/categories/infrastructure/</link>
-    <description>Recent content in Infrastructure on VCMI Project</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 03 Sep 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://vcmi.eu/categories/infrastructure/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>News from September 2017</title>
-      <link>https://vcmi.eu/news/news-from-september-2017/</link>
-      <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://vcmi.eu/news/news-from-september-2017/</guid>
-      <description>New website, forum and more The VCMI project now has a modern, static website using Hugo as generator. Everybody is welcome to contribute on GitHub. Links are provided for all of our social networks, so check them out and follow if you want to be notified when the next stable version is released.
-Many thanks to DigitalOcean for providing us with servers for the new Discourse forum that replaces phpBB2.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure on VCMI Project</title><link>https://vcmi.eu/categories/infrastructure/</link><description>Recent content in Infrastructure on VCMI Project</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://vcmi.eu/categories/infrastructure/index.xml" rel="self" type="application/rss+xml"/><item><title>News from September 2017</title><link>https://vcmi.eu/news/news-from-september-2017/</link><pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate><guid>https://vcmi.eu/news/news-from-september-2017/</guid><description>New website, forum and more The VCMI project now has a modern, static website using Hugo as generator. Everybody is welcome to contribute on GitHub. Links are provided for all of our social networks, so check them out and follow if you want to be notified when the next stable version is released.
+Many thanks to DigitalOcean for providing us with servers for the new Discourse forum that replaces phpBB2. Discourse is a modern forum software that provides many useful features and looks much better on mobile devices.</description></item></channel></rss>
