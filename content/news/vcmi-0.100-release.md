@@ -15,7 +15,7 @@ forumurl = "https://forum.vcmi.eu/"
 ## We're happy to announce new release!
 
 Few years passed after we released VCMI 0.99 and now it's time for a new release.
-Tons of changes, improvements, and fixes have been introduces during that time, it's even hard to recall all of them.
+Tons of changes, improvements, and fixes have been introduced during that time, it's even hard to recall all of them.
 However we'd like to highlight several major changes.
 
 ## Artificial intellengence
