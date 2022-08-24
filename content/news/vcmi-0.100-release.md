@@ -23,7 +23,7 @@ You are welcome to try brand new AI algorithm called Nullkiller or you can play 
 Both algorithms became much smarter in comparison with last release, so just choose from the laucher settings whatever you like and enjoy.
 
 ## Mods and new terrains
-VCMI opens broad opportunitites for modding. Since last release we significantly empowered mod system.
+VCMI opens broad opportunitites for modding. Since the last release we significantly empowered the mod system.
 Among various gameplay tools we introduced support of new terrains. It is a natural evolution of new towns as they need to have unique terrains, battlefields, mines and map objects. This feature required deep refactoring of game engine so we all saves you made before release 0.100 will not be compatible. So it's a good reason to make new ones!
 
 ## Random Maps Generator
