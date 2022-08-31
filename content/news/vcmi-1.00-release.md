@@ -6,7 +6,7 @@ featured = "vcminewterrain.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "VCMI 0.100 released"
+title = "VCMI 1.00 released"
 type = "post"
 forumurl = "https://forum.vcmi.eu/"
 
@@ -30,12 +30,11 @@ You are welcome to try an alternative AI algorithm called Nullkiller which shows
 
 ## Mods and new terrains
 VCMI opens broad opportunitites for modding. Since the last release we significantly empowered the mod system.
-Among various gameplay tools we introduced support of new terrains. It is a natural evolution of new towns as they need to have unique terrains, battlefields, mines and map objects. This feature required deep refactoring of game engine so all saves you made before release 0.100 will not be compatible. So it's a good reason to make new ones!
+Among various gameplay tools we introduced support of new terrains. It is a natural evolution of new towns as they need to have unique terrains, battlefields, mines and map objects. This feature required deep refactoring of game engine so all saves you made before release 1.00 will not be compatible. So it's a good reason to make new ones!
 
 ## Random Maps Generator
 RMG also has undergone huge changes. First of all, normal and islands water options are supported now.
 Secondary, as mods can introduce new terrains and objects, RNG has got powerful algorithms to generate new terrain patches and to place new objects provided by mods. And finally, we improved generator in terms of aesthetics, obstacles placement and stability as well.
 
-## TBD Alsphat mod???
-TBD - I suggest to make "official" mod demonstrating new abilities.
-On my opinion, we need to make fine-quality mod with new town, new terrain, battlefields, mines, map objects (asphalt + forge for example). Also, we need to prepare some scenarios/maps (or even campaign) and some art (main menu?)
+## Launcher
+Good news! We reconsidered our release policy to make releases more frequently and introduced update notification system into lanucher in order to make everybody aware about our new features and fixes. In addition to that, launcher works now with our new [mod repository on GitHub](https://github.com/vcmi-mods) and you can follow for updates in your favorite mods too!
