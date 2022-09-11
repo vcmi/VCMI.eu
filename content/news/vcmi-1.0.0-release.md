@@ -8,7 +8,7 @@ featuredpath = "date"
 linktitle = ""
 title = "VCMI 1.0.0 released"
 type = "post"
-forumurl = "https://forum.vcmi.eu/"
+forumurl = "https://forum.vcmi.eu/t/vcmi-1-0-0-released/5727"
 
 +++
 
