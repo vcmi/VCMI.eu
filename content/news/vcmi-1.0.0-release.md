@@ -6,7 +6,7 @@ featured = "vcminewterrain.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "VCMI 1.00 released"
+title = "VCMI 1.0.0 released"
 type = "post"
 forumurl = "https://forum.vcmi.eu/"
 
