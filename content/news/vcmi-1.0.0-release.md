@@ -23,7 +23,7 @@ Lodestar grail finally can reveal all the map!
 We were also working hard to track down and fixed the most of the crashes constantly hurting VCMI gameplay. Now they are rare beasts but if you manage to find one do not hesitate to [report it](https://bugs.vcmi.eu)!
 
 ## Adventure map
-Hero exchange window has got a few additional buttons and keyboard shortcuts to ease army and artifact exchange. If you do not see them after installing the release ensure you have latest [VCMI essentials mod](https://wiki.vcmi.eu/Mod_list#Utilities).
+Hero exchange window has got a few additional buttons and keyboard shortcuts to ease army and artifact exchange. If you do not see them after installing the release ensure you have latest [VCMI extras](https://github.com/vcmi-mods/vcmi-extras).
 
 ## Artificial intellengence
 You are welcome to try an alternative AI algorithm called Nullkiller which shows itself well on small and medium maps. For larger maps you should better go with classic VCAI computer player which was also significantly improved, so just choose from the laucher settings whatever you like and enjoy.
@@ -34,7 +34,7 @@ Among various gameplay tools we introduced support of new terrains. It is a natu
 
 ## Random Maps Generator
 RMG also has undergone huge changes. First of all, normal and islands water options are supported now.
-Secondary, as mods can introduce new terrains and objects, RNG has got powerful algorithms to generate new terrain patches and to place new objects provided by mods. And finally, we improved generator in terms of aesthetics, obstacles placement and stability as well.
+Secondary, as mods can introduce new terrains and objects, RMG has got powerful algorithms to generate new terrain patches and to place new objects provided by mods. And finally, we improved generator in terms of aesthetics, obstacles placement and stability as well.
 
 ## Launcher
 Good news! We reconsidered our release policy to make releases more frequently and introduced update notification system into lanucher in order to make everybody aware about our new features and fixes. In addition to that, launcher works now with our new [mod repository on GitHub](https://github.com/vcmi-mods) and you can follow for updates in your favorite mods too!
