@@ -38,3 +38,8 @@ Secondary, as mods can introduce new terrains and objects, RMG has got powerful 
 
 ## Launcher
 Good news! We reconsidered our release policy to make releases more frequently and introduced update notification system into lanucher in order to make everybody aware about our new features and fixes. In addition to that, launcher works now with our new [mod repository on GitHub](https://github.com/vcmi-mods) and you can follow for updates in your favorite mods too!
+
+## Join us!
+The project is now actively maintained once again. There are several active contributors working on new amazing features. Not everything made it into this release so stay tuned for the next announcements!
+
+On top of a shorter release cycle, we also want to tell you that we slowly started using GitHub built-in tools for bug tracking and project management. Now development activities and release milestones will be more transparent. As always we are open to all contributors who wish to help us move VCMI forward. You can help with both programming or contributing new mods to the repository. We will happy to see you in our team.
