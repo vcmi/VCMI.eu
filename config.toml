@@ -145,7 +145,7 @@ googleAnalytics = ""
 
 [[menu.social]]
     name = "YouTube"
-    url = "https://www.youtube.com/channel/UCUG0_L0mQo-Mq8ajPpHRGgw"
+    url = "https://www.youtube.com/c/VCMIOfficial"
     weight = 40
     identifier = "fa fa-2x fa-youtube"
 
