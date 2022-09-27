@@ -86,7 +86,7 @@ googleAnalytics = ""
 
 [[menu.main]]
     name = "Bugs"
-    url = "https://bugs.vcmi.eu/"
+    url = "https://github.com/vcmi/vcmi/issues"
     identifier = "fa fa-bug"
     weight = 40
 
