@@ -32,7 +32,7 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Where do I report bugs?
 
-> Report bugs on <https://bugs.vcmi.eu/my_view_page.php>, we strongly recommend using english language.
+> Report bugs on <https://github.com/vcmi/vcmi/issues>, we strongly recommend using english language.
 
 * How do I contact you?
 
