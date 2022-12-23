@@ -111,7 +111,7 @@ googleAnalytics = ""
 
 [[menu.platforms]]
     name = "macOS"
-    url = "https://wiki.vcmi.eu/Installation_on_macOS"
+    url = "https://wiki.vcmi.eu/Installation_on_Apple"
     identifier = "fa fa-4x fa-apple"
     weight = 20
 
