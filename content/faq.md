@@ -6,19 +6,19 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Again, what is VCMI?
 
-> In simple words: Remake of Heroes of Might and Magic 3. We use original Heroes 3 graphic, sound and text assets and make new game that is supposed to work 100% same as H3. Everything in VCMI is made from scratch - loading game files, drawing graphics, AI, game mechanics etc. We also plan to add support for popular features from WoG and HD mod as well as some totally new features, but there are other areas that need our attention as well.
+> In simple words: Remake of Heroes of Might and Magic 3. We use original Heroes 3 graphic, sound and text assets and make new game that is supposed to work 100% same as H3. Everything in VCMI is made from scratch - loading game files, drawing graphics, AI, game mechanics etc. We have a plan to support popular features from WoG and HD mod as well as some brand-new features, but there are also other areas that need our attention as well.
 
 * What is the purpose of VCMI? Why to play or develop it if Heroes 3 is already there?
 
-> Our goal is to make "better" heroes 3 that overcomes various H3 engine limitations and allows way easier extensibility / modding than original game. Also VCMI is multiplatform so it works on Windows, Linux, MacOS, iOS and Android.
+> Our goal is to make "better" heroes 3 that overcomes various H3 engine limitations and allows way easier extensibility / modding than original game. Also VCMI is cross-platform so it works on Windows, Linux, MacOS, iOS and Android.
 
 * Is HotA / WoG compatible with VCMI?
 
-> No, HotA and WoG are mods that work with original Heroes 3, VCMI is basically new game. Still, they were ported by enthusiatsts as VCMI mods, offering limited range of their features. When more VCMI features come, they may be used to re-implement more missing parts of mods. For example VCMI scripting (planned future feature) while not being WoG focused work, will be replacement for WoG's scripting feature.
+> HotA and WoG are mods that work with original Heroes 3, VCMI is basically new game. Still, they were ported by enthusiatsts as VCMI mods, offering limited range of their features. When more VCMI features come, they may be used to re-implement missing parts of mods. For example VCMI scripting (planned future feature) while not being WoG focused work, will be replacement for WoG's scripting feature.
 
 * Is HD Mod compatible with VCMI?
 
-> You can't install HD Mod over VCMI - VCMI provides its own options for high resolutions and quality-of-life GUI improvements, some of them being re-make of HD Mod features. More of them will come as time passes.
+> HD Mod is not designed for VCMI. VCMI provides its own options for high resolutions and quality-of-life GUI improvements, some of them being re-make of HD Mod features. More of them will come as project evolves.
 
 * Where to get latest version?
 
@@ -54,15 +54,15 @@ title = "Frequently Asked Questions (FAQ)"
 
 * When is VCMI final / 2.0 / whatever version going to be released?
 
-> Open source projects never stop growing, and they tend to drift in different directions over years. As long as contributors like to add new features, VCMI will continue to evolve. There's no point in waiting for a "final" version. It's hard to estimate any sort of achieving big milestones like "100% original H3 compatibility" since work on VCMI is distributed between fixing bugs, adding missing features, developing AI, creating new features that do not exist in Heroes 3 etc. We are not close to getting rid of every single bug and having every single missing feature implemented, but if VCMI was just about that then we would probably finish long ago. Extensibility of VCMI engine requires doing various things "better" than original Heroes 3 developers did, for example no doing things easiest way - engine building with extensibility in mind, no hardcoding various mechanics (such as creature abilities). VCMI also provides more robust engine architecture for multiplayer than Heroes 3, but is also harder to develop because of that.
+> Open source projects never stop growing, and they tend to drift in different directions over years. As long as contributors like to add new features, VCMI will continue to evolve. There's no point in waiting for a "final" version. It's hard to estimate any sort of achieving big milestones like "100% original H3 compatibility" since work on VCMI is distributed between fixing bugs, adding missing features, developing AI, creating new features that do not exist in Heroes 3 etc. We are not very close to getting rid of every single bug and having every single missing feature implemented, but if VCMI was just about that then we would probably finish long ago. Extensibility of VCMI engine requires doing various things "better" than original Heroes 3 developers did, for example no doing things easiest way - engine building with extensibility in mind, no hardcoding various mechanics (such as creature abilities). VCMI also provides more robust engine architecture for multiplayer than Heroes 3, but is also harder to develop because of that.
 
 * When is feature X going to be released?
 
-> Everybody has different expectations and things that should be priority for him. We also have our own idea on what should be higher priority and what not, based on various factors, including temporary state of project. We also do not have any page with "what is currently being made" etc. simply, because such pages would require manual management, there are some pages like that on wiki, but they are out of date. If the feature you wait is in [our issues list](https://github.com/vcmi/vcmi/issues) then you can use emote to upvote it, if not - report it so we know that feature we might be not aware about is wanted.
+> If the feature you wait is on [our issues list](https://github.com/vcmi/vcmi/issues) then you can use emote to upvote it, if not - report it so we know that feature we might be not aware about is wanted. Everybody has different expectations and things that should be priority for him. We also have our own idea on what should be higher priority and what not, based on various factors, including temporary state of project. We also do not have any page with "what is currently being made" etc. simply, because such pages would require manual management, there are some pages like that on wiki, but they are out of date.
 
 * When will it be possible to play online in multiplayer?
 
-> As of VCMI 1.1.0 multiplayer reached fair level of stability and is playable. There is multiplayer lobby that makes it way easier to setup multiplayer session, but as of VCMI 1.1.0 it unfortunately isn't available on all platforms. We know that multiplayer lobby on Android is potentially one of top wanted features, but also hard to get done.
+> As of VCMI 1.1.0 multiplayer reached fair level of stability and is playable. You can play via local network using any supported device. There is also lobby to play online with anyone across the world, but as of VCMI 1.1.0 it doesn't support Android yet. We know that multiplayer lobby on Android is potentially one of top wanted features, but also hard to get done. Further evolution of multiplayer is definitely on our priority list.
 
 * How close is VCMI emulating H3 gameplay?
 
@@ -70,7 +70,7 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Higher resolution / random map generator is not working!
 
-> Get "VCMI Extras" mod from our launcher. If you are on Android - as of VCMI 1.1.0 this feature is not yet present in Android launcher as it uses different code than other platforms, but is in late development stage and hopefully will be there soon. Workaround while it's not available would be downloading mod on PC and moving Mods folder to android to same folder that has Heroes 3 data.
+> Get "VCMI Extras" mod from our launcher. Workaround for Android devices, while embedded mod management is not available yet as of VCMI 1.1.0, would be downloading mod on PC and moving Mods folder to android to same folder that has Heroes 3 data.
 
 * Game screen resolution is glitchy! Mouse goes beyond window / fullscreen is not properly stretched!
 
@@ -78,4 +78,4 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Is there any way to boost adventure AI? I want harder opponent.
 
-> As of VCMI 1.1.0 the default adventure map AI algorithm is VCAI. Nullkiller AI is alternative, more recent AI that you can choose in VCMI launcher, that is generally more challenging, but may be slow on big maps. Ability to swap AI is new feature in Android version of game since VCMI 1.1.0 so if you played on older version it's worth checking.
+> As of VCMI 1.1.0 the default adventure map AI algorithm is VCAI. Nullkiller AI is alternative, more recent AI that you can choose in VCMI launcher settings. That is generally more challenging, if you want more, check out Resourceful AI mod, which provides options for empowering AI and to speed up it. Ability to swap AI is new feature in Android version of game since VCMI 1.1.0 so if you played on older version it's worth to check it out.
