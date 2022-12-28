@@ -2,7 +2,7 @@
 title = "Frequently Asked Questions (FAQ)"
 +++
 
-**This article has been verified for VCMI 1.1.0 (release date 23.12.2022)**
+**This article has been verified for VCMI 1.1.0 (release date 23.12.2022) + Android mini-patch 1.1.0.1 (28.12.2022)**
 
 * Again, what is VCMI?
 
@@ -70,7 +70,7 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Higher resolution / random map generator is not working!
 
-> Get "VCMI Extras" mod from our launcher. Workaround for Android devices, while embedded mod management is not available yet as of VCMI 1.1.0, would be downloading mod on PC and moving Mods folder to android to same folder that has Heroes 3 data.
+> Get "VCMI Extras" mod from our launcher. Android has initial mods support in launcher since version 1.1.0.1. If this doesn't work for some reason, you can download mod on PC and moving Mods folder to to same folder that has Heroes 3 data on your android device.
 
 * Game screen resolution is glitchy! Mouse goes beyond window / fullscreen is not properly stretched!
 
