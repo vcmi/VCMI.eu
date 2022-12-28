@@ -26,7 +26,7 @@ title = "Frequently Asked Questions (FAQ)"
 
 * How do I install VCMI (Windows)?
 
-> Easiest way: Download release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then copy "data", "maps" and "mp3" folders from some folder with installed Heroes 3 into main VCMI folder (OR %USERPROFILE%\Documents\My Games\vcmi folder). More detailed information about currently recommended setup process is available in download section on this website after you choose your system.
+> Easiest way: Download release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then copy "data", "maps" and "mp3" folders from some folder with installed Heroes 3 into main VCMI folder (OR %USERPROFILE%\Documents\My Games\vcmi folder). More detailed information about currently recommended setup process is available on our wiki: <https://wiki.vcmi.eu/Installation>
 
 * Who works on this?
 
@@ -46,11 +46,11 @@ title = "Frequently Asked Questions (FAQ)"
 
 * I like VCMI, how can I help to make it better?
 
-> It would be best if you could join [our Slack](https://slack.vcmi.eu/). We mostly need C++ developers, QA/testing helpers and native mobile developers for improving mobile ports, but there may be other areas, where we could use some help. Alternatively you can create VCMI mods to try increasing popularity of VCMI platform.
+> It would be best if you could join [our Slack](https://slack.vcmi.eu/). We need C++ developers, QA/testing helpers and native mobile developers for improving mobile ports, but there are other areas, such as graphical design and content management, where we could use some help. You can also create mods with extra content to increase popularity of VCMI platform.
 
 * Is VCMI Mod Design Team (MDT) part of VCMI Team?
 
-> No, they are separate group of modders, but we have some cooperation with them.
+> No, they are separate group of modders, but we have cooperation with them.
 
 * When is VCMI final / 2.0 / whatever version going to be released?
 
