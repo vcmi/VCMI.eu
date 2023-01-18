@@ -6,7 +6,7 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Again, what is VCMI?
 
-> In simple words: Remake of Heroes of Might and Magic 3. We use original Heroes 3 graphic, sound and text assets and make new game that is supposed to work 100% same as H3. Everything in VCMI is made from scratch - loading game files, drawing graphics, AI, game mechanics etc. We have a plan to support popular features from WoG and HD mod as well as some brand-new features, but there are also other areas that need our attention as well.
+> In simple words: Remake of Heroes of Might and Magic 3. We use original Heroes 3 graphic, sound and text assets and make new game that is supposed to work 100% same as H3. Everything in VCMI is made from scratch - loading game files, drawing graphics, AI, game mechanics etc. We have a plan to support popular features from WoG and HD mod as well as some brand-new features, but there are many other areas that need our attention as well.
 
 * What is the purpose of VCMI? Why to play or develop it if Heroes 3 is already there?
 
@@ -14,11 +14,11 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Is HotA / WoG compatible with VCMI?
 
-> HotA and WoG are mods that work with original Heroes 3, VCMI is basically new game. Still, they were ported by enthusiatsts as VCMI mods, offering limited range of their features. When more VCMI features come, they may be used to re-implement missing parts of mods. For example VCMI scripting (planned future feature) while not being WoG focused work, will be replacement for WoG's scripting feature.
+> HotA and WoG are mods that work with original Heroes 3, VCMI is basically a new game. Still, they were ported by enthusiasts as VCMI mods, offering limited range of their features. When more VCMI features come, they may be used to re-implement missing parts of mods. For example VCMI scripting (planned future feature) while not being WoG focused work, will be a replacement for WoG's scripting feature.
 
 * Is HD Mod compatible with VCMI?
 
-> HD Mod is not designed for VCMI. VCMI provides its own options for high resolutions and quality-of-life GUI improvements, some of them being re-make of HD Mod features. More of them will come as project evolves.
+> HD Mod is not designed for VCMI. VCMI provides its own options for high resolutions and quality-of-life GUI improvements, some of them being re-make of HD Mod features. More of them will come as the project evolves.
 
 * Where to get latest version?
 
@@ -26,11 +26,11 @@ title = "Frequently Asked Questions (FAQ)"
 
 * How do I install VCMI (Windows)?
 
-> Easiest way: Download release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then copy "data", "maps" and "mp3" folders from some folder with installed Heroes 3 into main VCMI folder (OR %USERPROFILE%\Documents\My Games\vcmi folder). More detailed information about currently recommended setup process is available on our wiki: <https://wiki.vcmi.eu/Installation>
+> Easiest way: Download release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then copy "data", "maps" and "mp3" folders from some folder with installed Heroes 3 into main VCMI folder (or `%USERPROFILE%\Documents\My Games\vcmi` folder). More detailed information about currently recommended setup process is available on our wiki: <https://wiki.vcmi.eu/Installation>
 
 * Who works on this?
 
-> Volunteers in their free time. VCMI is non-profit project. Unlike most other Heroes 3 related projects VCMI is open-source, which means it is public and everybody can contribute. That also means project future doesn't depend on "team members" abandoning it or deciding not to publish source code.
+> Volunteers in their free time. VCMI is a non-profit project. Unlike most other Heroes 3 related projects VCMI is open-source, which means it is public and everybody can contribute. That also means project future doesn't depend on "team members" abandoning it or deciding not to publish source code.
 
 * Can I donate?
 
@@ -38,27 +38,27 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Where do I report bugs?
 
-> Report bugs on <https://github.com/vcmi/vcmi/issues>, we strongly recommend using english language.
+> Report bugs on <https://github.com/vcmi/vcmi/issues>, we strongly recommend using English language.
 
 * How do I contact you?
 
-> We recommend using [our forums](https://forum.vcmi.eu/) or [our Slack](https://slack.vcmi.eu/). Alternatively you can send e-mail to team@vcmi.eu to contact some of core contributors. If you are not comfortable with english language - we also have polish and russian sections on forums and slack.
+> We recommend using [our forums](https://forum.vcmi.eu/) or [our Slack](https://slack.vcmi.eu/). Alternatively you can send an e-mail to team@vcmi.eu to contact some of core contributors. If you are not comfortable with English language - we also have Polish and Russian sections on forums and slack.
 
 * I like VCMI, how can I help to make it better?
 
-> It would be best if you could join [our Slack](https://slack.vcmi.eu/). We need C++ developers, QA/testing helpers and native mobile developers for improving mobile ports, but there are other areas, such as graphical design and content management, where we could use some help. You can also create mods with extra content to increase popularity of VCMI platform.
+> It would be best if you could join [our Slack](https://slack.vcmi.eu/). We need C++ developers, QA/testing helpers and native mobile developers for improving mobile ports. There are also other areas, such as graphical design and content management, where we could use some help. You can also create mods with extra content to increase popularity of VCMI platform.
 
 * Is VCMI Mod Design Team (MDT) part of VCMI Team?
 
-> No, they are separate group of modders, but we have cooperation with them.
+> No, they are a separate group of modders, but we cooperate with them.
 
 * When is VCMI final / 2.0 / whatever version going to be released?
 
-> Open source projects never stop growing, and they tend to drift in different directions over years. As long as contributors like to add new features, VCMI will continue to evolve. There's no point in waiting for a "final" version. It's hard to estimate any sort of achieving big milestones like "100% original H3 compatibility" since work on VCMI is distributed between fixing bugs, adding missing features, developing AI, creating new features that do not exist in Heroes 3 etc. We are not very close to getting rid of every single bug and having every single missing feature implemented, but if VCMI was just about that then we would probably finish long ago. Extensibility of VCMI engine requires doing various things "better" than original Heroes 3 developers did, for example no doing things easiest way - engine building with extensibility in mind, no hardcoding various mechanics (such as creature abilities). VCMI also provides more robust engine architecture for multiplayer than Heroes 3, but is also harder to develop because of that.
+> Open source projects never stop growing, and they tend to drift in different directions over years. As long as contributors like to add new features, VCMI will continue to evolve. There's no point in waiting for a "final" version. It's hard to estimate any sort of big milestones like "100% original H3 compatibility" since work on VCMI is distributed between fixing bugs, adding missing features, developing AI, creating new features that do not exist in Heroes 3 etc. We are not very close to getting rid of every single bug and having every single missing feature implemented, but if VCMI was just about that then we would probably finish long ago. Extensibility of VCMI engine requires doing various things "better" than original Heroes 3 developers did, and not just the easiest way. Engine is built with extensibility in mind, and various mechanics (such as creature abilities) are not hardcoded, but moddable. Our long-term goals, such as improved multiplayer, make VCMI harder to develop in short term.
 
 * When is feature X going to be released?
 
-> If the feature you wait is on [our issues list](https://github.com/vcmi/vcmi/issues) then you can use emote to upvote it, if not - report it so we know that feature we might be not aware about is wanted. Everybody has different expectations and things that should be priority for him. We also have our own idea on what should be higher priority and what not, based on various factors, including temporary state of project. We also do not have any page with "what is currently being made" etc. simply, because such pages would require manual management, there are some pages like that on wiki, but they are out of date.
+> If the feature you wait is on [our issues list](https://github.com/vcmi/vcmi/issues) then you can use emote to upvote it, if not - report it so we know that feature we might be not aware about what is wanted. Everybody has different expectations and priorities. We also have our own idea on what should be higher priority and what not, based on various factors, including temporary state of project. We do not have any page with "what is currently being made" etc. simply, because such pages would quickly become outdated. This might be true for some existing pages, such as our Wiki.
 
 * When will it be possible to play online in multiplayer?
 
@@ -70,12 +70,12 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Higher resolution / random map generator is not working!
 
-> Get "VCMI Extras" mod from our launcher. Android has initial mods support in launcher since version 1.1.0.1. If this doesn't work for some reason, you can download mod on PC and moving Mods folder to to same folder that has Heroes 3 data on your android device.
+> Get "VCMI Extras" mod from our launcher. Android has initial mods support in launcher since version 1.1.0.1. If this doesn't work for some reason, you can download mod on PC and move Mods folder to the same folder on your Android device that has Heroes 3 data.
 
 * Game screen resolution is glitchy! Mouse goes beyond window / fullscreen is not properly stretched!
 
-> Situation written here is accurate as of VCMI 1.1.0 - On PC: Try real fullscreen mode, you can activate it in VCMI launcher. If it happens on mobile platform then it may be yet unfixed bug, if changing resolution won't fix it.
+> Situation written here is accurate as of VCMI 1.1.0 - On PC: Try real fullscreen mode, you can activate it in VCMI launcher. If it happens on mobile platform, and changing resolution won't help it, then it may be yet unfixed bug.
 
-* Is there any way to boost adventure AI? I want harder opponent.
+* Is there any way to boost adventure AI? I want a harder opponent.
 
-> As of VCMI 1.1.0 the default adventure map AI algorithm is VCAI. Nullkiller AI is alternative, more recent AI that you can choose in VCMI launcher settings. That is generally more challenging, if you want more, check out Resourceful AI mod, which provides options for empowering AI and to speed up it. Ability to swap AI is new feature in Android version of game since VCMI 1.1.0 so if you played on older version it's worth to check it out.
+> As of VCMI 1.1.0 the default adventure map AI algorithm is VCAI. Nullkiller AI is alternative, more recent AI that you can choose in VCMI launcher settings. That is generally more challenging, if you want more, check out Resourceful AI mod, which provides options for empowering AI and to speed it up. Ability to swap AI is a new feature, added for Android version since VCMI 1.1.0, so if you played on older version it's worth to check it out.
