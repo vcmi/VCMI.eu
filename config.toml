@@ -70,6 +70,7 @@ googleAnalytics = ""
 [[menu.main]]
     name = "FAQ"
     url = "/faq"
+    identifier = "fa fa-question-circle"
     weight = 1
 
 [[menu.main]]
@@ -95,6 +96,11 @@ googleAnalytics = ""
     url = "https://slack.vcmi.eu/"
     identifier = "fa fa-slack"
     weight = 50
+
+[[menu.main]]
+    name = "Discord"
+    url = "https://discord.gg/chBT42V"
+    weight = 55
 
 [[menu.main]]
     name = "GitHub"
