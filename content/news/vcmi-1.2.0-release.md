@@ -8,7 +8,7 @@ featuredpath = "date"
 linktitle = ""
 title = "VCMI 1.2.0 released"
 type = "post"
-forumurl = "https://forum.vcmi.eu/t/vcmi-1-1-0-released/5843"
+forumurl = ""
 
 +++
 
@@ -37,7 +37,7 @@ Mod system got a few subtle, but significant extensions. Capabilities of configu
 **Please note that save games from v1.1 are incompatible with v1.2!**
  
 ## And many others
-The list of changes is too big to fit here, please refer to the he detailed backlog is on [the release page](https://github.com/vcmi/vcmi/releases/tag/1.1.0). **TODO**: Update link
+The list of changes is too big to fit here, please refer to the he detailed backlog is on [the release page](https://github.com/vcmi/vcmi/releases/tag/1.2.0).
 
 But the journey doesn't end here, more features are already scheduled for 1.3 release.
 
