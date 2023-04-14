@@ -2,7 +2,7 @@
 categories = ["Releases", "Stable"]
 date = "2023-04-14"
 description = ""
-featured = "vcmirelease1_1.jpg"
+featured = "vcmi-1-2-header.png"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
@@ -40,3 +40,5 @@ Mod system got a few subtle, but significant extensions. Capabilities of configu
 The list of changes is too big to fit here, please refer to the he detailed backlog is on [the release page](https://github.com/vcmi/vcmi/releases/tag/1.1.0). **TODO**: Update link
 
 But the journey doesn't end here, more features are already scheduled for 1.3 release.
+
+We also launched official VCMI Discord channel, join us [here](https://discord.gg/chBT42V).
