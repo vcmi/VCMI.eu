@@ -18,7 +18,7 @@ VCMI project doesn't stop! In release 1.3 we focused on player feedback and user
 GUI size can be freely changed without exiting the game. Also, we now offer smooth map zoom - that's something certainly no other platform allows.
 
 ## Touchscreen improvements
-Android players, who turned out to be a majority of our userbase, will appreciate GUI improvements targeted at touchscreen devices. This includes radial menu for army management, swipe and pinch gesture support, as well as haptic feedback.
+Mobile players, who turned out to be a majority of our userbase, will appreciate GUI improvements targeted at touchscreen devices. This includes radial menu for army management, swipe and pinch gesture support, as well as haptic feedback.
 
 ## Random Map Generator
 RMG got a number of improvements and fixes, based on suggestions of PvP community and random map experts. All options from original Shadow of Death are supported, but we also added some more for extra flexibility. About every aspect of map generation was improved.
