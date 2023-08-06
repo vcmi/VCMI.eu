@@ -6,7 +6,7 @@ title = "Frequently Asked Questions (FAQ)"
 
 * Again, what is VCMI?
 
-> In simple words: Remake of Heroes of Might and Magic 3. We use original Heroes 3 graphic, sound and text assets o create a new game that is supposed to work 100% same as H3. Everything in VCMI is made from scratch - loading game files, drawing graphics, AI, game mechanics etc. We have a plan to support popular features from HotA, WoG and HD mod as well as some brand-new features, but there are many other areas that need our attention as well.
+> In simple words: Remake of Heroes of Might and Magic 3. We use original Heroes 3 graphic, sound and text assets to create a new game that is supposed to work 100% same as H3. Everything in VCMI is made from scratch - loading game files, drawing graphics, AI, game mechanics etc. We have a plan to support popular features from HotA, WoG and HD mod as well as some brand-new features, but there are many other areas that need our attention as well.
 
 * What is the purpose of VCMI? Why to play or develop it if Heroes 3 is already there?
 
