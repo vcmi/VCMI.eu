@@ -26,7 +26,7 @@ title = "Frequently Asked Questions (FAQ)"
 
 * How do I install VCMI (Windows)?
 
-> Easiest way: Download release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then when Laucher promts for Heroes III data files select location of your Heroes III installation.
+> Easiest way: Download release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then when Laucher prompts for Heroes III data files select location of your Heroes III installation.
 
 * Who works on this?
 
