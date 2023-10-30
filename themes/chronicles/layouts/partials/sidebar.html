@@ -21,9 +21,21 @@
             {{ end }}
             <ul class="icons">
                 <header>
-                    <h3>Download for</h3>
+                    <h3>Download for Desktop</h3>
                 </header>
                 {{ partial "platforms" . }}
+            </ul>
+            <ul class="icons">
+                <header>
+                    <h3>Download for Mobile</h3>
+                </header>
+                {{ partial "platformsMobile" . }}
+            </ul>
+            <ul class="icons">
+                <header>
+                    <h3>App Stores</h3>
+                </header>
+                {{ partial "platformsAppstore" . }}
             </ul>
             <ul class="icons">
                 <header>

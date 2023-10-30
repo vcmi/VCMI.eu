@@ -94,44 +94,69 @@ googleAnalytics = ""
 [[menu.main]]
     name = "Slack"
     url = "https://slack.vcmi.eu/"
-    identifier = "fa fa-slack"
+    identifier = "fa-brands fa-slack"
     weight = 50
 
 [[menu.main]]
     name = "Discord"
     url = "https://discord.gg/chBT42V"
+    identifier = "fa-brands fa-discord"
     weight = 55
 
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/vcmi/vcmi"
-    identifier = "fa fa-github"
+    identifier = "fa-brands fa-github"
     weight = 60
 
 # Platform download list
 [[menu.platforms]]
     name = "Windows"
-    url = "https://wiki.vcmi.eu/Installation_on_Windows"
-    identifier = "fa fa-4x fa-windows"
+    url = "https://github.com/vcmi/vcmi/blob/develop/docs/players/Installation_Windows.md"
+    identifier = "fa-brands fa-4x fa-windows"
     weight = 10
 
 [[menu.platforms]]
     name = "macOS"
-    url = "https://wiki.vcmi.eu/Installation_on_Apple"
-    identifier = "fa fa-4x fa-apple"
+    url = "https://github.com/vcmi/vcmi/blob/develop/docs/players/Installation_macOS.md"
+    identifier = "fa-brands fa-4x fa-apple"
     weight = 20
 
 [[menu.platforms]]
     name = "Linux"
-    url = "https://wiki.vcmi.eu/Installation_on_Linux"
-    identifier = "fa fa-4x fa-linux"
+    url = "https://github.com/vcmi/vcmi/blob/develop/docs/players/Installation_Linux.md"
+    identifier = "fa-brands fa-4x fa-linux"
     weight = 30
 
-[[menu.platforms]]
+[[menu.platformsmobile]]
+    name = "iOS"
+    url = "https://github.com/vcmi/vcmi/blob/develop/docs/players/Installation_iOS.md"
+    identifier = "fa-brands fa-4x fa-apple"
+    weight = 10
+
+[[menu.platformsmobile]]
     name = "Android"
-    url = "https://wiki.vcmi.eu/Installation_on_Android"
-    identifier = "fa fa-4x fa-android"
-    weight = 40
+    url = "https://github.com/vcmi/vcmi/blob/develop/docs/players/Installation_Android.md"
+    identifier = "fa-brands fa-4x fa-android"
+    weight = 20
+
+[[menu.platformsappstore]]
+    name = "Play Store"
+    url = "https://play.google.com/store/apps/details?id=is.xyz.vcmi"
+    identifier = "fa-brands fa-4x fa-google-play"
+    weight = 10
+
+[[menu.platformsappstore]]
+    name = "F-Droid"
+    url = "https://f-droid.org/de/packages/is.xyz.vcmi/"
+    identifier = "fa-brands fa-4x fa-android"
+    weight = 20
+
+[[menu.platformsappstore]]
+    name = "Flathub"
+    url = "https://flathub.org/de/apps/eu.vcmi.VCMI"
+    identifier = "fa-solid fa-4x fa-box"
+    weight = 30
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
@@ -140,38 +165,38 @@ googleAnalytics = ""
 [[menu.social]]
     name = "Facebook"
     url = "https://facebook.com/VCMIOfficial"
-    identifier = "fa fa-2x fa-facebook"
+    identifier = "fa-brands fa-2x fa-facebook"
     weight = 10
 
 [[menu.social]]
     name = "Twitter"
     url = "https://twitter.com/VCMIOfficial"
-    identifier = "fa fa-2x fa-twitter"
+    identifier = "fa-brands fa-2x fa-twitter"
     weight = 20
 
 [[menu.social]]
     name = "YouTube"
     url = "https://www.youtube.com/c/VCMIOfficial"
     weight = 40
-    identifier = "fa fa-2x fa-youtube"
+    identifier = "fa-brands fa-2x fa-youtube"
 
 [[menu.social]]
     name = "Reddit"
     url = "https://reddit.com/r/vcmi/"
     weight = 50
-    identifier = "fa fa-2x fa-reddit"
+    identifier = "fa-brands fa-2x fa-reddit"
 
 [[menu.social]]
     name = "Steam"
     url = "https://steamcommunity.com/groups/VCMI"
     weight = 60
-    identifier = "fa fa-2x fa-steam-square"
+    identifier = "fa-brands fa-2x fa-steam-square"
 
 [[menu.social]]
     name = "VKontakte"
     url = "https://vk.com/VCMIOfficial"
     weight = 70
-    identifier = "fa fa-2x fa-vk"
+    identifier = "fa-brands fa-2x fa-vk"
 
 [[menu.social]]
     name = "Mod DB"
