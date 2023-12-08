@@ -12,7 +12,7 @@ forumurl = "TODO"
 
 +++
 
-Another major realease just came out. As promised, this time we focused on multiplayer and quality-of-life features that make VCMI more accessible to new players and well as HoMM veterans. It’s not only about fixing bugs, but also cleaning up some unintuitive menus, options and descriptions to match player expectations.
+Another major release just came out. As promised, this time we focused on multiplayer and quality-of-life features that make VCMI more accessible to new players and well as HoMM veterans. It’s not only about fixing bugs, but also cleaning up some unintuitive menus, options and descriptions to match player expectations.
 
 ## Simultaneous Turns
 Long-awaited and challenging feature, which is also a key to wider adoption by PvP community. Few different modes are possible along with customizable turn timers.
