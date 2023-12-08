@@ -23,7 +23,7 @@ Large spellbook, hero slection dialog, more tooltips in adventure map, folders i
 ## Savegame compatibility with different mods
 Many users complained that saved games require exactly the same mod configuration to load, which was confusing and sometimes buggy. We listened, and made it more convenient, with less requirements.
 
-## Loading screen, ending screen, high scores.
+## Loading Screen, Ending Screen, High Scores
 They are all functional just as in OH3 and make the game flow more natural. Now you’ll be able to enter your name to high scores after winning the game. Also, campaigns will be correctly marked as complete and will stay locked until preceding campaigns are finished.
 
 ## Tutorial for mobile GUI
