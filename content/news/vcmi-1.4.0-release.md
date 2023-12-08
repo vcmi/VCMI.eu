@@ -18,7 +18,7 @@ Another major release just came out. As promised, this time we focused on multip
 Long-awaited and challenging feature, which is also a key to wider adoption by PvP community. Few different modes are possible along with customizable turn timers.
 
 ## Improved GUI widgets
-Large spellbook, hero slection dialog, more tooltips in adventure map, folders in map / save browser and more.
+Large spellbook, hero selection dialog, more tooltips in adventure map, folders in map / save browser and more.
 
 ## Savegame compatibility with different mods
 Many users complained that saved games require exactly the same mod configuration to load, which was confusing and sometimes buggy. We listened, and made it more convenient, with less requirements.
