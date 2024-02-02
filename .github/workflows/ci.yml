@@ -4,6 +4,8 @@ on:
     branches:
       - master 
       - main
+  schedule:
+    - cron: '0 2 * * 0' #every sunday 02:00
 permissions:
   contents: write
 jobs:
@@ -26,5 +28,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
-      - run: python3 build.py
+      - run: python3 src/build.py
       - run: mkdocs gh-deploy --force

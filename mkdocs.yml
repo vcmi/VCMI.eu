@@ -16,25 +16,62 @@ theme:
     - navigation.tabs
     - navigation.instant
   logo: assets/logo.svg
-  favicon: images/favicon.png
+  favicon: assets/favicon.png
   palette:
     scheme: slate
     primary: red
     accent: red
+  custom_dir: overrides
 nav:
   - Home: index.md
   - Blog: blog/index.md
+  - Download: download.md
   - Mod Repository: Mod Repository
   - FAQ: faq.md
   - About: about.md
   - Players: players
   - Modders: modders
   - Developers: developers
+extra:
+  social:
+    - icon: fontawesome/solid/comments
+      link: https://forum.vcmi.eu/
+      name: Forum
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/chBT42V
+      name: Discord
+    - icon: fontawesome/brands/slack 
+      link: https://slack.vcmi.eu/
+      name: Slack
+    - icon: fontawesome/brands/github 
+      link: https://github.com/vcmi/vcmi
+      name: GitHub
+    - icon: fontawesome/brands/facebook 
+      link: https://facebook.com/VCMIOfficial
+      name: Facebook
+    - icon: fontawesome/brands/x-twitter 
+      link: https://twitter.com/VCMIOfficial
+      name: X
+    - icon: fontawesome/brands/youtube 
+      link: https://www.youtube.com/c/VCMIOfficial
+      name: YouTube
+    - icon: fontawesome/brands/vk 
+      link: https://vk.com/VCMIOfficial
+      name: VK
 extra_css:
   - theme/extra.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - theme/tablesort.js
+copyright: >
+  Copyright &copy; 2007 - <span id="copyyear"></span><script>document.getElementById('copyyear').innerHTML = new Date().getFullYear();</script> VCMI team
+  <p style="font-size:.42rem !important; line-height: 0.5 !important;">VCMI, this page and the VCMI Team are in no way associated with or supported by Ubisoft Entertainment...</p>
+  <p style="font-size:.42rem !important; line-height: 0.5 !important;">Buy Heroes III on <a href="https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition">gog.com</a>, we don't support piracy.</p>
+  <p style="font-size:.42rem !important; line-height: 0.5 !important;">Hosting provided by <a href="https://digitalocean.com/">Digital Ocean</a>.</p>
 markdown_extensions:
   - md_in_html
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+repo_url: https://github.com/vcmi/vcmi
