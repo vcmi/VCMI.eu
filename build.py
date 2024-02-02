@@ -47,7 +47,7 @@ with tempfile.TemporaryDirectory() as tempdirname:
         if "screenshots" in value:
             mdMod.new_header(level=2, title="Screenshots")
             for i, screenshot in enumerate(value["screenshots"]):
-                mdMod.new_paragraph(Html.image(path=screenshot, size='200'))
+                mdMod.new_paragraph(Html.image(path=screenshot, size='100'))
         mdMod.create_md_file()
     mdModOverview.new_table(columns=4, rows=int(len(mdModOverviewTable)/4), text=mdModOverviewTable, text_align='center')
     mdModOverview.create_md_file()
