@@ -1,0 +1,40 @@
+site_name: VCMI
+plugins:
+  - include_dir_to_nav
+  - blog:
+      authors: false
+  - privacy
+  - search
+  - glightbox
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.path
+    - navigation.top
+    - navigation.tabs
+    - navigation.instant
+  logo: assets/logo.svg
+  favicon: images/favicon.png
+  palette:
+    scheme: slate
+    primary: red
+    accent: red
+nav:
+  - Home: index.md
+  - Blog: blog/index.md
+  - Mod Repository: Mod Repository
+  - FAQ: faq.md
+  - About: about.md
+  - Players: players
+  - Modders: modders
+  - Developers: developers
+extra_css:
+  - theme/extra.css
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
