@@ -3,3 +3,4 @@ mkdocs-include-dir-to-nav
 mkdocs-material
 mkdocs-glightbox
 mdutils
+json5
