@@ -35,8 +35,6 @@ with tempfile.TemporaryDirectory() as tempdirname:
     for key, value in repo.items():
         mod = json.loads(urllib.request.urlopen(value["mod"].replace(" ", "%20")).read())
 
-        #mdModOverview.new_header(level=1, title=key)
-        #mdModOverview.new_line('Link: ' + mdModOverview.new_inline_link(link='../' + mod["modType"] + '/' + mod["name"], text=mod["name"]))
         mdModOverviewTable.extend([mod["name"].replace("|", "&#124;"), mod["description"].replace("\n", "<br/>").replace("|", "&#124;"), mod["version"], "test"])
 
         os.makedirs("docs/Mod Repository/" + mod["modType"], exist_ok=True)
@@ -49,8 +47,6 @@ with tempfile.TemporaryDirectory() as tempdirname:
         if "screenshots" in value:
             mdMod.new_header(level=2, title="Screenshots")
             for i, screenshot in enumerate(value["screenshots"]):
-                #mdMod.new_line(mdMod.new_inline_image(text='screenshot-' + str(i).zfill(3), path=screenshot))
-                #mdMod.new_paragraph(mdModOverview.new_inline_link(link=screenshot, text=Html.image(path=screenshot, size='200')))
                 mdMod.new_paragraph(Html.image(path=screenshot, size='200'))
         mdMod.create_md_file()
     mdModOverview.new_table(columns=4, rows=int(len(mdModOverviewTable)/4), text=mdModOverviewTable, text_align='center')
