@@ -1,0 +1,77 @@
+import collections.abc
+import io
+import os
+import json5
+import tempfile
+import zipfile
+import urllib.request
+from PIL import Image
+
+def nested_update(d, u):
+    for k, v in u.items():
+        if isinstance(v, collections.abc.Mapping):
+            d[k] = nested_update(d.get(k, {}), v)
+        else:
+            d[k] = v
+    return d
+
+class ModParser:
+    __url = None
+    __tempdirname = None
+
+    def __init__(self, url):
+        self.__url = url
+        self.__extract_mod(self.__url)
+
+    def __del__(self):
+        self.__tempdirname.cleanup()
+        
+    def __extract_mod(self, url):
+        mod_data = urllib.request.urlopen(url).read()
+        self.__tempdirname = tempfile.TemporaryDirectory()
+        with zipfile.ZipFile(io.BytesIO(mod_data), "r") as z:
+            z.extractall(self.__tempdirname.name)
+
+    def __parse_subconfig(self, data, dir):
+        tmp = {}
+        for key, value in data.items():
+            if key.lower() in ["artifacts", "factions", "creatures", "heroClasses", "heroes", "spells", "objects", "terrains", "roads", "rivers", "battlefields", "obstacles", "templates"]:
+                tmp2 = dict()
+                for item in value:
+                    tmp_item = item.strip("/")
+                    tmp_item = item if item.lower().endswith(".json") else item + ".json"
+                    fullpath = os.path.join(dir, "content", tmp_item)
+                    for subdir, dirs, files in os.walk(dir):
+                        for file in files:
+                            if fullpath.lower() == os.path.join(subdir, file).lower():
+                                tmp2 = nested_update(tmp2, json5.load(open(os.path.join(subdir, file))))
+                if len(tmp2) > 0:
+                    tmp[key.lower()] = tmp2
+        return tmp
+
+    def get_mods(self):
+        mods = []
+        for subdir, dirs, files in os.walk(self.__tempdirname.name):
+            for file in files:
+                if file.lower() == "mod.json":
+                    data = json5.load(open(os.path.join(subdir, file)))
+                    mods.append(
+                        {
+                            "pyhsicaldir": subdir,
+                            "moddir": os.path.relpath(subdir, os.path.join(self.__tempdirname.name, os.listdir(self.__tempdirname.name)[0])),
+                            "data": data,
+                            "name": data["name"],
+                            "config": self.__parse_subconfig(data, subdir)
+                        }
+                    )
+        return mods
+    
+    def get_image(self, mod, path):
+        fullpaths = [os.path.join(mod["pyhsicaldir"], "content/sprites", path), os.path.join(mod["pyhsicaldir"], "content/data", path)]
+        fullpaths = [x.rstrip("/") for x in fullpaths]
+        fullpaths = [x.rsplit('.', 1)[0] if "." in x.split("/")[-1] else x for x in fullpaths]
+        for fullpath in fullpaths:
+            for subdir, dirs, files in os.walk(mod["pyhsicaldir"]):
+                for file in files:
+                    if os.path.join(subdir, file).lower().startswith(fullpath.lower()):
+                        return Image.open(os.path.join(subdir, file))
