@@ -3,6 +3,8 @@ import os
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
 from PIL import Image
+import logging
+log = logging.getLogger('LOGGER_NAME')
 
 from parse_mod import ModParser
 
@@ -31,6 +33,7 @@ def build_mod_page(mod_repo, mod):
     mdMod.create_md_file()
 
 def create_creature_table(md, mod, modparser):
+    log.info('create creature table for ' + mod["data"]["name"])
     if "creatures" in mod["config"]:
         mdModTable = ["Name", "Level", "Speed", "Image"]
         for k, v in mod["config"]["creatures"].items():
@@ -49,14 +52,15 @@ def create_creature_table(md, mod, modparser):
             md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
 
 def create_puzzle_map(md, mod, modparser):
+    log.info('create puzzle map for ' + mod["data"]["name"])
     if "factions" in mod["config"]:
         for k, v in mod["config"]["factions"].items():
             md.new_header(level=4, title="Puzzlemap")
             if "puzzleMap" in mod["config"]["factions"][k]:
                 img = Image.new('RGBA', (1000, 1000), (0, 0, 0, 0))
                 prefix = mod["config"]["factions"][k]["puzzleMap"]["prefix"]
-                for item in mod["config"]["factions"][k]["puzzleMap"]["pieces"]:
-                    tmp_img = modparser.get_image(mod, prefix + str(item["index"]-1).zfill(2))
+                for i, item in enumerate(mod["config"]["factions"][k]["puzzleMap"]["pieces"]):
+                    tmp_img = modparser.get_image(mod, prefix + str(i).zfill(2))
                     if tmp_img != None:
                         img.paste(tmp_img, (item["x"], item["y"]), tmp_img)
                 img = img.crop(img.getbbox())
