@@ -21,7 +21,7 @@ shutil.rmtree("docs", ignore_errors=True)
 
 vcmi_url = "https://github.com/vcmi/vcmi/archive/refs/heads/develop.zip"
 vcmi_mod_url = "https://raw.githubusercontent.com/vcmi/vcmi-mods-repository/develop/vcmi-1.4.json"
-vcmi_mod_url = "https://pastebin.com/raw/D49xA6mq" #test
+#vcmi_mod_url = "https://pastebin.com/raw/D49xA6mq" #test
 
 log.info('Download mod repo')
 repo = urllib.request.urlopen(vcmi_url).read()
