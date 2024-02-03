@@ -64,7 +64,8 @@ def create_town_screen(md, mod, modparser):
                 for k2, v2 in mod["config"]["factions"][k]["town"]["structures"].items():
                     extract = modparser.get_animations(mod, v2["animation"])
                     tmp_img = extract['sequences'][0]['frames'][0]
-                    img.paste(tmp_img, (v2["x"], v2["y"]), tmp_img)
+                    if tmp_img != None:
+                        img.paste(tmp_img, (v2["x"], v2["y"]), tmp_img)
                 img = img.crop(img.getbbox())
                 md.new_paragraph(Html.image(path=modparser.image_convert_to_base64_html(img), size='300'))
 
