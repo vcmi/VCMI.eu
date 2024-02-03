@@ -108,4 +108,12 @@ class ModParser:
             for subdir, dirs, files in os.walk(mod["pyhsicaldir"]):
                 for file in files:
                     if os.path.join(subdir, file).lower().startswith(fullpath.lower()):
-                        return extract_def(os.path.join(subdir, file))
+                        if file.lower().endswith(".json"):
+                            tmp = json5.load(open(os.path.join(subdir, file)))
+                            for i, sequence in enumerate(tmp["sequences"]):
+                                for j, frame in enumerate(sequence["frames"]):
+                                    path_img = tmp["basepath"] + frame
+                                    tmp["sequences"][i]["frames"][j] = self.get_image(mod, path_img)
+                            return tmp
+                        else:
+                            return extract_def(os.path.join(subdir, file))
