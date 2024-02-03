@@ -4,3 +4,4 @@ mkdocs-material
 mkdocs-glightbox
 mdutils
 json5
+pillow

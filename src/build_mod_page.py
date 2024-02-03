@@ -1,4 +1,6 @@
 import os
+import base64
+from io import BytesIO
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
 
@@ -28,11 +30,17 @@ def build_mod_page(mod_repo, mod):
             mdModTable = ["Name", "Level", "Speed", "Image"]
             for k, v in item["config"]["creatures"].items():
                 if not k.lower().startswith("core:") and "name" in item["config"]["creatures"][k]:
+                    image = ""
+                    if "iconLarge" in item["config"]["creatures"][k]["graphics"]:
+                        buffered = BytesIO()
+                        m.get_image(item, item["config"]["creatures"][k]["graphics"]["iconLarge"]).save(buffered, format="PNG")
+                        img_str = "data:image/png;base64," + base64.b64encode(buffered.getvalue()).decode()
+                        image = Html.image(path=img_str, size='50')
                     mdModTable.extend([
                         item["config"]["creatures"][k]["name"]["singular"],
                         item["config"]["creatures"][k]["level"] if "level" in item["config"]["creatures"][k] else "",
                         item["config"]["creatures"][k]["speed"],
-                        item["config"]["creatures"][k]["graphics"]["iconLarge"] if "iconLarge" in item["config"]["creatures"][k]["graphics"] else ""
+                        image
                     ])
             if(len(mdModTable) > 4):
                 mdMod.new_header(level=4, title="Creatures")
