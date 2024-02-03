@@ -6,6 +6,9 @@ import tempfile
 import zipfile
 import urllib.request
 from PIL import Image
+import base64
+from io import BytesIO
+import numpy as np
 
 def nested_update(d, u):
     for k, v in u.items():
@@ -66,6 +69,13 @@ class ModParser:
                     )
         return mods
     
+    def __get_transparent_image(self, img):
+        orig_color = (0, 255, 255, 255)
+        replacement_color = (0, 0, 0, 0)
+        data = np.array(img.convert('RGBA'))
+        data[(data == orig_color).all(axis = -1)] = replacement_color
+        return Image.fromarray(data, mode='RGBA')
+
     def get_image(self, mod, path):
         fullpaths = [os.path.join(mod["pyhsicaldir"], "content/sprites", path), os.path.join(mod["pyhsicaldir"], "content/data", path)]
         fullpaths = [x.rstrip("/") for x in fullpaths]
@@ -74,4 +84,16 @@ class ModParser:
             for subdir, dirs, files in os.walk(mod["pyhsicaldir"]):
                 for file in files:
                     if os.path.join(subdir, file).lower().startswith(fullpath.lower()):
-                        return Image.open(os.path.join(subdir, file))
+                        return self.__get_transparent_image(Image.open(os.path.join(subdir, file)))
+        
+    def image_convert_to_base64_html(self, img, format="PNG"):
+        buffered = BytesIO()
+        img.save(buffered, format=format)
+        img_str = "data:image/" + format.lower() + ";base64," + base64.b64encode(buffered.getvalue()).decode()
+        return img_str
+                
+    def get_image_base64(self, mod, path, format="PNG"):
+        img = self.get_image(mod, path)
+        if img == None:
+            return ""
+        return self.image_convert_to_base64_html(img, format)

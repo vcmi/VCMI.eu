@@ -5,3 +5,4 @@ mkdocs-glightbox
 mdutils
 json5
 pillow
+numpy

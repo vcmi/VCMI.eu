@@ -1,8 +1,8 @@
 import os
-import base64
-from io import BytesIO
+
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
+from PIL import Image
 
 from parse_mod import ModParser
 
@@ -26,23 +26,38 @@ def build_mod_page(mod_repo, mod):
     m = ModParser(mod_repo["download"])
     for item in m.get_mods():
         mdMod.new_header(level=3, title=item["data"]["name"])
-        if "creatures" in item["config"]:
-            mdModTable = ["Name", "Level", "Speed", "Image"]
-            for k, v in item["config"]["creatures"].items():
-                if not k.lower().startswith("core:") and "name" in item["config"]["creatures"][k]:
-                    image = ""
-                    if "iconLarge" in item["config"]["creatures"][k]["graphics"]:
-                        buffered = BytesIO()
-                        m.get_image(item, item["config"]["creatures"][k]["graphics"]["iconLarge"]).save(buffered, format="PNG")
-                        img_str = "data:image/png;base64," + base64.b64encode(buffered.getvalue()).decode()
-                        image = Html.image(path=img_str, size='50')
-                    mdModTable.extend([
-                        item["config"]["creatures"][k]["name"]["singular"],
-                        item["config"]["creatures"][k]["level"] if "level" in item["config"]["creatures"][k] else "",
-                        item["config"]["creatures"][k]["speed"],
-                        image
-                    ])
-            if(len(mdModTable) > 4):
-                mdMod.new_header(level=4, title="Creatures")
-                mdMod.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
+        create_creature_table(mdMod, item, m)
+        create_puzzle_map(mdMod, item, m)
     mdMod.create_md_file()
+
+def create_creature_table(md, mod, modparser):
+    if "creatures" in mod["config"]:
+        mdModTable = ["Name", "Level", "Speed", "Image"]
+        for k, v in mod["config"]["creatures"].items():
+            if not k.lower().startswith("core:") and "name" in mod["config"]["creatures"][k]:
+                image = ""
+                if "iconLarge" in mod["config"]["creatures"][k]["graphics"]:
+                    image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["creatures"][k]["graphics"]["iconLarge"]), size='50')
+                mdModTable.extend([
+                    mod["config"]["creatures"][k]["name"]["singular"],
+                    mod["config"]["creatures"][k]["level"] if "level" in mod["config"]["creatures"][k] else "",
+                    mod["config"]["creatures"][k]["speed"],
+                    image
+                ])
+        if(len(mdModTable) > 4):
+            md.new_header(level=4, title="Creatures")
+            md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
+
+def create_puzzle_map(md, mod, modparser):
+    if "factions" in mod["config"]:
+        for k, v in mod["config"]["factions"].items():
+            md.new_header(level=4, title="Puzzlemap")
+            if "puzzleMap" in mod["config"]["factions"][k]:
+                img = Image.new('RGBA', (1000, 1000), (0, 0, 0, 0))
+                prefix = mod["config"]["factions"][k]["puzzleMap"]["prefix"]
+                for item in mod["config"]["factions"][k]["puzzleMap"]["pieces"]:
+                    tmp_img = modparser.get_image(mod, prefix + str(item["index"]-1).zfill(2))
+                    if tmp_img != None:
+                        img.paste(tmp_img, (item["x"], item["y"]), tmp_img)
+                img = img.crop(img.getbbox())
+                md.new_paragraph(Html.image(path=modparser.image_convert_to_base64_html(img), size='300'))
