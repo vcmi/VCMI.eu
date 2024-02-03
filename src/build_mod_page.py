@@ -56,7 +56,7 @@ def create_town_screen(md, mod, modparser):
     log.info('create town screen for ' + mod["data"]["name"])
     if "factions" in mod["config"]:
         for k, v in mod["config"]["factions"].items():
-            if "town" in mod["config"]["factions"][k] and "structures" in mod["config"]["factions"][k]["town"]:
+            if "town" in mod["config"]["factions"][k] and "structures" in mod["config"]["factions"][k]["town"] and "townBackground" in mod["config"]["factions"][k]["town"]:
                 md.new_header(level=4, title="Townscreen")
                 img = Image.new('RGBA', (1000, 1000), (0, 0, 0, 0))
                 tmp_img = modparser.get_image(mod, mod["config"]["factions"][k]["town"]["townBackground"])
