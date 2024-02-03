@@ -29,6 +29,7 @@ def build_mod_page(mod_repo, mod):
     for item in m.get_mods():
         mdMod.new_header(level=3, title=item["data"]["name"])
         create_creature_table(mdMod, item, m)
+        create_town_screen(mdMod, item, m)
         create_puzzle_map(mdMod, item, m)
     mdMod.create_md_file()
 
@@ -51,12 +52,28 @@ def create_creature_table(md, mod, modparser):
             md.new_header(level=4, title="Creatures")
             md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
 
+def create_town_screen(md, mod, modparser):
+    log.info('create town screen for ' + mod["data"]["name"])
+    if "factions" in mod["config"]:
+        for k, v in mod["config"]["factions"].items():
+            if "town" in mod["config"]["factions"][k] and "structures" in mod["config"]["factions"][k]["town"]:
+                md.new_header(level=4, title="Townscreen")
+                img = Image.new('RGBA', (1000, 1000), (0, 0, 0, 0))
+                tmp_img = modparser.get_image(mod, mod["config"]["factions"][k]["town"]["townBackground"])
+                img.paste(tmp_img, (0, 0), tmp_img)
+                for k2, v2 in mod["config"]["factions"][k]["town"]["structures"].items():
+                    extract = modparser.get_animations(mod, v2["animation"])
+                    tmp_img = extract['sequences'][0]['frames'][0]
+                    img.paste(tmp_img, (v2["x"], v2["y"]), tmp_img)
+                img = img.crop(img.getbbox())
+                md.new_paragraph(Html.image(path=modparser.image_convert_to_base64_html(img), size='300'))
+
 def create_puzzle_map(md, mod, modparser):
     log.info('create puzzle map for ' + mod["data"]["name"])
     if "factions" in mod["config"]:
         for k, v in mod["config"]["factions"].items():
-            md.new_header(level=4, title="Puzzlemap")
             if "puzzleMap" in mod["config"]["factions"][k]:
+                md.new_header(level=4, title="Puzzlemap")
                 img = Image.new('RGBA', (1000, 1000), (0, 0, 0, 0))
                 prefix = mod["config"]["factions"][k]["puzzleMap"]["prefix"]
                 for i, item in enumerate(mod["config"]["factions"][k]["puzzleMap"]["pieces"]):

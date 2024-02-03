@@ -10,6 +10,8 @@ import base64
 from io import BytesIO
 import numpy as np
 
+from defextract import extract_def
+
 def nested_update(d, u):
     for k, v in u.items():
         if isinstance(v, collections.abc.Mapping):
@@ -97,3 +99,13 @@ class ModParser:
         if img == None:
             return ""
         return self.image_convert_to_base64_html(img, format)
+
+    def get_animations(self, mod, path):
+        fullpaths = [os.path.join(mod["pyhsicaldir"], "content/sprites", path), os.path.join(mod["pyhsicaldir"], "content/data", path)]
+        fullpaths = [x.rstrip("/") for x in fullpaths]
+        fullpaths = [x.rsplit('.', 1)[0] if "." in x.split("/")[-1] else x for x in fullpaths]
+        for fullpath in fullpaths:
+            for subdir, dirs, files in os.walk(mod["pyhsicaldir"]):
+                for file in files:
+                    if os.path.join(subdir, file).lower().startswith(fullpath.lower()):
+                        return extract_def(os.path.join(subdir, file))
