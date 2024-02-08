@@ -32,6 +32,7 @@ def build_mod_page(mod_repo, mod):
         create_town_screen(mdMod, item, m)
         create_puzzle_map(mdMod, item, m)
         create_spell_table(mdMod, item, m)
+        create_artifact_table(mdMod, item, m)
     mdMod.create_md_file()
 
 def create_creature_table(md, mod, modparser):
@@ -59,20 +60,38 @@ def create_spell_table(md, mod, modparser):
         mdModTable = ["Name", "Description", "Schools", "Image"]
         for k, v in mod["config"]["spells"].items():
             if not k.lower().startswith("core:") and "name" in mod["config"]["spells"][k]:
-                try: description = mod["config"]["spells"][k]["levels"]["none"]["description"].replace("\n", "<br/>").replace("|", "&#124;")
+                try: description = mod["config"]["spells"][k]["levels"]["none"]["description"]
                 except:
-                    try: description = mod["config"]["spells"][k]["levels"]["basic"]["description"].replace("\n", "<br/>").replace("|", "&#124;")
+                    try: description = mod["config"]["spells"][k]["levels"]["basic"]["description"]
                     except: description = ""
                 if "graphics" in mod["config"]["spells"][k] and "iconBook" in mod["config"]["spells"][k]["graphics"]:
                     image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["spells"][k]["graphics"]["iconBook"]), size='50')
                     mdModTable.extend([
-                        mod["config"]["spells"][k]["name"],
-                        description,
+                        mod["config"]["spells"][k]["name"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
+                        description.replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
                         ", ".join([k for k, v in mod["config"]["spells"][k]["school"].items() if v == True]),
                         image
                     ])
         if(len(mdModTable) > 4):
             md.new_header(level=4, title="Spells")
+            md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
+
+def create_artifact_table(md, mod, modparser):
+    log.info('create artifact table for ' + mod["data"]["name"])
+    if "artifacts" in mod["config"]:
+        mdModTable = ["Name", "Description", "Slot", "Image"]
+        for k, v in mod["config"]["artifacts"].items():
+            if not k.lower().startswith("core:") and "text" in mod["config"]["artifacts"][k]:
+                if "graphics" in mod["config"]["artifacts"][k] and "image" in mod["config"]["artifacts"][k]["graphics"]:
+                    image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["artifacts"][k]["graphics"]["image"]), size='50')
+                    mdModTable.extend([
+                        mod["config"]["artifacts"][k]["text"]["name"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
+                        mod["config"]["artifacts"][k]["text"]["description"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
+                        mod["config"]["artifacts"][k]["slot"].lower(),
+                        image
+                    ])
+        if(len(mdModTable) > 4):
+            md.new_header(level=4, title="Artifacts")
             md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
 
 def create_town_screen(md, mod, modparser):
