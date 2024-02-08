@@ -56,25 +56,24 @@ def create_creature_table(md, mod, modparser):
 def create_spell_table(md, mod, modparser):
     log.info('create spell table for ' + mod["data"]["name"])
     if "spells" in mod["config"]:
-        mdModTable = ["Name", "Description", "Schools", "Cast sound", "Image"]
+        mdModTable = ["Name", "Description", "Schools", "Image"]
         for k, v in mod["config"]["spells"].items():
             if not k.lower().startswith("core:") and "name" in mod["config"]["spells"][k]:
-                image = ""
-                audio = ""
                 try: description = mod["config"]["spells"][k]["levels"]["none"]["description"].replace("\n", "<br/>").replace("|", "&#124;")
-                except: description = ""
+                except:
+                    try: description = mod["config"]["spells"][k]["levels"]["basic"]["description"].replace("\n", "<br/>").replace("|", "&#124;")
+                    except: description = ""
                 if "graphics" in mod["config"]["spells"][k] and "iconBook" in mod["config"]["spells"][k]["graphics"]:
                     image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["spells"][k]["graphics"]["iconBook"]), size='50')
-                mdModTable.extend([
-                    mod["config"]["spells"][k]["name"],
-                    description,
-                    ", ".join([k for k, v in mod["config"]["spells"][k]["school"].items() if v == True]),
-                    audio,
-                    image
-                ])
-        if(len(mdModTable) > 5):
+                    mdModTable.extend([
+                        mod["config"]["spells"][k]["name"],
+                        description,
+                        ", ".join([k for k, v in mod["config"]["spells"][k]["school"].items() if v == True]),
+                        image
+                    ])
+        if(len(mdModTable) > 4):
             md.new_header(level=4, title="Spells")
-            md.new_table(columns=5, rows=int(len(mdModTable)/5), text=mdModTable, text_align='center')
+            md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
 
 def create_town_screen(md, mod, modparser):
     log.info('create town screen for ' + mod["data"]["name"])
