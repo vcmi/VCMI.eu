@@ -31,6 +31,7 @@ def build_mod_page(mod_repo, mod):
         create_creature_table(mdMod, item, m)
         create_town_screen(mdMod, item, m)
         create_puzzle_map(mdMod, item, m)
+        create_spell_table(mdMod, item, m)
     mdMod.create_md_file()
 
 def create_creature_table(md, mod, modparser):
@@ -51,6 +52,29 @@ def create_creature_table(md, mod, modparser):
         if(len(mdModTable) > 4):
             md.new_header(level=4, title="Creatures")
             md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
+
+def create_spell_table(md, mod, modparser):
+    log.info('create spell table for ' + mod["data"]["name"])
+    if "spells" in mod["config"]:
+        mdModTable = ["Name", "Description", "Schools", "Cast sound", "Image"]
+        for k, v in mod["config"]["spells"].items():
+            if not k.lower().startswith("core:") and "name" in mod["config"]["spells"][k]:
+                image = ""
+                audio = ""
+                try: description = mod["config"]["spells"][k]["levels"]["none"]["description"].replace("\n", "<br/>").replace("|", "&#124;")
+                except: description = ""
+                if "iconBook" in mod["config"]["spells"][k]["graphics"]:
+                    image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["spells"][k]["graphics"]["iconBook"]), size='50')
+                mdModTable.extend([
+                    mod["config"]["spells"][k]["name"],
+                    description,
+                    ", ".join([k for k, v in mod["config"]["spells"][k]["school"].items() if v == True]),
+                    audio,
+                    image
+                ])
+        if(len(mdModTable) > 5):
+            md.new_header(level=4, title="Spells")
+            md.new_table(columns=5, rows=int(len(mdModTable)/5), text=mdModTable, text_align='center')
 
 def create_town_screen(md, mod, modparser):
     log.info('create town screen for ' + mod["data"]["name"])
