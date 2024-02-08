@@ -63,7 +63,7 @@ def create_spell_table(md, mod, modparser):
                 audio = ""
                 try: description = mod["config"]["spells"][k]["levels"]["none"]["description"].replace("\n", "<br/>").replace("|", "&#124;")
                 except: description = ""
-                if "iconBook" in mod["config"]["spells"][k]["graphics"]:
+                if "graphics" in mod["config"]["spells"][k] and "iconBook" in mod["config"]["spells"][k]["graphics"]:
                     image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["spells"][k]["graphics"]["iconBook"]), size='50')
                 mdModTable.extend([
                     mod["config"]["spells"][k]["name"],
