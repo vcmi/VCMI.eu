@@ -83,7 +83,11 @@ def create_artifact_table(md, mod, modparser):
         for k, v in mod["config"]["artifacts"].items():
             if not k.lower().startswith("core:") and "text" in mod["config"]["artifacts"][k]:
                 if "graphics" in mod["config"]["artifacts"][k] and "image" in mod["config"]["artifacts"][k]["graphics"] and "slot" in mod["config"]["artifacts"][k]:
-                    image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["artifacts"][k]["graphics"]["image"]), size='50')
+                    try:
+                        image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["artifacts"][k]["graphics"]["image"]), size='50')
+                    except:
+                        tmp_img = modparser.get_animations(mod, mod["config"]["artifacts"][k]["graphics"]["image"])['sequences'][0]['frames'][0]
+                        image = Html.image(path=modparser.image_convert_to_base64_html(tmp_img), size='50')
                     mdModTable.extend([
                         mod["config"]["artifacts"][k]["text"]["name"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
                         mod["config"]["artifacts"][k]["text"]["description"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
