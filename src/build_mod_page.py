@@ -33,6 +33,7 @@ def build_mod_page(mod_repo, mod):
         create_puzzle_map(mdMod, item, m)
         create_spell_table(mdMod, item, m)
         create_artifact_table(mdMod, item, m)
+        create_hero_table(mdMod, item, m)
     mdMod.create_md_file()
 
 def create_creature_table(md, mod, modparser):
@@ -97,6 +98,25 @@ def create_artifact_table(md, mod, modparser):
         if(len(mdModTable) > 4):
             md.new_header(level=4, title="Artifacts")
             md.new_table(columns=4, rows=int(len(mdModTable)/4), text=mdModTable, text_align='center')
+
+def create_hero_table(md, mod, modparser):
+    log.info('create hero table for ' + mod["data"]["name"])
+    if "heroes" in mod["config"]:
+        mdModTable = ["Name", "Biography", "Gender", "Image", "Specialty"]
+        for k, v in mod["config"]["heroes"].items():
+            if not k.lower().startswith("core:") and "texts" in mod["config"]["heroes"][k]:
+                if "images" in mod["config"]["heroes"][k]:
+                    image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["heroes"][k]["images"]["large"]), size='50')
+                    mdModTable.extend([
+                        mod["config"]["heroes"][k]["texts"]["name"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
+                        mod["config"]["heroes"][k]["texts"]["biography"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
+                        ("female" if mod["config"]["heroes"][k]["female"] else "male") if "female" in mod["config"]["heroes"][k] else "male",
+                        image,
+                        mod["config"]["heroes"][k]["texts"]["specialty"]["name"]
+                    ])
+        if(len(mdModTable) > 5):
+            md.new_header(level=4, title="Heroes")
+            md.new_table(columns=5, rows=int(len(mdModTable)/5), text=mdModTable, text_align='center')
 
 def create_town_screen(md, mod, modparser):
     log.info('create town screen for ' + mod["data"]["name"])

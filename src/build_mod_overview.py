@@ -12,7 +12,7 @@ def build_mod_overview(mod_repo, cb):
     for key, value in mod_repo.items():
         mod = json.loads(urllib.request.urlopen(value["mod"].replace(" ", "%20")).read())
 
-        languages = [k for k, v in mod.items() if "translations" in v]
+        languages = [k for k, v in mod.items() if isinstance(v, dict) and "translations" in v]
 
         mdModOverviewTable.extend([
             Inline.new_link('../' + mod["modType"] + '/' + mod["name"].replace("|", "&#124;"), text=mod["name"].replace("|", "&#124;")),
