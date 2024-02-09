@@ -8,18 +8,18 @@ from mdutils.tools.Link import Inline
 def build_mod_overview(mod_repo, cb):
     os.makedirs("docs/Mod Repository", exist_ok=True)
     mdModOverview = MdUtils(file_name='docs/Mod Repository/Overview', title='Overview')
-    mdModOverviewTable = ["Mod", "Type", "Description", "Version", "Language"]
+    mdModOverviewTable = ["Mod", "Type", "Description", "Version", "Translations"]
     for key, value in mod_repo.items():
         mod = json.loads(urllib.request.urlopen(value["mod"].replace(" ", "%20")).read())
 
-        languages = [k for k, v in mod.items() if isinstance(v, dict) and "translations" in v]
+        translations = [k for k, v in mod.items() if isinstance(v, dict) and "translations" in v]
 
         mdModOverviewTable.extend([
             Inline.new_link('../' + mod["modType"] + '/' + mod["name"].replace("|", "&#124;"), text=mod["name"].replace("|", "&#124;")),
             mod["modType"],
             mod["description"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
             mod["version"],
-            ", ".join(languages)
+            ", ".join(translations)
         ])
 
         cb(value, mod)

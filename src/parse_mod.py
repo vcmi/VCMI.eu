@@ -85,7 +85,7 @@ class ModParser:
         for fullpath in fullpaths:
             for subdir, dirs, files in os.walk(mod["pyhsicaldir"]):
                 for file in files:
-                    if os.path.join(subdir, file).lower().startswith(fullpath.lower() and os.path.isfile(os.path.join(subdir, file))):
+                    if os.path.join(subdir, file).lower().startswith(fullpath.lower()) and os.path.isfile(os.path.join(subdir, file)):
                         return self.__get_transparent_image(Image.open(os.path.join(subdir, file)))
         
     def image_convert_to_base64_html(self, img, format="PNG"):
