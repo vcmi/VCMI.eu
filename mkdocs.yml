@@ -16,7 +16,7 @@ theme:
     - navigation.tabs
     - navigation.instant
   logo: assets/logo.svg
-  favicon: images/favicon.png
+  favicon: assets/favicon.png
   palette:
     scheme: slate
     primary: red
