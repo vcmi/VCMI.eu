@@ -32,6 +32,9 @@ nav:
   - Developers: developers
 extra_css:
   - theme/extra.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - theme/tablesort.js
 markdown_extensions:
   - md_in_html
   - attr_list
