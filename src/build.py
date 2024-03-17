@@ -1,4 +1,4 @@
-import json
+import json5
 import urllib.request
 import shutil
 from mdutils.mdutils import MdUtils
@@ -25,7 +25,7 @@ vcmi_mod_url = "https://raw.githubusercontent.com/vcmi/vcmi-mods-repository/deve
 
 log.info('Download mod repo')
 repo = urllib.request.urlopen(vcmi_url).read()
-repo_mod = json.loads(urllib.request.urlopen(vcmi_mod_url).read())
+repo_mod = json5.loads(urllib.request.urlopen(vcmi_mod_url).read())
 
 log.info('Create main page')
 build_extract_main_repo(repo)
