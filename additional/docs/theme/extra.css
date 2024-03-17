@@ -48,6 +48,10 @@ body {
     text-align: center;
 }
 
+.md-nav__source {
+    background-color:inherit !important;
+}
+
 @media screen and (min-width: 76.2344em) {
     div>nav>ul>li>label.md-nav__link {
         background:url("background_red.jpg") !important;
