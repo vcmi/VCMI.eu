@@ -16,4 +16,5 @@ def build_extract_main_repo(data):
 
         os.makedirs("docs/assets", exist_ok=True)
         shutil.copy(os.path.join(tempdirname, 'vcmi-develop/client/icons/vcmiclient.svg'), 'docs/assets/logo.svg')
+        shutil.copy(os.path.join(tempdirname, 'vcmi-develop/client/icons/vcmiclient.svg'), 'docs/assets/logo2.svg')
         shutil.copy(os.path.join(tempdirname, 'vcmi-develop/client/icons/vcmiclient.16x16.png'), 'docs/assets/favicon.png')
