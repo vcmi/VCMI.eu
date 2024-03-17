@@ -1,5 +1,5 @@
 import os
-import json
+import json5
 import urllib.request
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
@@ -10,7 +10,7 @@ def build_mod_overview(mod_repo, cb):
     mdModOverview = MdUtils(file_name='docs/Mod Repository/Overview', title='Overview')
     mdModOverviewTable = ["Mod", "Type", "Description", "Version", "Translations"]
     for key, value in mod_repo.items():
-        mod = json.loads(urllib.request.urlopen(value["mod"].replace(" ", "%20")).read())
+        mod = json5.loads(urllib.request.urlopen(value["mod"].replace(" ", "%20")).read())
 
         translations = [k for k, v in mod.items() if isinstance(v, dict) and "translations" in v]
 
