@@ -62,7 +62,7 @@ hide:
 
 * When will it be possible to play online in multiplayer?
 
-> As of VCMI 1.3.0 multiplayer reached fair level of stability and is playable. You can play via local network using any supported device. There is also lobby to play online with anyone across the world, but as of VCMI 1.3.0 it doesn't support Android yet. We know that multiplayer lobby on Android is potentially one of top wanted features, but also hard to get done. Further evolution of multiplayer is definitely on our priority list.
+> As of VCMI 1.5.0, multiplayer has reached a reasonable level of stability and is playable, including support for simultaneous turns and turn timers. There is a lobby to play online with anyone in the world, which can be accessed from within the game: New Game -> Multiplayer -> Online Service (second button from the top). Alternatively, you can play over a local network using any supported device. Further development of multiplayer is definitely on our priority list.
 
 * How close is VCMI emulating H3 gameplay?
 
@@ -70,4 +70,4 @@ hide:
 
 * What are the options to customize AI?
 
-> As of VCMI 1.3.0, the default adventure map AI algorithm is Nullkiller AI. It should be fairly challenging, however it may work slowly on low-end devices. There is an alternative faster but simpler VCAI, which you can choose in VCMI launcher settings. You may also check the Resourceful AI mod, which provides options to boost AI and to speed it up.
+> As of VCMI 1.5.0, the default adventure map AI algorithm is Nullkiller AI. It should be fairly challenging, however it may work slowly on low-end devices. There is an alternative faster but simpler VCAI, which you can choose in VCMI launcher settings. You may also check the Boost AI or Extreme AI mod, which provides options to boost AI and to speed it up.
