@@ -58,6 +58,7 @@ extra:
     - icon: fontawesome/brands/vk 
       link: https://vk.com/VCMIOfficial
       name: VK
+  generator: false
 extra_css:
   - theme/extra.css
 extra_javascript:
@@ -65,9 +66,8 @@ extra_javascript:
   - theme/tablesort.js
 copyright: >
   Copyright &copy; 2007 - <span id="copyyear"></span><script>document.getElementById('copyyear').innerHTML = new Date().getFullYear();</script> VCMI team
-  <p style="font-size:.42rem !important; line-height: 0.5 !important;">VCMI, this page and the VCMI Team are in no way associated with or supported by Ubisoft Entertainment...</p>
-  <p style="font-size:.42rem !important; line-height: 0.5 !important;">Buy Heroes III on <a href="https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition">gog.com</a>, we don't support piracy.</p>
-  <p style="font-size:.42rem !important; line-height: 0.5 !important;">Hosting provided by <a href="https://digitalocean.com/">Digital Ocean</a>.</p>
+  <p style="font-size:.42rem !important; margin-bottom: -0.25rem !important;; margin-top: 0.15rem !important;">VCMI, this page and the VCMI Team are in no way associated with or supported by Ubisoft Entertainment. Heroes, Might and Magic, Heroes of Might and Magic and their respective logos are registered trademarks of Ubisoft Entertainment in the U.S. and/or other countries. All Rights Reserved. All other trademarks are properties of their respective owners.</p>
+  <p style="font-size:.42rem !important; margin-bottom: -0.6rem !important;">Buy Heroes III on <a href="https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition">gog.com</a>, we don't support piracy! Hosting provided by <a href="https://digitalocean.com/">Digital Ocean</a>. Made with <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></p>
 markdown_extensions:
   - md_in_html
   - attr_list
