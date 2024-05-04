@@ -40,7 +40,7 @@ def build_mod_page(mod_repo, mod):
 def create_creature_table(md, mod, modparser):
     log.info('create creature table for ' + mod["data"]["name"])
     if "creatures" in mod["config"]:
-        header = ["Name", "Image", "Level", "Attack", "Defense", "Damage", "Speed", "HitPoints", "Growth", "FightValue", "AiValue"]
+        header = ["Name", "Image", "Level", "Attack", "Defense", "Damage", "Speed", "HitPoints", "Growth", "AiValue"]
         mdModTable = header.copy()
         for k, v in mod["config"]["creatures"].items():
             if not k.lower().startswith("core:") and "name" in mod["config"]["creatures"][k]:
@@ -57,7 +57,6 @@ def create_creature_table(md, mod, modparser):
                     get_value_if_exists(mod["config"]["creatures"][k], "speed"),
                     get_value_if_exists(mod["config"]["creatures"][k], "hitPoints"),
                     get_value_if_exists(mod["config"]["creatures"][k], "growth"),
-                    get_value_if_exists(mod["config"]["creatures"][k], "fightValue"),
                     get_value_if_exists(mod["config"]["creatures"][k], "aiValue")
                 ])
         if(len(mdModTable) > len(header)):
