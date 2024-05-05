@@ -53,7 +53,7 @@ def create_creature_table(md, mod, modparser):
                     get_value_if_exists(mod["config"]["creatures"][k], "level"),
                     get_value_if_exists(mod["config"]["creatures"][k], "attack"),
                     get_value_if_exists(mod["config"]["creatures"][k], "defense"),
-                    str(mod["config"]["creatures"][k]["damage"]["min"]) + "-" + str(mod["config"]["creatures"][k]["damage"]["max"]) if "damage" in mod["config"]["creatures"][k] else "",
+                    str(mod["config"]["creatures"][k]["damage"]["min"]) + " - " + str(mod["config"]["creatures"][k]["damage"]["max"]) if "damage" in mod["config"]["creatures"][k] else "",
                     get_value_if_exists(mod["config"]["creatures"][k], "speed"),
                     get_value_if_exists(mod["config"]["creatures"][k], "hitPoints"),
                     get_value_if_exists(mod["config"]["creatures"][k], "growth"),
