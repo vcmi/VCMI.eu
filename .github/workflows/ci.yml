@@ -6,6 +6,7 @@ on:
       - main
   schedule:
     - cron: '0 2 * * 0' #every sunday 02:00
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
