@@ -41,6 +41,11 @@ There are now also new shortcuts. `ALT + click` on artifact slot moves artifact 
 ## Configurable keyboard shortcuts
 Keyboard shourtcuts are now configurable. However, currently only via the configuration file `config/shortcutsConfig.json`.
 
+# New homepage
+With version 1.5.0 we have also published our new homepage. Apart from the newer, more modern design, it also offers useful functions for players, modders and developers.
+
+Documents such as instructions and technical documentation are now available directly on the website. You can also find informations and pictures of the individual mods in our mod repository.
+
 ## And much more
 In addition, many other features and fixes have been integrated, which were requested by the community. For example: tavern hero inviting (requires mod to enable), optional unlimited replay, option to disable cheats, immediate end of the battle, dimension door & summoning mechanics fixes. See the complete [changelog](https://github.com/vcmi/vcmi/blob/master/ChangeLog.md#145---150)
 
