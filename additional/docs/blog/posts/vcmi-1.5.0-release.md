@@ -14,13 +14,15 @@ A new major release has been published. VCMI 1.5.0 sees the light of day. The ma
 ## Online multiplayer support
 VCMI now has an online lobby that can be used to set up multiplayer sessions. But you can also interact with other players. The lobby works on all platforms and regardless of firewall restrictions. It can be opened at any time on desktop systems with `CTRL + Tab` and on mobile platforms with a three-finger touch.
 
+Additionally it is now possible to check towns/heroes during opponent player turn and bypass hero movement latency for non-host players by picking maximum hero speed in game options.
+
 ## Better random maps
 A new biome system for random maps has been integrated. This makes created maps look much more natural.
 
 Also there are many different optimizations like properly random-looking zone edges, treasure/obstacle density tweaks and underground generation content tweaks leading to better zones.
 
 ## AI optimizations
-Nullkiller AI got notable speedup improvements, better handling of heroes with "patrol" set in map editor and some other AI bug fixes.
+Nullkiller AI got notable speedup improvements, better handling of heroes with "patrol" set in map editor and some other fixes.
 
 ## Most remaining campaign issues fixed
 Many different problems and bugs related to campaigns have been fixed.
@@ -36,12 +38,12 @@ This function is currently available on all platforms except android. With the i
 ## Artifact improvements
 It is now possible to group several artifacts into sets. This feature is based on the costumes of the HD mod. With `CTRL + [1]...[9]` an artifact set can be saved, which can then be called with `[1]...[9]`.
 
-There are now also new shortcuts. `ALT + click` on artifact slot moves artifact from/to backpack. `CTRL + click` on artifact slot moves artifact to 2nd hero we are trading with.
+There are now also new shortcuts. `ALT + Click` on artifact slot moves artifact from/to backpack. `CTRL + Click` on artifact slot moves artifact to 2nd hero we are trading with.
 
 ## Configurable keyboard shortcuts
 Keyboard shourtcuts are now configurable. However, currently only via the configuration file `config/shortcutsConfig.json`.
 
-# New homepage
+## New homepage
 With version 1.5.0 we have also published our new homepage. Apart from the newer, more modern design, it also offers useful functions for players, modders and developers.
 
 Documents such as instructions and technical documentation are now available directly on the website. You can also find informations and pictures of the individual mods in our mod repository.
