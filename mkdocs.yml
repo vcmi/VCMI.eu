@@ -1,4 +1,5 @@
 site_name: VCMI
+site_url: https://vcmi.eu
 plugins:
   - include_dir_to_nav
   - blog:
