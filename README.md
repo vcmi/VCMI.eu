@@ -1,5 +1,3 @@
-[![Travis Build Status](https://travis-ci.org/vcmi/VCMI.eu.svg?branch=master)](https://travis-ci.org/vcmi/VCMI.eu)
+# How to update
 
-# VCMI.eu website using [HUGO](https://gohugo.io)
-
-Theme is based on "[Future Imperfect](https://github.com/jpescador/hugo-future-imperfect)" theme for HUGO.
+add new md file in `additional/docs/blog/posts`.

@@ -1,1 +1,3 @@
-public
+/docs/
+.cache
+__pycache__
