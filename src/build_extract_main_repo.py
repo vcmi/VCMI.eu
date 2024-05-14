@@ -3,6 +3,7 @@ import zipfile
 import io
 import os
 import shutil
+import re
 
 def build_extract_main_repo(data):
     with tempfile.TemporaryDirectory() as tempdirname:
@@ -12,11 +13,16 @@ def build_extract_main_repo(data):
         shutil.move(os.path.join(tempdirname, 'vcmi-develop/docs'), 'docs')
         shutil.copytree('additional/docs', 'docs', dirs_exist_ok=True)
 
-        # TODO replace all Readme.md in to index in all files from repo
-
         os.makedirs("docs/assets", exist_ok=True)
         shutil.copy(os.path.join(tempdirname, 'vcmi-develop/client/icons/vcmiclient.svg'), 'docs/assets/logo.svg')
         shutil.copy(os.path.join(tempdirname, 'vcmi-develop/client/icons/vcmiclient.svg'), 'docs/assets/logo2.svg')
         shutil.copy(os.path.join(tempdirname, 'vcmi-develop/client/icons/vcmiclient.16x16.png'), 'docs/assets/favicon.png')
+
+        shutil.copy(os.path.join(tempdirname, 'vcmi-develop/ChangeLog.md'), 'docs/ChangeLog.md')
+        with open('docs/ChangeLog.md', "r") as file:
+            tmp = file.read()
+        tmp = re.sub(r"(# [\d])", r"#\1", tmp)
+        with open('docs/ChangeLog.md', "w") as file:
+            file.write("---\nhide:\n  - navigation\n---\n\n# Changelog\n" + tmp)
 
         shutil.copytree('static', 'docs', dirs_exist_ok=True)

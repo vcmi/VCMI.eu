@@ -33,6 +33,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Download: download.md
+  - Changelog: ChangeLog.md
   - Mod Repository: Mod Repository
   - FAQ: faq.md
   - About: about.md
