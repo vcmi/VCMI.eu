@@ -32,6 +32,7 @@ class ModParser:
         self.__tempdirname.cleanup()
         
     def __extract_mod(self, url):
+        log.info('download mod: ' + url)
         mod_data = urllib.request.urlopen(url).read()
         self.__tempdirname = tempfile.TemporaryDirectory()
         with zipfile.ZipFile(io.BytesIO(mod_data), "r") as z:
@@ -49,6 +50,7 @@ class ModParser:
                     for subdir, dirs, files in os.walk(dir):
                         for file in files:
                             if fullpath.lower() == os.path.join(subdir, file).lower():
+                                log.info('open json: ' + os.path.join(subdir, file))
                                 tmp2 = nested_update(tmp2, json5.load(open(os.path.join(subdir, file))))
                 if len(tmp2) > 0:
                     tmp[key.lower()] = tmp2
@@ -59,6 +61,7 @@ class ModParser:
         for subdir, dirs, files in os.walk(self.__tempdirname.name):
             for file in files:
                 if file.lower() == "mod.json":
+                    log.info('open json: ' + os.path.join(subdir, file))
                     data = json5.load(open(os.path.join(subdir, file)))
                     mods.append(
                         {
@@ -113,6 +116,7 @@ class ModParser:
                     if os.path.join(subdir, file).lower().startswith(fullpath.lower()):
                         if file.lower().endswith(".json") or file.lower().endswith(".def"):
                             if file.lower().endswith(".json"):
+                                log.info('open json: ' + os.path.join(subdir, file))
                                 tmp = json5.load(open(os.path.join(subdir, file)))
                                 for i, sequence in enumerate(tmp["sequences"]):
                                     for j, frame in enumerate(sequence["frames"]):
