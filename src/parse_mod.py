@@ -9,6 +9,8 @@ from PIL import Image
 import base64
 from io import BytesIO
 import numpy as np
+import logging
+log = logging.getLogger('LOGGER_NAME')
 
 from defextract import extract_def
 
