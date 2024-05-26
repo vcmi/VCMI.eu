@@ -5,5 +5,6 @@ mkdocs-glightbox==0.3.7 # newer versions causes problem (lightbox works only for
 mkdocs-rss-plugin==1.12.2
 mdutils==1.6.0
 json_repair==0.20.0
+json5==0.9.25
 pillow==10.3.0
 numpy==1.26.4

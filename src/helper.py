@@ -1,5 +1,6 @@
 import re
 import json_repair
+import json5
 
 def get_value_if_exists(elem, val):
     return elem[val] if val in elem else ""
@@ -20,5 +21,10 @@ def remove_comments(string):
     return regex.sub(_replacer, string)
 
 def load_vcmi_json(string):
-    tmp = remove_comments(string)
-    return json_repair.loads(tmp)
+    try:
+        obj = json5.loads(string)
+    except:
+        tmp = remove_comments(string)
+        obj = json_repair.loads(tmp)
+
+    return obj
