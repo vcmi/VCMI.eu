@@ -1,16 +1,17 @@
 import os
-import json5
 import urllib.request
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
 from mdutils.tools.Link import Inline
+
+from helper import load_vcmi_json
 
 def build_mod_overview(mod_repo, cb):
     os.makedirs("docs/Mod Repository", exist_ok=True)
     mdModOverview = MdUtils(file_name='docs/Mod Repository/Overview', title='Overview')
     mdModOverviewTable = ["Mod", "Type", "Description", "Version", "Translations"]
     for key, value in mod_repo.items():
-        mod = json5.loads(urllib.request.urlopen(value["mod"].replace(" ", "%20")).read())
+        mod = load_vcmi_json(urllib.request.urlopen(value["mod"].replace(" ", "%20")).read().decode())
 
         translations = [k for k, v in mod.items() if isinstance(v, dict) and "translations" in v]
 

@@ -1,7 +1,6 @@
 import collections.abc
 import io
 import os
-import json5
 import tempfile
 import zipfile
 import urllib.request
@@ -11,6 +10,8 @@ from io import BytesIO
 import numpy as np
 import logging
 log = logging.getLogger('LOGGER_NAME')
+
+from helper import load_vcmi_json
 
 from defextract import extract_def
 
@@ -53,7 +54,7 @@ class ModParser:
                         for file in files:
                             if fullpath.lower() == os.path.join(subdir, file).lower():
                                 log.info('open json: ' + os.path.join(subdir, file))
-                                tmp2 = nested_update(tmp2, json5.load(open(os.path.join(subdir, file))))
+                                tmp2 = nested_update(tmp2, load_vcmi_json(open(os.path.join(subdir, file)).read()))
                 if len(tmp2) > 0:
                     tmp[key.lower()] = tmp2
         return tmp
@@ -64,7 +65,7 @@ class ModParser:
             for file in files:
                 if file.lower() == "mod.json":
                     log.info('open json: ' + os.path.join(subdir, file))
-                    data = json5.load(open(os.path.join(subdir, file)))
+                    data = load_vcmi_json(open(os.path.join(subdir, file)).read())
                     mods.append(
                         {
                             "pyhsicaldir": subdir,
@@ -119,7 +120,7 @@ class ModParser:
                         if file.lower().endswith(".json") or file.lower().endswith(".def"):
                             if file.lower().endswith(".json"):
                                 log.info('open json: ' + os.path.join(subdir, file))
-                                tmp = json5.load(open(os.path.join(subdir, file)))
+                                tmp = load_vcmi_json(open(os.path.join(subdir, file)).read())
                                 for i, sequence in enumerate(tmp["sequences"]):
                                     for j, frame in enumerate(sequence["frames"]):
                                         path_img = tmp["basepath"] + frame
