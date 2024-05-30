@@ -66,6 +66,9 @@ extra:
     - icon: fontawesome/brands/vk 
       link: https://vk.com/VCMIOfficial
       name: VK
+    - icon: custom/chatgpt 
+      link: https://chatgpt.com/g/g-1kNhX0mlO-vcmi-assistant
+      name: ChatGPT
   generator: false
 extra_css:
   - theme/extra.css
@@ -82,4 +85,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 repo_url: https://github.com/vcmi/vcmi

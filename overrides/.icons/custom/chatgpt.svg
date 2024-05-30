@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1785 1808"
+   version="1.1"
+   id="svg5"
+   width="16"
+   height="16"
+   fill="currentColor"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <g
+     id="g5"
+     transform="translate(-310.94766,-299.09514)">
+    <path
+       id="a"
+       d="m 1107.3,299.1 c -197.999,0 -373.9,127.3 -435.2,315.3 L 650,743.5 v 427.9 c 0,21.4 11,40.4 29.4,51.4 l 344.5,198.515 V 833.3 h 0.1 V 805.4 L 1372.7,604 c 33.715,-19.52 70.44,-32.857 108.47,-39.828 L 1447.6,450.3 C 1361,353.5 1237.1,298.5 1107.3,299.1 Z m 0,117.5 -0.6,0.6 c 79.699,0 156.3,27.5 217.6,78.4 -2.5,1.2 -7.4,4.3 -11,6.1 L 952.8,709.3 c -18.4,10.4 -29.4,30 -29.4,51.4 V 1248 L 768.3,1158.6 V 755.8 c -0.1,-187.099 151.601,-338.9 339,-339.2 z" />
+    <use
+       xlink:href="#a"
+       transform="rotate(60,1203,1203)"
+       id="use1" />
+    <use
+       xlink:href="#a"
+       transform="rotate(120,1203,1203)"
+       id="use2" />
+    <use
+       xlink:href="#a"
+       transform="rotate(180,1203,1203)"
+       id="use3" />
+    <use
+       xlink:href="#a"
+       transform="rotate(-120,1203,1203)"
+       id="use4" />
+    <use
+       xlink:href="#a"
+       transform="rotate(-60,1203,1203)"
+       id="use5" />
+  </g>
+</svg>
