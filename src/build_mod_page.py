@@ -1,4 +1,5 @@
 import os
+import traceback
 
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
@@ -10,32 +11,35 @@ from parse_mod import ModParser
 from helper import get_value_if_exists
 
 def build_mod_page(mod_repo, mod):
-    os.makedirs("docs/Mod Repository/" + mod["modType"], exist_ok=True)
-    mdMod = MdUtils(file_name='docs/Mod Repository/' + mod["modType"] + '/' + mod["name"])
+    try:
+        os.makedirs("docs/Mod Repository/" + mod["modType"], exist_ok=True)
+        mdMod = MdUtils(file_name='docs/Mod Repository/' + mod["modType"] + '/' + mod["name"])
 
-    mdMod.new_header(level=1, title=mod["name"])
-    mdMod.new_header(level=2, title="Description")
-    mdMod.new_line(mod["description"])
-    mdMod.new_header(level=2, title="Version")
-    mdMod.new_line(mod["version"])
-    if "screenshots" in mod_repo:
-        mdMod.new_header(level=2, title="Screenshots")
-        mdMod.write('<p>')
-        for i, screenshot in enumerate(mod_repo["screenshots"]):
-            mdMod.new_paragraph(Html.image(path=screenshot, size='100'))
-        mdMod.write('</p>')
+        mdMod.new_header(level=1, title=mod["name"])
+        mdMod.new_header(level=2, title="Description")
+        mdMod.new_line(mod["description"])
+        mdMod.new_header(level=2, title="Version")
+        mdMod.new_line(mod["version"])
+        if "screenshots" in mod_repo:
+            mdMod.new_header(level=2, title="Screenshots")
+            mdMod.write('<p>')
+            for i, screenshot in enumerate(mod_repo["screenshots"]):
+                mdMod.new_paragraph(Html.image(path=screenshot, size='100'))
+            mdMod.write('</p>')
 
-    mdMod.new_header(level=2, title="Submods")
-    m = ModParser(mod_repo["download"])
-    for item in m.get_mods():
-        mdMod.new_header(level=3, title=item["data"]["name"])
-        create_creature_table(mdMod, item, m)
-        create_town_screen(mdMod, item, m)
-        create_puzzle_map(mdMod, item, m)
-        create_spell_table(mdMod, item, m)
-        create_artifact_table(mdMod, item, m)
-        create_hero_table(mdMod, item, m)
-    mdMod.create_md_file()
+        mdMod.new_header(level=2, title="Submods")
+        m = ModParser(mod_repo["download"])
+        for item in m.get_mods():
+            mdMod.new_header(level=3, title=item["data"]["name"])
+            create_creature_table(mdMod, item, m)
+            create_town_screen(mdMod, item, m)
+            create_puzzle_map(mdMod, item, m)
+            create_spell_table(mdMod, item, m)
+            create_artifact_table(mdMod, item, m)
+            create_hero_table(mdMod, item, m)
+        mdMod.create_md_file()
+    except Exception as e:
+        log.error('Error: ' + traceback.format_exc())
 
 def create_creature_table(md, mod, modparser):
     log.info('create creature table for ' + mod["data"]["name"])
@@ -116,7 +120,7 @@ def create_hero_table(md, mod, modparser):
         mdModTable = header.copy()
         for k, v in mod["config"]["heroes"].items():
             if not k.lower().startswith("core:") and "texts" in mod["config"]["heroes"][k]:
-                if "images" in mod["config"]["heroes"][k]:
+                if "images" in mod["config"]["heroes"][k] and "large" in mod["config"]["heroes"][k]["images"]:
                     image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["heroes"][k]["images"]["large"]), size='50')
                     mdModTable.extend([
                         mod["config"]["heroes"][k]["texts"]["name"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
