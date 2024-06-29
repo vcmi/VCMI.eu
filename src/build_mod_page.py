@@ -3,6 +3,7 @@ import traceback
 
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
+from mdutils.tools.Link import Inline
 from PIL import Image
 import logging
 log = logging.getLogger('LOGGER_NAME')
@@ -20,6 +21,14 @@ def build_mod_page(mod_repo, mod):
         mdMod.new_line(mod["description"])
         mdMod.new_header(level=2, title="Version")
         mdMod.new_line(mod["version"])
+        if "author" in mod:
+            mdMod.new_header(level=2, title="Author")
+            mdMod.new_line(mod["author"])
+        if "contact" in mod:
+            mdMod.new_header(level=2, title="Contact")
+            mdMod.new_line(mod["contact"])
+        mdMod.new_header(level=2, title="Repository")
+        mdMod.new_line(Inline.new_link("/".join(mod["download"].split("/")[:5]), text="View mod on GitHub"))
         if "screenshots" in mod_repo:
             mdMod.new_header(level=2, title="Screenshots")
             mdMod.write('<p>')
