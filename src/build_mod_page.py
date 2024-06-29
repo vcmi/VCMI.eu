@@ -28,7 +28,7 @@ def build_mod_page(mod_repo, mod):
             mdMod.new_header(level=2, title="Contact")
             mdMod.new_line(mod["contact"])
         mdMod.new_header(level=2, title="Repository")
-        mdMod.new_line(Inline.new_link("/".join(mod["download"].split("/")[:5]), text="View mod on GitHub"))
+        mdMod.new_line(Inline.new_link("/".join(mod_repo["download"].split("/")[:5]), text="View mod on GitHub"))
         if "screenshots" in mod_repo:
             mdMod.new_header(level=2, title="Screenshots")
             mdMod.write('<p>')
