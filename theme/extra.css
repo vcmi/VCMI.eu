@@ -1,0 +1,71 @@
+body {
+    background-image: url("background_body.jpg");
+}
+
+.md-header {
+    background-image: url("background_red.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+}
+.md-nav__title {
+    background-image: url("background_red.jpg");
+}
+.md-footer-meta {
+    background-image: url("background_red.jpg");
+}
+.md-tabs {
+    background-image: url("background_red.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+.md-content {
+    background-image: url("background_gen.jpg");
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.md-sidebar__scrollwrap {
+    background-image: url("background_gen.jpg");
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+/*.md-sidebar {
+    padding: 0;
+}*/
+
+.md-nav--primary .md-nav__title {
+    background:url("background_red.jpg") !important;
+    box-shadow:unset !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.md-nav--secondary .md-nav__title {
+    background:url("background_red.jpg") !important;
+    box-shadow:unset !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.md-nav__source {
+    background-color:inherit !important;
+}
+
+@media screen and (min-width: 76.2344em) {
+    div>nav>ul>li>label.md-nav__link {
+        background:url("background_red.jpg") !important;
+        box-shadow:unset !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center !important; 
+        margin-right: 0 !important;
+        margin-left: -0.6rem !important;
+        display: inline-block;
+        width: 105%;
+    }
+}
+
+.md-nav {
+    padding-left: 0 !important;
+}
