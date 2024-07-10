@@ -42,11 +42,11 @@ hide:
 
 * How do I contact you?
 
-> We recommend using [our Discord server](https://discord.gg/chBT42V), [our forums](https://forum.vcmi.eu/) or [our Slack](https://slack.vcmi.eu/). If you are not comfortable with English language - we also have language-specific channels on our social platforms.
+> We recommend using [our Discord server](https://discord.gg/chBT42V) or [our forums](https://forum.vcmi.eu/). If you are not comfortable with English language - we also have language-specific channels on our social platforms.
 
 * I like VCMI, how can I help to make it better?
 
-> It would be best if you could join [our Discord server](https://discord.gg/chBT42V) or [our Slack](https://slack.vcmi.eu/). We need C++ developers, QA/testing helpers and native mobile developers for improving mobile ports. There are also other areas, such as graphical design and content management, where we could use some help. You can also create mods with extra content to increase popularity of VCMI platform.
+> It would be best if you could join [our Discord server](https://discord.gg/chBT42V). We need C++ developers, QA/testing helpers and native mobile developers for improving mobile ports. There are also other areas, such as graphical design and content management, where we could use some help. You can also create mods with extra content to increase popularity of VCMI platform.
 
 * Is VCMI Mod Design Team (MDT) part of VCMI Team?
 

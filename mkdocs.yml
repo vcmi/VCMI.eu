@@ -48,9 +48,6 @@ extra:
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/chBT42V
       name: Discord
-    - icon: fontawesome/brands/slack 
-      link: https://slack.vcmi.eu/
-      name: Slack
     - icon: fontawesome/brands/github 
       link: https://github.com/vcmi/vcmi
       name: GitHub
