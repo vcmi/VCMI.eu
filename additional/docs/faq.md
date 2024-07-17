@@ -20,17 +20,9 @@ hide:
 
 > Unlike HotA and WoG, which are mods for the original Heroes of Might and Magic 3, VCMI is a full-fledged remake. While some enthusiasts have ported portions of these mods to VCMI as a way to offer a limited range of their features, future VCMI updates will allow for more complete re-implementations. For instance, VCMI's planned scripting feature (not specifically designed for WoG) will ultimately replace the scripting functionality found in WoG.
 
-* Can I turn off some WoG features that I don't like?
-
-> Yes. You can enable or disable WoG submods in the launcher.
-
 * Is HD Mod compatible with VCMI?
 
 > While HD Mod isn't compatible with VCMI, VCMI offers its own options for high resolutions and quality-of-life improvements to the game's interface. These features include remakes of some popular functions from HD Mod, and even more will  for future updates as the project evolves.
-
-* How can I turn off the creature queue panel in battles?
-
-> Hotkey to toggle the visibility of this panel is <kbd>Q</kbd>. 
 
 * For which platforms is VCMI available?
 
@@ -38,11 +30,7 @@ hide:
 
 * Where do I get the latest version?
 
-> We recommend downloading the latest release from <https://github.com/vcmi/vcmi/releases/latest> - scroll to the bottom and download an installer for your system. For Android users, it's recommended to install it from Google Play at <https://play.google.com/store/apps/details?id=is.xyz.vcmi>
-
-* How do I install VCMI on Windows?
-
-> The easy way is to download the latest release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into your Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then when Laucher prompts for Heroes III data files select location of your Heroes III installation.
+> We recommend downloading the latest release from <https://vcmi.eu/download/> - there are also installation instructions for your system. For Android users, it's recommended to install it from Google Play at <https://play.google.com/store/apps/details?id=is.xyz.vcmi>
 
 * Who works on this?
 
@@ -62,11 +50,7 @@ hide:
 
 * I like VCMI, how can I help to make it better?
 
-> You can join [our Discord server](https://discord.gg/chBT42V). We need C++ developers, QA/testers and native mobile developers. There are also other areas, such as graphical design and content management, where we could use some help. You can also create mods with extra content to increase VCMI's popularity.
-
-* Is the VCMI Mod Design Team (MDT) part of VCMI Team?
-
-> No, they are a separate group of modders, but we do collaborate.
+> You can join [our Discord server](https://discord.gg/chBT42V). We need C++ developers and QA/testers. There are also other areas, such as graphical design and community/content management, where we could use some help. You can also create mods with extra content to increase VCMI's popularity.
 
 * How close is VCMI to replicating Heroes of Might and Magic 3?
 
@@ -84,9 +68,9 @@ hide:
 
 > This depends on town authors or someone else willing to port it to VCMI. VCMI aims to provide support for new towns. 
 
-* When will it be possible to play online in multiplayer?
+* Is it possible to play online in multiplayer?
 
-> VCMI's multiplayer mode has reached a stable state in version 1.5.0, offering features like simultaneous turns and turn timers for a smooth online experience. Jump into the global lobby (accessible from "New Game -> Multiplayer -> Online Service" within the game) to battle players worldwide. Alternatively, gather your friends and enjoy local network play on any supported device. Multiplayer development remains a top priority, so expect even more improvements in the future.
+> VCMI's multiplayer mode has reached a stable state in version 1.5, offering features like simultaneous turns and turn timers for a smooth online experience. Jump into the global lobby (accessible from "New Game -> Multiplayer -> Online Service" within the game) to battle players worldwide. Alternatively, gather your friends and enjoy local network play on any supported device. Multiplayer development remains a top priority, so expect even more improvements in the future.
 
 * How closely is VCMI emulating H3 gameplay?
 
@@ -94,4 +78,4 @@ hide:
 
 * What are the options to customize AI?
 
-> The default AI for adventure maps in VCMI is Nullkiller AI. It provides a challenging strategic opponent, but be aware that it might run slower on low-end devices.  For a faster alternative, the VCMI launcher lets you switch to the simpler VCAI. If you're looking for an even tougher challenge, consider trying the Boost AI or Extreme AI mods, which offer options for increased AI difficulty and speed.
+> The default AI for adventure maps in VCMI is Nullkiller AI. It provides a challenging strategic opponent, but be aware that it might run slower on low-end devices, also depending on played map size. For a faster alternative, the VCMI launcher lets you switch to the simpler VCAI. If you're looking for an even tougher challenge, consider trying the Boost AI or Extreme AI mods, which offer options for increased AI difficulty.
