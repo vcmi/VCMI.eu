@@ -30,11 +30,7 @@ hide:
 
 * Where do I get the latest version?
 
-> We recommend downloading the latest release from <https://github.com/vcmi/vcmi/releases/latest> - scroll to the bottom and download an installer for your system. For Android users, it's recommended to install it from Google Play at <https://play.google.com/store/apps/details?id=is.xyz.vcmi>
-
-* How do I install VCMI on Windows?
-
-> The easy way is to download the latest release from <https://github.com/vcmi/vcmi/releases/latest> and install VCMI into your Heroes 3 folder. Cleaner way: Download release and install VCMI into new folder, then when Laucher prompts for Heroes III data files select location of your Heroes III installation.
+> We recommend downloading the latest release from <https://vcmi.eu/download/> - there are also installation instructions for your system. For Android users, it's recommended to install it from Google Play at <https://play.google.com/store/apps/details?id=is.xyz.vcmi>
 
 * Who works on this?
 
