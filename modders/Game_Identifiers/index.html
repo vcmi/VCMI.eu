@@ -1,0 +1,6756 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://vcmi.eu/modders/Game_Identifiers/">
+      
+      
+        <link rel="prev" href="../Difficulty/">
+      
+      
+        <link rel="next" href="../Map_Editor/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.21">
+    
+    
+      
+        <title>Game Identifiers - VCMI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../theme/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#game-identifiers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="VCMI" class="md-header__button md-logo" aria-label="VCMI" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            VCMI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Game Identifiers
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/vcmi/vcmi" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../blog/" class="md-tabs__link">
+        
+  
+    
+  
+  News
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../download/" class="md-tabs__link">
+        
+  
+    
+  
+  Download
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ChangeLog/" class="md-tabs__link">
+        
+  
+    
+  
+  Changelog
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Mod%20Repository/Overview/" class="md-tabs__link">
+          
+  
+  Mod Repository
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../faq/" class="md-tabs__link">
+        
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+    
+  
+  About
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../players/Bug_Reporting_Guidelines/" class="md-tabs__link">
+          
+  
+  Players
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Animation_Format/" class="md-tabs__link">
+          
+  
+  Modders
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../developers/AI/" class="md-tabs__link">
+          
+  
+  Developers
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="VCMI" class="md-nav__button md-logo" aria-label="VCMI" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    VCMI
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/vcmi/vcmi" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../download/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ChangeLog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Mod Repository
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Mod Repository
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    AI
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            AI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/AI/Boost%20AI/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Boost AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/AI/Extreme%20AI/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extreme AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Artifacts
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Artifacts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Artifacts/Combine%20Grail/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Combine Grail
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Creatures
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Creatures
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/Axolotl%20Creatures%20Pack/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Axolotl Creatures Pack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/Carpet%20Whisperers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Carpet Whisperers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/Flugels%20-%20New%20Neutral%20Creature/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Flugels - New Neutral Creature
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/Invisible%20Man/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Invisible Man
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/Kurek%20Creatures/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kurek Creatures
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/LostSouls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LostSouls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/Reworked%20Commanders/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reworked Commanders
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/Undead%20Sphinxes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Undead Sphinxes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Creatures/tok%20%7C%20Extras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    tok | Extras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Expansion
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Expansion
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/An%27s%20Expansion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    An's Expansion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/Andruids%20Expansion%20Mods/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Andruids Expansion Mods
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/Antagarich%20Burning%20-%20map%20assets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Antagarich Burning - map assets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/Antagarich%20Burning%20-%20maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Antagarich Burning - maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/Crossroads%20of%20Worlds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Crossroads of Worlds
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/H3Evo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    H3Evo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/Horn%20of%20the%20Abyss/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Horn of the Abyss
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/In%20The%20Wake%20of%20Gods/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    In The Wake of Gods
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/Invite%20hero/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Invite hero
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/PvP%20Balance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PvP Balance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Expansion/Tides%20of%20War/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tides of War
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Graphical
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            Graphical
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Another%20Rampart/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Another Rampart
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Autumn%20Rampart/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Autumn Rampart
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Ensrick%27s%20Portrait%20Pack/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ensrick's Portrait Pack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Erathian%20font%20%5Bread%20description%21%5D/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Erathian font [read description!]
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Ghost%20Necropolis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ghost Necropolis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/LotRD%20townscreens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LotRD townscreens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Morn%27s%20Battlefields/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Morn's Battlefields
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Portraits%20Packs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portraits Packs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Quartz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quartz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Red%20Castle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Red Castle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Sand%20Tower/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sand Tower
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Small%20ERA%20II%20mods/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Small ERA II mods
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Snow%20Castle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Snow Castle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Snow%20in%20Tower/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Snow in Tower
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/Towns%20new%20views/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Towns new views
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Graphical/VCMI%20extras/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VCMI extras
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Heroes
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            Heroes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Heroes/Campaign%20Heroes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Campaign Heroes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Heroes/Neutral%20Heroes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Neutral Heroes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Heroes/New%20Old%20Heroes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New Old Heroes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Heroes/Tarnum%20is%20back%21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tarnum is back!
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_8" id="__nav_5_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Interface
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            Interface
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Interface/AI%20loading%20screens/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI loading screens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Interface/H3%20Themes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    H3 Themes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Interface/High-res%20Menu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    High-res Menu
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Interface/New-style%20Interface/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New-style Interface
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_9" id="__nav_5_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Maps
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            Maps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Maps/Dydzio%27s%20map%20pack/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dydzio's map pack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Maps/Kartenarchiv/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kartenarchiv
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Maps/Mighty%20Heroes%20III/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mighty Heroes III
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_10" id="__nav_5_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Mechanics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_10">
+            <span class="md-nav__icon md-icon"></span>
+            Mechanics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Mechanics/Creatures%27%20Hidden%20Potential/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creatures' Hidden Potential
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Mechanics/New%20Upgrades%20Mod/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New Upgrades Mod
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Mechanics/Vampires%20only%20gameplay%20enhancements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vampires only gameplay enhancements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_11" id="__nav_5_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Music
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_11">
+            <span class="md-nav__icon md-icon"></span>
+            Music
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Music/Heroes%20III%20Orchestra/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heroes III Orchestra
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_12" id="__nav_5_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Objects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            Objects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Objects/Asphalt%20terrain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Asphalt terrain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Objects/Elemental%20Nodes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Elemental Nodes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Objects/Map%20objects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Map objects
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Objects/New%20terrains%20pack/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New terrains pack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Objects/Wyrmsun%20Boats%20%26%20Other%20For%20Maps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wyrmsun Boats &amp; Other For Maps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_13" id="__nav_5_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Other
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_13">
+            <span class="md-nav__icon md-icon"></span>
+            Other
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Other/Campaings%20pack/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Campaings pack
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Other/HoMM3%20Campaigns%20remade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HoMM3 Campaigns remade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Other/MacOS%20demo%20assets%20support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MacOS demo assets support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Other/PAH3%20Singleplayer%20Tournament/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PAH3 Singleplayer Tournament
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Other/Simple%20Game%20Balance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simple Game Balance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Other/ZEfix/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ZEfix
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_14" id="__nav_5_14_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Skills
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_14">
+            <span class="md-nav__icon md-icon"></span>
+            Skills
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Skills/Magic%20Fader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Magic Fader
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_15" id="__nav_5_15_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Spells
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_15">
+            <span class="md-nav__icon md-icon"></span>
+            Spells
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Spells/New%20Adventure%20map%20spells/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New Adventure map spells
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Spells/New%20Magic%20Balance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New Magic Balance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Spells/New%20Old%20Spells%2B/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    New Old Spells+
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_16" id="__nav_5_16_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Templates
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_16">
+            <span class="md-nav__icon md-icon"></span>
+            Templates
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Templates/warzyw-templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    warzyw-templates
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_17" id="__nav_5_17_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Test
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_17">
+            <span class="md-nav__icon md-icon"></span>
+            Test
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Test/Adventure%20AI%20trace/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adventure AI trace
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Test/VCMI%20maps%20for%20AI%20testing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VCMI maps for AI testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_18" id="__nav_5_18_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Town
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_18">
+            <span class="md-nav__icon md-icon"></span>
+            Town
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Abyss%20town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Abyss town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Asylum%20Town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Asylum Town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Cathedral%20Town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cathedral Town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Cetatea/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cetatea
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Courtyard%20town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Courtyard town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Death%20Valley/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Death Valley
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Fairy%20town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fairy town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Farriery/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Farriery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Forge%20town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forge town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Greenhouse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Greenhouse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Grove%20town%20%28Trith%20edition%29/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grove town (Trith edition)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Haven/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Haven
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Heavenly%20Forge%202000/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heavenly Forge 2000
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Highlands%20Town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Highlands Town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Pavilion%20Town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pavilion Town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Phoenix%20as%20a%20dream/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phoenix as a dream
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Preserve%20Town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preserve Town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Refugee%20Town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Refugee Town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Retreat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Retreat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/Tartarus%20Town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tartarus Town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Town/tok%20%7C%20Ruins%20town/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    tok | Ruins town
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_19" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_19" id="__nav_5_19_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Translation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_19">
+            <span class="md-nav__icon md-icon"></span>
+            Translation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Chinese%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chinese translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Czech%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Czech translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/English%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    English translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Finnish%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finnish translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/French%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    French translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/German%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    German translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Hungarian%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hungarian translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Italian%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Italian translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Korean%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Korean translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Polish%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polish translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Portuguese%20%28brazilian%29%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portuguese (brazilian) translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Russian%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Russian translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Spanish%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Spanish translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Swedish%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Swedish translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Turkish%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Turkish translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Ukrainian%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ukrainian translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Mod%20Repository/Translation/Vietnamese%20translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vietnamese translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Players
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Players
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Bug_Reporting_Guidelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bug Reporting Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Cheat_Codes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cheat Codes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Game_Mechanics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Game Mechanics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Installation_Android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation Android
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Installation_Linux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Installation_Windows/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Installation_iOS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation iOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Installation_macOS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation macOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../players/Privacy_Policy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Privacy Policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Modders
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Modders
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Animation_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Animation Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Building_Bonuses/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building Bonuses
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campaign_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Campaign Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Configurable_Widgets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configurable Widgets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Difficulty/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Difficulty
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Game Identifiers
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Game Identifiers
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#list-of-all-game-identifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      List of all game identifiers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="List of all game identifiers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#artifact" class="md-nav__link">
+    <span class="md-ellipsis">
+      artifact
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#battlefield" class="md-nav__link">
+    <span class="md-ellipsis">
+      battlefield
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creature" class="md-nav__link">
+    <span class="md-ellipsis">
+      creature
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faction" class="md-nav__link">
+    <span class="md-ellipsis">
+      faction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hero" class="md-nav__link">
+    <span class="md-ellipsis">
+      hero
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroclass" class="md-nav__link">
+    <span class="md-ellipsis">
+      heroClass
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playercolor" class="md-nav__link">
+    <span class="md-ellipsis">
+      playerColor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      primSkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primaryskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      primarySkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      resource
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#river" class="md-nav__link">
+    <span class="md-ellipsis">
+      river
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#road" class="md-nav__link">
+    <span class="md-ellipsis">
+      road
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondaryskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      secondarySkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      skill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell" class="md-nav__link">
+    <span class="md-ellipsis">
+      spell
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spellschool" class="md-nav__link">
+    <span class="md-ellipsis">
+      spellSchool
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      terrain
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Map_Editor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Map Editor
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Map_Object_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Map Object Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mod_File_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mod File Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Random_Map_Template/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Random Map Template
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Readme/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modding Readme
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Translations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Translations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_14" id="__nav_9_14_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Bonus
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_14">
+            <span class="md-nav__icon md-icon"></span>
+            Bonus
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Duration_Types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Duration Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Limiters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Limiters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Propagators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Propagators
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Range_Types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Range Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Sources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Sources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Updaters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Updaters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bonus/Bonus_Value_Types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus Value Types
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_15" id="__nav_9_15_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Entities_Format
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_15">
+            <span class="md-nav__icon md-icon"></span>
+            Entities_Format
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Artifact_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artifact Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Battle_Obstacle_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Battle Obstacle Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Battlefield_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Battlefield Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Biome_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biome Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Creature_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creature Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Faction_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Faction Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Hero_Class_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hero Class Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Hero_Type_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hero Type Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/River_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    River Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Road_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Road Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Secondary_Skill_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Secondary Skill Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Spell_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Spell Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entities_Format/Terrain_Format/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Terrain Format
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_16" id="__nav_9_16_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Map_Objects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_16">
+            <span class="md-nav__icon md-icon"></span>
+            Map_Objects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Map_Objects/Boat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Boat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Map_Objects/Creature_Bank/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creature Bank
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Map_Objects/Dwelling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dwelling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Map_Objects/Market/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Market
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Map_Objects/Rewardable/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rewardable
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Developers
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Developers
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/AI/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Bonus_System/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonus System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Building_Android/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building Android
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Building_Linux/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building VCMI for Linux
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Building_Windows/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building VCMI for Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Building_iOS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building VCMI for iOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Building_macOS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Building VCMI for macOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/CMake/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CMake options
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Code_Structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code Structure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Coding_Guidelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Coding Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Conan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conan Dependencies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Development_with_Qt_Creator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Development with Qt Creator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Logging_API/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Logging API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Lua_Scripting_System/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lua Scripting System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Networking/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/RMG_Description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RMG Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developers/Serialization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Serialization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#list-of-all-game-identifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      List of all game identifiers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="List of all game identifiers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#artifact" class="md-nav__link">
+    <span class="md-ellipsis">
+      artifact
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#battlefield" class="md-nav__link">
+    <span class="md-ellipsis">
+      battlefield
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creature" class="md-nav__link">
+    <span class="md-ellipsis">
+      creature
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#faction" class="md-nav__link">
+    <span class="md-ellipsis">
+      faction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hero" class="md-nav__link">
+    <span class="md-ellipsis">
+      hero
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heroclass" class="md-nav__link">
+    <span class="md-ellipsis">
+      heroClass
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#playercolor" class="md-nav__link">
+    <span class="md-ellipsis">
+      playerColor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      primSkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primaryskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      primarySkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource" class="md-nav__link">
+    <span class="md-ellipsis">
+      resource
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#river" class="md-nav__link">
+    <span class="md-ellipsis">
+      river
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#road" class="md-nav__link">
+    <span class="md-ellipsis">
+      road
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secondaryskill" class="md-nav__link">
+    <span class="md-ellipsis">
+      secondarySkill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      skill
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spell" class="md-nav__link">
+    <span class="md-ellipsis">
+      spell
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spellschool" class="md-nav__link">
+    <span class="md-ellipsis">
+      spellSchool
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terrain" class="md-nav__link">
+    <span class="md-ellipsis">
+      terrain
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="game-identifiers">Game Identifiers</h1>
+<h2 id="list-of-all-game-identifiers">List of all game identifiers</h2>
+<p>This is a list of all game identifiers available to modders. Note that only identifiers from base game have been included. For identifiers from mods please look up corresponding mod</p>
+<h3 id="artifact">artifact</h3>
+<ul>
+<li>artifact.admiralsHat</li>
+<li>artifact.ambassadorsSash</li>
+<li>artifact.ammoCart</li>
+<li>artifact.amuletOfTheUndertaker</li>
+<li>artifact.angelFeatherArrows</li>
+<li>artifact.angelWings</li>
+<li>artifact.angelicAlliance</li>
+<li>artifact.armageddonsBlade</li>
+<li>artifact.armorOfTheDamned</li>
+<li>artifact.armorOfWonder</li>
+<li>artifact.armsOfLegion</li>
+<li>artifact.badgeOfCourage</li>
+<li>artifact.ballista</li>
+<li>artifact.birdOfPerception</li>
+<li>artifact.blackshardOfTheDeadKnight</li>
+<li>artifact.bootsOfLevitation</li>
+<li>artifact.bootsOfPolarity</li>
+<li>artifact.bootsOfSpeed</li>
+<li>artifact.bowOfElvenCherrywood</li>
+<li>artifact.bowOfTheSharpshooter</li>
+<li>artifact.bowstringOfTheUnicornsMane</li>
+<li>artifact.breastplateOfBrimstone</li>
+<li>artifact.breastplateOfPetrifiedWood</li>
+<li>artifact.bucklerOfTheGnollKing</li>
+<li>artifact.capeOfConjuring</li>
+<li>artifact.capeOfVelocity</li>
+<li>artifact.cardsOfProphecy</li>
+<li>artifact.catapult</li>
+<li>artifact.celestialNecklaceOfBliss</li>
+<li>artifact.centaurAxe</li>
+<li>artifact.charmOfMana</li>
+<li>artifact.cloakOfTheUndeadKing</li>
+<li>artifact.cloverOfFortune</li>
+<li>artifact.collarOfConjuring</li>
+<li>artifact.cornucopia</li>
+<li>artifact.crestOfValor</li>
+<li>artifact.crownOfDragontooth</li>
+<li>artifact.crownOfTheSupremeMagi</li>
+<li>artifact.deadMansBoots</li>
+<li>artifact.diplomatsRing</li>
+<li>artifact.dragonScaleArmor</li>
+<li>artifact.dragonScaleShield</li>
+<li>artifact.dragonWingTabard</li>
+<li>artifact.dragonboneGreaves</li>
+<li>artifact.elixirOfLife</li>
+<li>artifact.emblemOfCognizance</li>
+<li>artifact.endlessBagOfGold</li>
+<li>artifact.endlessPurseOfGold</li>
+<li>artifact.endlessSackOfGold</li>
+<li>artifact.equestriansGloves</li>
+<li>artifact.everflowingCrystalCloak</li>
+<li>artifact.everpouringVialOfMercury</li>
+<li>artifact.eversmokingRingOfSulfur</li>
+<li>artifact.firstAidTent</li>
+<li>artifact.garnitureOfInterference</li>
+<li>artifact.glyphOfGallantry</li>
+<li>artifact.goldenBow</li>
+<li>artifact.grail</li>
+<li>artifact.greaterGnollsFlail</li>
+<li>artifact.headOfLegion</li>
+<li>artifact.hellstormHelmet</li>
+<li>artifact.helmOfChaos</li>
+<li>artifact.helmOfHeavenlyEnlightenment</li>
+<li>artifact.helmOfTheAlabasterUnicorn</li>
+<li>artifact.hourglassOfTheEvilHour</li>
+<li>artifact.inexhaustibleCartOfLumber</li>
+<li>artifact.inexhaustibleCartOfOre</li>
+<li>artifact.ladybirdOfLuck</li>
+<li>artifact.legsOfLegion</li>
+<li>artifact.lionsShieldOfCourage</li>
+<li>artifact.loinsOfLegion</li>
+<li>artifact.mysticOrbOfMana</li>
+<li>artifact.necklaceOfDragonteeth</li>
+<li>artifact.necklaceOfOceanGuidance</li>
+<li>artifact.necklaceOfSwiftness</li>
+<li>artifact.ogresClubOfHavoc</li>
+<li>artifact.orbOfDrivingRain</li>
+<li>artifact.orbOfInhibition</li>
+<li>artifact.orbOfSilt</li>
+<li>artifact.orbOfTempestuousFire</li>
+<li>artifact.orbOfTheFirmament</li>
+<li>artifact.orbOfVulnerability</li>
+<li>artifact.pendantOfCourage</li>
+<li>artifact.pendantOfDeath</li>
+<li>artifact.pendantOfDispassion</li>
+<li>artifact.pendantOfFreeWill</li>
+<li>artifact.pendantOfHoliness</li>
+<li>artifact.pendantOfLife</li>
+<li>artifact.pendantOfNegativity</li>
+<li>artifact.pendantOfSecondSight</li>
+<li>artifact.pendantOfTotalRecall</li>
+<li>artifact.powerOfTheDragonFather</li>
+<li>artifact.quietEyeOfTheDragon</li>
+<li>artifact.recantersCloak</li>
+<li>artifact.redDragonFlameTongue</li>
+<li>artifact.ribCage</li>
+<li>artifact.ringOfConjuring</li>
+<li>artifact.ringOfInfiniteGems</li>
+<li>artifact.ringOfLife</li>
+<li>artifact.ringOfTheMagi</li>
+<li>artifact.ringOfTheWayfarer</li>
+<li>artifact.ringOfVitality</li>
+<li>artifact.sandalsOfTheSaint</li>
+<li>artifact.scalesOfTheGreaterBasilisk</li>
+<li>artifact.seaCaptainsHat</li>
+<li>artifact.sentinelsShield</li>
+<li>artifact.shacklesOfWar</li>
+<li>artifact.shieldOfTheDamned</li>
+<li>artifact.shieldOfTheDwarvenLords</li>
+<li>artifact.shieldOfTheYawningDead</li>
+<li>artifact.skullHelmet</li>
+<li>artifact.speculum</li>
+<li>artifact.spellBook</li>
+<li>artifact.spellScroll</li>
+<li>artifact.spellbindersHat</li>
+<li>artifact.sphereOfPermanence</li>
+<li>artifact.spiritOfOppression</li>
+<li>artifact.spyglass</li>
+<li>artifact.statesmansMedal</li>
+<li>artifact.statueOfLegion</li>
+<li>artifact.stillEyeOfTheDragon</li>
+<li>artifact.stoicWatchman</li>
+<li>artifact.surcoatOfCounterpoise</li>
+<li>artifact.swordOfHellfire</li>
+<li>artifact.swordOfJudgement</li>
+<li>artifact.talismanOfMana</li>
+<li>artifact.targOfTheRampagingOgre</li>
+<li>artifact.thunderHelmet</li>
+<li>artifact.titansCuirass</li>
+<li>artifact.titansGladius</li>
+<li>artifact.titansThunder</li>
+<li>artifact.tomeOfAirMagic</li>
+<li>artifact.tomeOfEarthMagic</li>
+<li>artifact.tomeOfFireMagic</li>
+<li>artifact.tomeOfWaterMagic</li>
+<li>artifact.torsoOfLegion</li>
+<li>artifact.tunicOfTheCyclopsKing</li>
+<li>artifact.unusedArtifact1</li>
+<li>artifact.unusedArtifact2</li>
+<li>artifact.unusedArtifact3</li>
+<li>artifact.vampiresCowl</li>
+<li>artifact.vialOfDragonBlood</li>
+<li>artifact.vialOfLifeblood</li>
+<li>artifact.wizardsWell</li>
+</ul>
+<h3 id="battlefield">battlefield</h3>
+<ul>
+<li>battlefield.clover_field</li>
+<li>battlefield.cursed_ground</li>
+<li>battlefield.dirt_birches</li>
+<li>battlefield.dirt_hills</li>
+<li>battlefield.dirt_pines</li>
+<li>battlefield.evil_fog</li>
+<li>battlefield.fiery_fields</li>
+<li>battlefield.grass_hills</li>
+<li>battlefield.grass_pines</li>
+<li>battlefield.holy_ground</li>
+<li>battlefield.lava</li>
+<li>battlefield.lucid_pools</li>
+<li>battlefield.magic_clouds</li>
+<li>battlefield.magic_plains</li>
+<li>battlefield.rocklands</li>
+<li>battlefield.rough</li>
+<li>battlefield.sand_mesas</li>
+<li>battlefield.sand_shore</li>
+<li>battlefield.ship</li>
+<li>battlefield.ship_to_ship</li>
+<li>battlefield.snow_mountains</li>
+<li>battlefield.snow_trees</li>
+<li>battlefield.subterranean</li>
+<li>battlefield.swamp_trees</li>
+</ul>
+<h3 id="creature">creature</h3>
+<ul>
+<li>creature.airElemental</li>
+<li>creature.airElementals</li>
+<li>creature.ammoCart</li>
+<li>creature.ancientBehemoth</li>
+<li>creature.angel</li>
+<li>creature.apprenticeGremlin</li>
+<li>creature.archDevil</li>
+<li>creature.archMage</li>
+<li>creature.archangel</li>
+<li>creature.archer</li>
+<li>creature.arrowTower</li>
+<li>creature.azureDragon</li>
+<li>creature.ballista</li>
+<li>creature.basilisk</li>
+<li>creature.battleDwarf</li>
+<li>creature.behemoth</li>
+<li>creature.beholder</li>
+<li>creature.blackDragon</li>
+<li>creature.blackKnight</li>
+<li>creature.boar</li>
+<li>creature.boneDragon</li>
+<li>creature.catapult</li>
+<li>creature.cavalier</li>
+<li>creature.centaur</li>
+<li>creature.centaurCaptain</li>
+<li>creature.cerberus</li>
+<li>creature.champion</li>
+<li>creature.chaosHydra</li>
+<li>creature.crusader</li>
+<li>creature.crystalDragon</li>
+<li>creature.cyclop</li>
+<li>creature.cyclopKing</li>
+<li>creature.demon</li>
+<li>creature.dendroidGuard</li>
+<li>creature.dendroidSoldier</li>
+<li>creature.devil</li>
+<li>creature.diamondGolem</li>
+<li>creature.dragonFly</li>
+<li>creature.dreadKnight</li>
+<li>creature.dwarf</li>
+<li>creature.earthElemental</li>
+<li>creature.efreet</li>
+<li>creature.efreetSultan</li>
+<li>creature.enchanter</li>
+<li>creature.enchanters</li>
+<li>creature.energyElemental</li>
+<li>creature.evilEye</li>
+<li>creature.fairieDragon</li>
+<li>creature.familiar</li>
+<li>creature.fireDragonFly</li>
+<li>creature.fireElemental</li>
+<li>creature.firebird</li>
+<li>creature.firstAidTent</li>
+<li>creature.genie</li>
+<li>creature.ghostDragon</li>
+<li>creature.giant</li>
+<li>creature.gnoll</li>
+<li>creature.gnollMarauder</li>
+<li>creature.goblin</li>
+<li>creature.goblinWolfRider</li>
+<li>creature.goblins</li>
+<li>creature.gog</li>
+<li>creature.goldDragon</li>
+<li>creature.goldGolem</li>
+<li>creature.gorgon</li>
+<li>creature.grandElf</li>
+<li>creature.greaterBasilisk</li>
+<li>creature.greenDragon</li>
+<li>creature.gremlin</li>
+<li>creature.griffin</li>
+<li>creature.halberdier</li>
+<li>creature.halfling</li>
+<li>creature.harpy</li>
+<li>creature.harpyHag</li>
+<li>creature.hellHound</li>
+<li>creature.hobgoblin</li>
+<li>creature.hobgoblinWolfRider</li>
+<li>creature.hornedDemon</li>
+<li>creature.hydra</li>
+<li>creature.iceElemental</li>
+<li>creature.imp</li>
+<li>creature.infernalTroglodyte</li>
+<li>creature.ironGolem</li>
+<li>creature.lich</li>
+<li>creature.lightCrossbowman</li>
+<li>creature.lizardWarrior</li>
+<li>creature.lizardman</li>
+<li>creature.mage</li>
+<li>creature.magicElemental</li>
+<li>creature.magmaElemental</li>
+<li>creature.magog</li>
+<li>creature.manticore</li>
+<li>creature.marksman</li>
+<li>creature.masterGenie</li>
+<li>creature.masterGremlin</li>
+<li>creature.medusa</li>
+<li>creature.medusaQueen</li>
+<li>creature.mightyGorgon</li>
+<li>creature.minotaur</li>
+<li>creature.minotaurKing</li>
+<li>creature.monk</li>
+<li>creature.mummy</li>
+<li>creature.naga</li>
+<li>creature.nagaQueen</li>
+<li>creature.nomad</li>
+<li>creature.obsidianGargoyle</li>
+<li>creature.ogre</li>
+<li>creature.ogreMage</li>
+<li>creature.orc</li>
+<li>creature.orcChieftain</li>
+<li>creature.peasant</li>
+<li>creature.pegasus</li>
+<li>creature.phoenix</li>
+<li>creature.pikeman</li>
+<li>creature.pitFiend</li>
+<li>creature.pitLord</li>
+<li>creature.pixie</li>
+<li>creature.pixies</li>
+<li>creature.powerLich</li>
+<li>creature.primitiveLizardman</li>
+<li>creature.psychicElemental</li>
+<li>creature.redDragon</li>
+<li>creature.roc</li>
+<li>creature.rogue</li>
+<li>creature.royalGriffin</li>
+<li>creature.rustDragon</li>
+<li>creature.scorpicore</li>
+<li>creature.serpentFly</li>
+<li>creature.sharpshooter</li>
+<li>creature.sharpshooters</li>
+<li>creature.silverPegasus</li>
+<li>creature.skeleton</li>
+<li>creature.skeletonWarrior</li>
+<li>creature.sprite</li>
+<li>creature.stoneGargoyle</li>
+<li>creature.stoneGolem</li>
+<li>creature.stormElemental</li>
+<li>creature.swordsman</li>
+<li>creature.thunderbird</li>
+<li>creature.titan</li>
+<li>creature.troglodyte</li>
+<li>creature.troll</li>
+<li>creature.unicorn</li>
+<li>creature.unused122</li>
+<li>creature.unused124</li>
+<li>creature.unused126</li>
+<li>creature.unused128</li>
+<li>creature.vampire</li>
+<li>creature.vampireLord</li>
+<li>creature.walkingDead</li>
+<li>creature.warUnicorn</li>
+<li>creature.waterElemental</li>
+<li>creature.waterElementals</li>
+<li>creature.wight</li>
+<li>creature.woodElf</li>
+<li>creature.wraith</li>
+<li>creature.wyvern</li>
+<li>creature.wyvernMonarch</li>
+<li>creature.zealot</li>
+<li>creature.zombie</li>
+<li>creature.zombieLord</li>
+</ul>
+<h3 id="faction">faction</h3>
+<ul>
+<li>faction.castle</li>
+<li>faction.conflux</li>
+<li>faction.dungeon</li>
+<li>faction.fortress</li>
+<li>faction.inferno</li>
+<li>faction.necropolis</li>
+<li>faction.neutral</li>
+<li>faction.rampart</li>
+<li>faction.stronghold</li>
+<li>faction.tower</li>
+</ul>
+<h3 id="hero">hero</h3>
+<ul>
+<li>hero.adela</li>
+<li>hero.adelaide</li>
+<li>hero.adrienne</li>
+<li>hero.aenain</li>
+<li>hero.aeris</li>
+<li>hero.aine</li>
+<li>hero.aislinn</li>
+<li>hero.ajit</li>
+<li>hero.alagar</li>
+<li>hero.alamar</li>
+<li>hero.alkin</li>
+<li>hero.andra</li>
+<li>hero.arlach</li>
+<li>hero.ash</li>
+<li>hero.astral</li>
+<li>hero.axsis</li>
+<li>hero.ayden</li>
+<li>hero.boragus</li>
+<li>hero.brissa</li>
+<li>hero.broghild</li>
+<li>hero.bron</li>
+<li>hero.caitlin</li>
+<li>hero.calh</li>
+<li>hero.calid</li>
+<li>hero.catherine</li>
+<li>hero.charna</li>
+<li>hero.christian</li>
+<li>hero.ciele</li>
+<li>hero.clancy</li>
+<li>hero.clavius</li>
+<li>hero.coronius</li>
+<li>hero.cragHack</li>
+<li>hero.cuthbert</li>
+<li>hero.cyra</li>
+<li>hero.dace</li>
+<li>hero.damacon</li>
+<li>hero.daremyth</li>
+<li>hero.darkstorn</li>
+<li>hero.deemer</li>
+<li>hero.dessa</li>
+<li>hero.dracon</li>
+<li>hero.drakon</li>
+<li>hero.edric</li>
+<li>hero.elleshar</li>
+<li>hero.erdamon</li>
+<li>hero.fafner</li>
+<li>hero.fiona</li>
+<li>hero.fiur</li>
+<li>hero.galthran</li>
+<li>hero.gelare</li>
+<li>hero.gelu</li>
+<li>hero.gem</li>
+<li>hero.geon</li>
+<li>hero.gerwulf</li>
+<li>hero.gird</li>
+<li>hero.gretchin</li>
+<li>hero.grindan</li>
+<li>hero.gundula</li>
+<li>hero.gunnar</li>
+<li>hero.gurnisson</li>
+<li>hero.halon</li>
+<li>hero.ignatius</li>
+<li>hero.ignissa</li>
+<li>hero.ingham</li>
+<li>hero.inteus</li>
+<li>hero.iona</li>
+<li>hero.isra</li>
+<li>hero.ivor</li>
+<li>hero.jabarkas</li>
+<li>hero.jaegar</li>
+<li>hero.jeddite</li>
+<li>hero.jenova</li>
+<li>hero.josephine</li>
+<li>hero.kalt</li>
+<li>hero.kilgor</li>
+<li>hero.korbac</li>
+<li>hero.krellion</li>
+<li>hero.kyrre</li>
+<li>hero.labetha</li>
+<li>hero.lacus</li>
+<li>hero.lordHaart</li>
+<li>hero.lorelei</li>
+<li>hero.loynis</li>
+<li>hero.luna</li>
+<li>hero.malcom</li>
+<li>hero.malekith</li>
+<li>hero.marius</li>
+<li>hero.melodia</li>
+<li>hero.mephala</li>
+<li>hero.merist</li>
+<li>hero.mirlanda</li>
+<li>hero.moandor</li>
+<li>hero.monere</li>
+<li>hero.mutare</li>
+<li>hero.mutareDrake</li>
+<li>hero.nagash</li>
+<li>hero.neela</li>
+<li>hero.nimbus</li>
+<li>hero.nymus</li>
+<li>hero.octavia</li>
+<li>hero.olema</li>
+<li>hero.oris</li>
+<li>hero.orrin</li>
+<li>hero.pasis</li>
+<li>hero.piquedram</li>
+<li>hero.pyre</li>
+<li>hero.rashka</li>
+<li>hero.rion</li>
+<li>hero.rissa</li>
+<li>hero.roland</li>
+<li>hero.rosic</li>
+<li>hero.ryland</li>
+<li>hero.sandro</li>
+<li>hero.sanya</li>
+<li>hero.saurug</li>
+<li>hero.sephinroth</li>
+<li>hero.septienna</li>
+<li>hero.serena</li>
+<li>hero.shakti</li>
+<li>hero.shiva</li>
+<li>hero.sirMullich</li>
+<li>hero.solmyr</li>
+<li>hero.sorsha</li>
+<li>hero.straker</li>
+<li>hero.styg</li>
+<li>hero.sylvia</li>
+<li>hero.synca</li>
+<li>hero.tamika</li>
+<li>hero.tazar</li>
+<li>hero.terek</li>
+<li>hero.thane</li>
+<li>hero.thant</li>
+<li>hero.theodorus</li>
+<li>hero.thorgrim</li>
+<li>hero.thunar</li>
+<li>hero.tiva</li>
+<li>hero.torosar </li>
+<li>hero.tyraxor</li>
+<li>hero.tyris</li>
+<li>hero.ufretin</li>
+<li>hero.uland</li>
+<li>hero.undeadHaart</li>
+<li>hero.valeska</li>
+<li>hero.verdish</li>
+<li>hero.vey</li>
+<li>hero.vidomina</li>
+<li>hero.vokial</li>
+<li>hero.voy</li>
+<li>hero.wystan</li>
+<li>hero.xarfax</li>
+<li>hero.xeron</li>
+<li>hero.xsi</li>
+<li>hero.xyron</li>
+<li>hero.yog</li>
+<li>hero.zubin</li>
+<li>hero.zydar</li>
+</ul>
+<h3 id="heroclass">heroClass</h3>
+<ul>
+<li>heroClass.alchemist</li>
+<li>heroClass.barbarian</li>
+<li>heroClass.battlemage</li>
+<li>heroClass.beastmaster</li>
+<li>heroClass.cleric</li>
+<li>heroClass.deathknight</li>
+<li>heroClass.demoniac</li>
+<li>heroClass.druid</li>
+<li>heroClass.elementalist</li>
+<li>heroClass.heretic</li>
+<li>heroClass.knight</li>
+<li>heroClass.necromancer</li>
+<li>heroClass.overlord</li>
+<li>heroClass.planeswalker</li>
+<li>heroClass.ranger</li>
+<li>heroClass.warlock</li>
+<li>heroClass.witch</li>
+<li>heroClass.wizard</li>
+</ul>
+<h3 id="playercolor">playerColor</h3>
+<ul>
+<li>playerColor.blue</li>
+<li>playerColor.green</li>
+<li>playerColor.orange</li>
+<li>playerColor.pink</li>
+<li>playerColor.purple</li>
+<li>playerColor.red</li>
+<li>playerColor.tan</li>
+<li>playerColor.teal</li>
+</ul>
+<h3 id="primskill">primSkill</h3>
+<p>Deprecated, please use primarySkill instead</p>
+<ul>
+<li>primSkill.attack</li>
+<li>primSkill.defence</li>
+<li>primSkill.knowledge</li>
+<li>primSkill.spellpower</li>
+</ul>
+<h3 id="primaryskill">primarySkill</h3>
+<ul>
+<li>primarySkill.attack</li>
+<li>primarySkill.defence</li>
+<li>primarySkill.knowledge</li>
+<li>primarySkill.spellpower</li>
+</ul>
+<h3 id="resource">resource</h3>
+<ul>
+<li>resource.crystal</li>
+<li>resource.gems</li>
+<li>resource.gold</li>
+<li>resource.mercury</li>
+<li>resource.mithril</li>
+<li>resource.ore</li>
+<li>resource.sulfur</li>
+<li>resource.wood</li>
+</ul>
+<h3 id="river">river</h3>
+<ul>
+<li>river.iceRiver</li>
+<li>river.lavaRiver</li>
+<li>river.mudRiver</li>
+<li>river.waterRiver</li>
+</ul>
+<h3 id="road">road</h3>
+<ul>
+<li>road.cobblestoneRoad</li>
+<li>road.dirtRoad</li>
+<li>road.gravelRoad</li>
+</ul>
+<h3 id="secondaryskill">secondarySkill</h3>
+<ul>
+<li>secondarySkill.airMagic</li>
+<li>secondarySkill.archery</li>
+<li>secondarySkill.armorer</li>
+<li>secondarySkill.artillery</li>
+<li>secondarySkill.ballistics</li>
+<li>secondarySkill.diplomacy</li>
+<li>secondarySkill.eagleEye</li>
+<li>secondarySkill.earthMagic</li>
+<li>secondarySkill.estates</li>
+<li>secondarySkill.fireMagic</li>
+<li>secondarySkill.firstAid</li>
+<li>secondarySkill.intelligence</li>
+<li>secondarySkill.leadership</li>
+<li>secondarySkill.learning</li>
+<li>secondarySkill.logistics</li>
+<li>secondarySkill.luck</li>
+<li>secondarySkill.mysticism</li>
+<li>secondarySkill.navigation</li>
+<li>secondarySkill.necromancy</li>
+<li>secondarySkill.offence</li>
+<li>secondarySkill.pathfinding</li>
+<li>secondarySkill.resistance</li>
+<li>secondarySkill.scholar</li>
+<li>secondarySkill.scouting</li>
+<li>secondarySkill.sorcery</li>
+<li>secondarySkill.tactics</li>
+<li>secondarySkill.waterMagic</li>
+<li>secondarySkill.wisdom</li>
+</ul>
+<h3 id="skill">skill</h3>
+<p>Deprecated, please use secondarySkill instead</p>
+<ul>
+<li>skill.airMagic</li>
+<li>skill.archery</li>
+<li>skill.armorer</li>
+<li>skill.artillery</li>
+<li>skill.ballistics</li>
+<li>skill.diplomacy</li>
+<li>skill.eagleEye</li>
+<li>skill.earthMagic</li>
+<li>skill.estates</li>
+<li>skill.fireMagic</li>
+<li>skill.firstAid</li>
+<li>skill.intelligence</li>
+<li>skill.leadership</li>
+<li>skill.learning</li>
+<li>skill.logistics</li>
+<li>skill.luck</li>
+<li>skill.mysticism</li>
+<li>skill.navigation</li>
+<li>skill.necromancy</li>
+<li>skill.offence</li>
+<li>skill.pathfinding</li>
+<li>skill.resistance</li>
+<li>skill.scholar</li>
+<li>skill.scouting</li>
+<li>skill.sorcery</li>
+<li>skill.tactics</li>
+<li>skill.waterMagic</li>
+<li>skill.wisdom</li>
+</ul>
+<h3 id="spell">spell</h3>
+<ul>
+<li>spell.acidBreath</li>
+<li>spell.acidBreathDamage</li>
+<li>spell.age</li>
+<li>spell.airElemental</li>
+<li>spell.airShield</li>
+<li>spell.animateDead</li>
+<li>spell.antiMagic</li>
+<li>spell.armageddon</li>
+<li>spell.berserk</li>
+<li>spell.bind</li>
+<li>spell.bless</li>
+<li>spell.blind</li>
+<li>spell.bloodlust</li>
+<li>spell.castleMoat</li>
+<li>spell.castleMoatTrigger</li>
+<li>spell.catapultShot</li>
+<li>spell.chainLightning</li>
+<li>spell.clone</li>
+<li>spell.counterstrike</li>
+<li>spell.cure</li>
+<li>spell.curse</li>
+<li>spell.cyclopsShot</li>
+<li>spell.deathCloud</li>
+<li>spell.deathRipple</li>
+<li>spell.deathStare</li>
+<li>spell.destroyUndead</li>
+<li>spell.dimensionDoor</li>
+<li>spell.disease</li>
+<li>spell.disguise</li>
+<li>spell.dispel</li>
+<li>spell.dispelHelpful</li>
+<li>spell.disruptingRay</li>
+<li>spell.dungeonMoat</li>
+<li>spell.dungeonMoatTrigger</li>
+<li>spell.earthElemental</li>
+<li>spell.earthquake</li>
+<li>spell.fireElemental</li>
+<li>spell.fireShield</li>
+<li>spell.fireWall</li>
+<li>spell.fireWallTrigger</li>
+<li>spell.fireball</li>
+<li>spell.firstAid</li>
+<li>spell.fly</li>
+<li>spell.forceField</li>
+<li>spell.forgetfulness</li>
+<li>spell.fortressMoat</li>
+<li>spell.fortressMoatTrigger</li>
+<li>spell.fortune</li>
+<li>spell.frenzy</li>
+<li>spell.frostRing</li>
+<li>spell.haste</li>
+<li>spell.hypnotize</li>
+<li>spell.iceBolt</li>
+<li>spell.implosion</li>
+<li>spell.inferno</li>
+<li>spell.infernoMoat</li>
+<li>spell.infernoMoatTrigger</li>
+<li>spell.landMine</li>
+<li>spell.landMineTrigger</li>
+<li>spell.lightningBolt</li>
+<li>spell.magicArrow</li>
+<li>spell.magicMirror</li>
+<li>spell.meteorShower</li>
+<li>spell.mirth</li>
+<li>spell.misfortune</li>
+<li>spell.necropolisMoat</li>
+<li>spell.necropolisMoatTrigger</li>
+<li>spell.paralyze</li>
+<li>spell.poison</li>
+<li>spell.prayer</li>
+<li>spell.precision</li>
+<li>spell.protectAir</li>
+<li>spell.protectEarth</li>
+<li>spell.protectFire</li>
+<li>spell.protectWater</li>
+<li>spell.quicksand</li>
+<li>spell.rampartMoat</li>
+<li>spell.rampartMoatTrigger</li>
+<li>spell.removeObstacle</li>
+<li>spell.resurrection</li>
+<li>spell.sacrifice</li>
+<li>spell.scuttleBoat</li>
+<li>spell.shield</li>
+<li>spell.slayer</li>
+<li>spell.slow</li>
+<li>spell.sorrow</li>
+<li>spell.stoneGaze</li>
+<li>spell.stoneSkin</li>
+<li>spell.strongholdMoat</li>
+<li>spell.strongholdMoatTrigger</li>
+<li>spell.summonBoat</li>
+<li>spell.summonDemons</li>
+<li>spell.teleport</li>
+<li>spell.thunderbolt</li>
+<li>spell.titanBolt</li>
+<li>spell.towerMoat</li>
+<li>spell.townPortal</li>
+<li>spell.viewAir</li>
+<li>spell.viewEarth</li>
+<li>spell.visions</li>
+<li>spell.waterElemental</li>
+<li>spell.waterWalk</li>
+<li>spell.weakness</li>
+</ul>
+<h3 id="spellschool">spellSchool</h3>
+<ul>
+<li>spellSchool.air</li>
+<li>spellSchool.any</li>
+<li>spellSchool.earth</li>
+<li>spellSchool.fire</li>
+<li>spellSchool.water</li>
+</ul>
+<h3 id="terrain">terrain</h3>
+<ul>
+<li>terrain.dirt</li>
+<li>terrain.grass</li>
+<li>terrain.lava</li>
+<li>terrain.rock</li>
+<li>terrain.rough</li>
+<li>terrain.sand</li>
+<li>terrain.snow</li>
+<li>terrain.subterra</li>
+<li>terrain.swamp</li>
+<li>terrain.water</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2007 - <span id="copyyear"></span><script>document.getElementById('copyyear').innerHTML = new Date().getFullYear();</script> VCMI team <p style="font-size:.42rem !important; margin-bottom: -0.25rem !important;; margin-top: 0.15rem !important;">VCMI, this page and the VCMI Team are in no way associated with or supported by Ubisoft Entertainment. Heroes, Might and Magic, Heroes of Might and Magic and their respective logos are registered trademarks of Ubisoft Entertainment in the U.S. and/or other countries. All Rights Reserved. All other trademarks are properties of their respective owners.</p> <p style="font-size:.42rem !important; margin-bottom: -0.6rem !important;">Buy Heroes III on <a href="https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition">gog.com</a>, we don't support piracy! Hosting provided by <a href="https://digitalocean.com/">Digital Ocean</a>. Made with <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></p>
+
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://forum.vcmi.eu/" target="_blank" rel="noopener" title="Forum" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M208 352c114.9 0 208-78.8 208-176S322.9 0 208 0 0 78.8 0 176c0 38.6 14.7 74.3 39.6 103.4-3.5 9.4-8.7 17.7-14.2 24.7-4.8 6.2-9.7 11-13.3 14.3-1.8 1.6-3.3 2.9-4.3 3.7-.5.4-.9.7-1.1.8l-.2.2C1 327.2-1.4 334.4.8 340.9S9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5 9.2-3.5 17.8-7.4 25.3-11.4C134.1 343.3 169.8 352 208 352zm240-176c0 112.3-99.1 196.9-216.5 207 24.3 74.4 104.9 129 200.5 129 38.2 0 73.9-8.7 104.7-23.9 7.5 4 16 7.9 25.2 11.4 18.3 6.9 40.3 12.5 62.1 12.5 6.9 0 13.1-4.5 15.2-11.1 2.1-6.6-.2-13.8-5.8-17.9l-.2-.2c-.2-.2-.6-.4-1.1-.8-1-.8-2.5-2-4.3-3.7-3.6-3.3-8.5-8.1-13.3-14.3-5.5-7-10.7-15.4-14.2-24.7 24.9-29 39.6-64.7 39.6-103.4 0-92.8-84.9-168.9-192.6-175.5.4 5.1.6 10.3.6 15.5z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://discord.gg/chBT42V" target="_blank" rel="noopener" title="Discord" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541ZM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241Zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/vcmi/vcmi" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://facebook.com/VCMIOfficial" target="_blank" rel="noopener" title="Facebook" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://twitter.com/VCMIOfficial" target="_blank" rel="noopener" title="X" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9L389.2 48zm-24.8 373.8h39.1L151.1 88h-42l255.3 333.8z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/c/VCMIOfficial" target="_blank" rel="noopener" title="YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://vk.com/VCMIOfficial" target="_blank" rel="noopener" title="VK" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M31.49 63.49C0 94.982 0 145.672 0 247.04v17.92c0 101.369 0 152.059 31.49 183.549C62.982 480 113.672 480 215.04 480h17.92c101.369 0 152.059 0 183.549-31.491C448 417.019 448 366.329 448 264.96v-17.92c0-101.369 0-152.059-31.491-183.55C385.019 32 334.329 32 232.96 32h-17.92C113.671 32 62.981 32 31.49 63.49ZM75.6 168.268h51.147c1.68 85.493 39.386 121.706 69.253 129.173V168.267h48.16V242c29.493-3.173 60.48-36.773 70.933-73.733h48.16a142.258 142.258 0 0 1-65.52 92.96 147.348 147.348 0 0 1 76.72 93.52H321.44a92.154 92.154 0 0 0-77.28-66.64v66.64h-5.787c-102.106 0-160.346-70-162.773-186.48Z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://chatgpt.com/g/g-1kNhX0mlO-vcmi-assistant" target="_blank" rel="noopener" title="ChatGPT" class="md-social__link">
+      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1785 1808"
+   version="1.1"
+   id="svg5"
+   width="16"
+   height="16"
+   fill="currentColor"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5" />
+  <g
+     id="g5"
+     transform="translate(-310.94766,-299.09514)">
+    <path
+       id="a"
+       d="m 1107.3,299.1 c -197.999,0 -373.9,127.3 -435.2,315.3 L 650,743.5 v 427.9 c 0,21.4 11,40.4 29.4,51.4 l 344.5,198.515 V 833.3 h 0.1 V 805.4 L 1372.7,604 c 33.715,-19.52 70.44,-32.857 108.47,-39.828 L 1447.6,450.3 C 1361,353.5 1237.1,298.5 1107.3,299.1 Z m 0,117.5 -0.6,0.6 c 79.699,0 156.3,27.5 217.6,78.4 -2.5,1.2 -7.4,4.3 -11,6.1 L 952.8,709.3 c -18.4,10.4 -29.4,30 -29.4,51.4 V 1248 L 768.3,1158.6 V 755.8 c -0.1,-187.099 151.601,-338.9 339,-339.2 z" />
+    <use
+       xlink:href="#a"
+       transform="rotate(60,1203,1203)"
+       id="use1" />
+    <use
+       xlink:href="#a"
+       transform="rotate(120,1203,1203)"
+       id="use2" />
+    <use
+       xlink:href="#a"
+       transform="rotate(180,1203,1203)"
+       id="use3" />
+    <use
+       xlink:href="#a"
+       transform="rotate(-120,1203,1203)"
+       id="use4" />
+    <use
+       xlink:href="#a"
+       transform="rotate(-60,1203,1203)"
+       id="use5" />
+  </g>
+</svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.path", "navigation.top", "navigation.tabs", "navigation.instant"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a7c05c9e.min.js"></script>
+      
+        <script src="../../assets/external/unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../theme/tablesort.js"></script>
+      
+    
+  <script>document$.subscribe(() => {document.querySelectorAll('.glightbox').forEach(function(element) {
+    var imgSrc = element.querySelector('img').src;
+    element.setAttribute('href', imgSrc);
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
