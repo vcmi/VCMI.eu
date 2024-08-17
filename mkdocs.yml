@@ -45,25 +45,28 @@ extra:
     - icon: fontawesome/solid/comments
       link: https://forum.vcmi.eu/
       name: Forum
-    - icon: fontawesome/brands/discord 
+    - icon: fontawesome/brands/discord
       link: https://discord.gg/chBT42V
       name: Discord
-    - icon: fontawesome/brands/github 
+    - icon: fontawesome/brands/github
       link: https://github.com/vcmi/vcmi
       name: GitHub
-    - icon: fontawesome/brands/facebook 
+    - icon: custom/kofi
+      link: https://ko-fi.com/h3vcmi
+      name: Ko-fi
+    - icon: fontawesome/brands/facebook
       link: https://facebook.com/VCMIOfficial
       name: Facebook
-    - icon: fontawesome/brands/x-twitter 
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/VCMIOfficial
       name: X
-    - icon: fontawesome/brands/youtube 
+    - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/VCMIOfficial
       name: YouTube
-    - icon: fontawesome/brands/vk 
+    - icon: fontawesome/brands/vk
       link: https://vk.com/VCMIOfficial
       name: VK
-    - icon: custom/chatgpt 
+    - icon: custom/chatgpt
       link: https://chatgpt.com/g/g-1kNhX0mlO-vcmi-assistant
       name: ChatGPT
   generator: false

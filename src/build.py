@@ -23,7 +23,7 @@ shutil.rmtree("docs", ignore_errors=True)
 vcmi_url = "https://github.com/vcmi/vcmi/archive/refs/heads/develop.zip"
 settings_schema = load_vcmi_json(urllib.request.urlopen("https://raw.githubusercontent.com/vcmi/vcmi/develop/config/schemas/settings.json").read().decode())
 vcmi_mod_url = settings_schema["properties"]["launcher"]["properties"]["defaultRepositoryURL"]["default"]
-#vcmi_mod_url = "https://pastebin.com/raw/MUYS7dbJ" #test
+#vcmi_mod_url = "https://pastebin.com/raw/Bb8dW5cs" #test
 
 log.info('Download mod repo')
 repo = urllib.request.urlopen(vcmi_url).read()

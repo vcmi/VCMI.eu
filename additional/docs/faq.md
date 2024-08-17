@@ -38,7 +38,7 @@ hide:
 
 * Can I donate?
 
-> No, at the moment we do not accept donations as we do not have any good idea how to spend them.
+> Yes, you can support us on [Ko-fi](https://ko-fi.com/h3vcmi). The donations are used to offer a better experience and to cover the running costs.
 
 * Where do I report bugs?
 
