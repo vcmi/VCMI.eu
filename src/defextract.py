@@ -162,6 +162,19 @@ def extract_def(infile):
                 imp.putpalette(palette)
                 # convert to RGBA
                 imrgb = imp.convert("RGBA")
+
+                # SPELL = 0x40,
+                # SPRITE = 0x41,
+                # CREATURE = 0x42,
+                # MAP = 0x43,
+                # MAP_HERO = 0x44,
+                # TERRAIN = 0x45,
+                # CURSOR = 0x46,
+                # INTERFACE = 0x47,
+                # SPRITE_FRAME = 0x48,
+                # BATTLE_HERO = 0x49
+                has_shadow = t not in [0x40, 0x45, 0x46, 0x47]
+
                 # replace special colors
                 # 0 -> (0,0,0,0)    = full transparency
                 # 1 -> (0,0,0,0x40) = shadow border
@@ -174,11 +187,12 @@ def extract_def(infile):
                 pixrgb = np.array(imrgb)
                 pixp = np.array(imp)
                 pixrgb[pixp == 0] = (0,0,0,0)
-                pixrgb[pixp == 1] = (0,0,0,0x40)
-                pixrgb[pixp == 4] = (0,0,0,0x80)
-                pixrgb[pixp == 5] = (0,0,0,0)
-                pixrgb[pixp == 6] = (0,0,0,0x80)
-                pixrgb[pixp == 7] = (0,0,0,0x40)
+                if has_shadow:
+                    pixrgb[pixp == 1] = (0,0,0,0x40)
+                    pixrgb[pixp == 4] = (0,0,0,0x80)
+                    pixrgb[pixp == 5] = (0,0,0,0)
+                    pixrgb[pixp == 6] = (0,0,0,0x80)
+                    pixrgb[pixp == 7] = (0,0,0,0x40)
                 imrgb = Image.fromarray(pixrgb)
                 im = Image.new('RGBA', (fw,fh), (0,0,0,0))
                 im.paste(imrgb,(lm,tm))
