@@ -5,6 +5,7 @@ from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
 from mdutils.tools.Link import Inline
 from PIL import Image
+import re
 import logging
 log = logging.getLogger('LOGGER_NAME')
 
@@ -18,15 +19,15 @@ def build_mod_page(mod_repo, mod):
 
         mdMod.new_header(level=1, title=mod["name"])
         mdMod.new_header(level=2, title="Description")
-        mdMod.new_line(mod["description"])
+        mdMod.new_line(re.sub(r"<[^>]*>", "", mod["description"].replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n").replace("<p", "\n<p")).replace("\n", "<br />"))
         mdMod.new_header(level=2, title="Version")
         mdMod.new_line(mod["version"])
         if "author" in mod:
             mdMod.new_header(level=2, title="Author")
-            mdMod.new_line(mod["author"])
+            mdMod.new_line(re.sub(r"<[^>]*>", "", mod["author"]))
         if "contact" in mod:
             mdMod.new_header(level=2, title="Contact")
-            mdMod.new_line(mod["contact"])
+            mdMod.new_line(re.sub(r"<[^>]*>", "", mod["contact"]))
         mdMod.new_header(level=2, title="Repository")
         mdMod.new_line(Inline.new_link("/".join(mod_repo["download"].split("/")[:5]), text="View mod on GitHub"))
         if "screenshots" in mod_repo:
