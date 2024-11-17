@@ -3,6 +3,8 @@ import urllib.request
 from mdutils.mdutils import MdUtils
 from mdutils.tools import Html
 from mdutils.tools.Link import Inline
+import re
+import textwrap
 
 from helper import load_vcmi_json
 
@@ -15,10 +17,20 @@ def build_mod_overview(mod_repo, cb):
 
         translations = [k for k, v in mod.items() if isinstance(v, dict) and "translations" in v]
 
+        description = mod["description"].replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n").replace("<p", "\n<p")
+        description = re.sub(r"<[^>]*>", "", description)
+        w = textwrap.TextWrapper(width=300,break_long_words=False,replace_whitespace=False)
+        description_short = w.wrap(description)
+        if len(description) != len(description_short[0]):
+            description = description_short[0] + " [...]"
+        else:
+            description = description_short[0]
+        description = description.replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;")
+
         mdModOverviewTable.extend([
             Inline.new_link('../' + mod["modType"] + '/' + mod["name"].replace("|", "&#124;"), text=mod["name"].replace("|", "&#124;")),
             mod["modType"],
-            mod["description"].replace("\r\n", "<br/>").replace("\n", "<br/>").replace("|", "&#124;"),
+            description,
             mod["version"],
             ", ".join(translations)
         ])
