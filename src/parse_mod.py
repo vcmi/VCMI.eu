@@ -68,7 +68,7 @@ class ModParser:
                     data = load_vcmi_json(open(os.path.join(subdir, file)).read())
                     mods.append(
                         {
-                            "pyhsicaldir": subdir,
+                            "physicaldir": subdir,
                             "moddir": os.path.relpath(subdir, os.path.join(self.__tempdirname.name, os.listdir(self.__tempdirname.name)[0])),
                             "data": data,
                             "name": data["name"],
@@ -85,11 +85,11 @@ class ModParser:
         return Image.fromarray(data, mode='RGBA')
 
     def get_image(self, mod, path):
-        fullpaths = [os.path.join(mod["pyhsicaldir"], "content/sprites", path), os.path.join(mod["pyhsicaldir"], "content/data", path)]
+        fullpaths = [os.path.join(mod["physicaldir"], "content/sprites", path), os.path.join(mod["physicaldir"], "content/data", path)]
         fullpaths = [x.rstrip("/") for x in fullpaths]
         fullpaths = [x.rsplit('.', 1)[0] if "." in x.split("/")[-1] else x for x in fullpaths]
         for fullpath in fullpaths:
-            for subdir, dirs, files in os.walk(mod["pyhsicaldir"]):
+            for subdir, dirs, files in os.walk(mod["physicaldir"]):
                 for file in files:
                     if os.path.join(subdir, file).lower().startswith(fullpath.lower()) and os.path.isfile(os.path.join(subdir, file)):
                         try:
@@ -110,11 +110,11 @@ class ModParser:
         return self.image_convert_to_base64_html(img, format)
 
     def get_animations(self, mod, path):
-        fullpaths = [os.path.join(mod["pyhsicaldir"], "content/sprites", path), os.path.join(mod["pyhsicaldir"], "content/data", path)]
+        fullpaths = [os.path.join(mod["physicaldir"], "content/sprites", path), os.path.join(mod["physicaldir"], "content/data", path)]
         fullpaths = [x.rstrip("/") for x in fullpaths]
         fullpaths = [x.rsplit('.', 1)[0] if "." in x.split("/")[-1] else x for x in fullpaths]
         for fullpath in fullpaths:
-            for subdir, dirs, files in os.walk(mod["pyhsicaldir"]):
+            for subdir, dirs, files in os.walk(mod["physicaldir"]):
                 for file in files:
                     if os.path.join(subdir, file).lower().startswith(fullpath.lower()):
                         if file.lower().endswith(".json") or file.lower().endswith(".def"):
