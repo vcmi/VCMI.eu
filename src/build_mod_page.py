@@ -54,16 +54,23 @@ def build_mod_page(mod_repo, mod):
 def create_creature_table(md, mod, modparser):
     log.info('create creature table for ' + mod["data"]["name"])
     if "creatures" in mod["config"]:
-        header = ["Name", "Image", "Level", "Attack", "Defense", "Damage", "Speed", "HitPoints", "Growth", "AiValue"]
+        header = ["Name", "Image", "Anim", "Level", "Attack", "Defense", "Damage", "Speed", "HitPoints", "Growth", "AiValue"]
         mdModTable = header.copy()
         for k, v in mod["config"]["creatures"].items():
             if not k.lower().startswith("core:") and "name" in mod["config"]["creatures"][k]:
                 image = ""
+                imageAnim = ""
+                if "animation" in mod["config"]["creatures"][k]["graphics"]:
+                    animations = modparser.get_animations(mod, mod["config"]["creatures"][k]["graphics"]["animation"])
+                    if 0 in animations['sequences']:
+                        frames = animations['sequences'][0]['frames']
+                        imageAnim = Html.image(path=modparser.animation_convert_to_base64_html(frames), size='50')
                 if "iconLarge" in mod["config"]["creatures"][k]["graphics"]:
                     image = Html.image(path=modparser.get_image_base64(mod, mod["config"]["creatures"][k]["graphics"]["iconLarge"]), size='50')
                 mdModTable.extend([
                     mod["config"]["creatures"][k]["name"]["singular"],
                     image,
+                    imageAnim,
                     get_value_if_exists(mod["config"]["creatures"][k], "level"),
                     get_value_if_exists(mod["config"]["creatures"][k], "attack"),
                     get_value_if_exists(mod["config"]["creatures"][k], "defense"),

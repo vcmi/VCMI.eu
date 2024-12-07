@@ -13,7 +13,7 @@ log = logging.getLogger('LOGGER_NAME')
 
 from helper import load_vcmi_json
 
-from defextract import extract_def
+from homm3data import deffile
 
 def nested_update(d, u):
     for k, v in u.items():
@@ -108,6 +108,15 @@ class ModParser:
         if img == None:
             return ""
         return self.image_convert_to_base64_html(img, format)
+    
+    def animation_convert_to_base64_html(self, frames):
+        bounding_box = (min([x.convert("RGBa").getbbox()[0] for x in frames]), min([x.convert("RGBa").getbbox()[1] for x in frames]), max([x.convert("RGBa").getbbox()[2] for x in frames]), max([x.convert("RGBa").getbbox()[3] for x in frames]))
+        cropped_frames = [x.crop(bounding_box) for x in frames]
+        buffered = BytesIO()
+        frame_one = cropped_frames[0]
+        frame_one.save(buffered, format="GIF", append_images=cropped_frames, save_all=True, duration=100, loop=0, disposal=2)
+        img_str = "data:image/gif;base64," + base64.b64encode(buffered.getvalue()).decode()
+        return img_str
 
     def get_animations(self, mod, path):
         fullpaths = [os.path.join(mod["physicaldir"], "content/sprites", path), os.path.join(mod["physicaldir"], "content/data", path)]
@@ -127,4 +136,15 @@ class ModParser:
                                         tmp["sequences"][i]["frames"][j] = self.get_image(mod, path_img)
                                 return tmp
                             else:
-                                return extract_def(os.path.join(subdir, file))
+                                with deffile.open(os.path.join(subdir, file)) as d:
+                                    tmp = {}
+                                    tmp["sequences"] = {}
+                                    for group in d.get_groups():
+                                        tmp["sequences"][group] = {}
+                                        tmp["sequences"][group]["frames"] = []
+                                        for frame in range(d.get_frame_count(group)):
+                                            try:
+                                                tmp["sequences"][group]["frames"].append(d.read_image('combined', group, frame))
+                                            except:
+                                                pass
+                                return tmp
