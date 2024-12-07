@@ -62,7 +62,7 @@ def create_creature_table(md, mod, modparser):
                 imageAnim = ""
                 if "animation" in mod["config"]["creatures"][k]["graphics"]:
                     animations = modparser.get_animations(mod, mod["config"]["creatures"][k]["graphics"]["animation"])
-                    if 0 in animations['sequences']:
+                    if 'sequences' in animations and 0 in animations['sequences']:
                         frames = animations['sequences'][0]['frames']
                         if len(frames) > 0:
                             imageAnim = Html.image(path=modparser.animation_convert_to_base64_html(frames), size='50')
