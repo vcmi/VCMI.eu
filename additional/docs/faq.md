@@ -10,7 +10,7 @@ hide:
 
 * What does "VCMI" stand for?
 
-> VCMI is an acronym of the [Quenya](https://en.wikipedia.org/wiki/Quenya) phrase "Vinyar Callor Meletya Ingole", meaning "New Heroes of Might and Magic". <!-- https://forum.vcmi.eu/t/what-vcmi-stands-for/297/4 -->
+> VCMI is an acronym of the [Quenya](https://en.wikipedia.org/wiki/Quenya) phrase "Vinyar Callor Meletyo ar Ingoleo", meaning "New Heroes of Might and Magic". <!-- https://forum.vcmi.eu/t/what-vcmi-stands-for/297/4 -->
 
 * What is the purpose of VCMI? Why to play or develop it if Heroes 3 already exists?
 
@@ -22,15 +22,15 @@ hide:
 
 * Is HD Mod compatible with VCMI?
 
-> While HD Mod isn't compatible with VCMI, VCMI offers its own options for high resolutions and quality-of-life improvements to the game's interface. These features include remakes of some popular functions from HD Mod, and even more will  for future updates as the project evolves.
+> While HD Mod isn't compatible with VCMI, VCMI offers its own options for high resolutions and quality-of-life improvements to the game's interface. These features include remakes of most popular functions from HD Mod, and even more will be added in future updates as the project evolves.
 
 * For which platforms is VCMI available?
 
-> Windows, macOS, Linux, Android, iOS and more
+> Windows, MacOS, Linux, Android, iOS and more
 
 * Where do I get the latest version?
 
-> We recommend downloading the latest release from <https://vcmi.eu/download/> - there are also installation instructions for your system. For Android users, it's recommended to install it from Google Play at <https://play.google.com/store/apps/details?id=is.xyz.vcmi>
+> We recommend downloading the latest release from <https://vcmi.eu/download/>, installing in new folder and then running VCMI launcher that will guide you further. There are also additional installation instructions for your system available below download links. For Android users, it's recommended to install it from Google Play at <https://play.google.com/store/apps/details?id=is.xyz.vcmi>
 
 * Who works on this?
 
@@ -54,7 +54,7 @@ hide:
 
 * How close is VCMI to replicating Heroes of Might and Magic 3?
 
-> Almost every feature from the original game should. If something doesn't work, report it on our [Bugtracker](https://github.com/vcmi/vcmi/issues). 
+> Almost every feature from the original game should be already implemented. If something doesn't work, report it on our [Bugtracker](https://github.com/vcmi/vcmi/issues). 
 
 * When is VCMI final / 2.0 / whatever version going to be released?
 
@@ -78,4 +78,4 @@ hide:
 
 * What are the options to customize AI?
 
-> The default AI for adventure maps in VCMI is Nullkiller AI. It provides a challenging strategic opponent, but be aware that it might run slower on low-end devices, also depending on played map size. For a faster alternative, the VCMI launcher lets you switch to the simpler VCAI. If you're looking for an even tougher challenge, consider trying the Boost AI or Extreme AI mods, which offer options for increased AI difficulty.
+> The default AI for adventure maps in VCMI is Nullkiller AI. It provides a challenging strategic opponent, but be aware that it might run slower on low-end devices, also depending on played map size. If you're looking for an even tougher challenge, consider trying the Boost AI or Extreme AI mods, which offer options for increased AI difficulty.
