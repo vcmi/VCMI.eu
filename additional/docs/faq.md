@@ -26,7 +26,7 @@ hide:
 
 * For which platforms is VCMI available?
 
-> Windows, MacOS, Linux, Android, iOS and more
+> Windows, macOS, Linux, Android, iOS and more
 
 * Where do I get the latest version?
 
