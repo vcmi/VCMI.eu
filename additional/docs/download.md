@@ -25,6 +25,10 @@ hide:
 ## Required files to play
 [:fontawesome-solid-gamepad: Heroes III: Complete (buy on gog.com)](https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition){ .md-button }
 
+## Optional files (as extension)
+[:fontawesome-solid-gamepad: Heroes Chronicles (buy on gog.com)](https://www.gog.com/en/game/heroes_chronicles_all_chapters){ .md-button }
+[:fontawesome-solid-gamepad: Heroes of Might & Magic III - HD Edition (experimental) (buy on Steam)](https://store.steampowered.com/app/297000/Heroes_of_Might__Magic_III__HD_Edition){ .md-button }
+
 ## Help
 [:fontawesome-brands-windows: Windows](../players/Installation_Windows/){ .md-button }
 [:fontawesome-brands-apple: macOS](../players/Installation_macOS/){ .md-button }
