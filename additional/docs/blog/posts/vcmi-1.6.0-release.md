@@ -17,11 +17,11 @@ VCMI now can improve graphics quality thanks to smart xBRZ upscaling, plus suppo
 ## Smarter AI
 Our adventure map AI (Nullkiller AI) was greatly enhanced, and some combat AI tweaks also landed. 
 
-## Chronicles support
+## Heroes Chronicles support
 If you own Heroes Chronicles on GOG, you can now import these campaigns seamlessly via the “import files” option in our Launcher.
 
 ## Statistics and handicap
-New handicap featue can not only handle gold transfer known from PvP games, but also change growth and income to adjust game challenge over wide range.
+New handicap feature can not only handle gold transfer known from PvP games, but also change growth and income to adjust game challenge over wide range.
 And once a scenario is finished, a new screen shows detailed statistics like resource flow and army power over time.
 
 ## Spell research and quick spell panel
