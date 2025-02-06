@@ -6,6 +6,6 @@ mkdocs-rss-plugin==1.12.2
 mdutils==1.6.0
 json_repair==0.20.1
 json5==0.9.25
-pillow==10.3.0
+pillow==11.1.0
 numpy==1.26.4
 homm3data==0.1.5
