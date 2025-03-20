@@ -27,7 +27,7 @@ vcmi_mod_url = settings_schema["properties"]["launcher"]["properties"]["defaultR
 
 log.info('Download mod repo')
 repo = urllib.request.urlopen(vcmi_url).read()
-repo_mod = load_vcmi_json(urllib.request.urlopen(vcmi_mod_url).read().decode())
+repo_mod = load_vcmi_json(urllib.request.urlopen(vcmi_mod_url).read().decode())["availableMods"]
 
 log.info('Create main page')
 build_extract_main_repo(repo)
