@@ -8,7 +8,6 @@ hide:
 ## Desktop
 [:fontawesome-brands-windows: Windows (x64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Windows-x64.exe){ .md-button .md-button--primary }
 [:fontawesome-brands-windows: Windows (x86)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Windows-x86.exe){ .md-button .md-button--primary }
-#[:fontawesome-brands-windows: Windows (ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Windows-arm64.exe){ .md-button .md-button--primary }
 
 [:fontawesome-brands-apple: macOS (ARM)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-macOS-arm.dmg){ .md-button .md-button--primary }
 [:fontawesome-brands-apple: macOS (Intel)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-macOS-intel.dmg){ .md-button .md-button--primary }
