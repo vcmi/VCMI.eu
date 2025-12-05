@@ -28,6 +28,8 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y libjpeg-dev
       - run: pip install -r requirements.txt
       - run: python3 src/build.py
       - run: mkdocs gh-deploy --force
