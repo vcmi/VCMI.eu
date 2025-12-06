@@ -1,0 +1,10 @@
+[project]
+name = "my-mkdocs-plugins"
+version = "0.0.1"
+dependencies = [
+    "mkdocs",
+    "mkdocs-material",
+]
+
+[project.entry-points."mkdocs.plugins"]
+patch-retry = "patch_retry:PatchRetryPlugin"

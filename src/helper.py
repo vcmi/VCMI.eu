@@ -1,6 +1,7 @@
 import re
 import json_repair
 import json5
+import requests
 
 def get_value_if_exists(elem, val):
     return elem[val] if val in elem else ""
@@ -28,3 +29,10 @@ def load_vcmi_json(string):
         obj = json_repair.loads(tmp)
 
     return obj
+
+def url_ok(url, timeout=5):
+    try:
+        r = requests.head(url, allow_redirects=True, timeout=timeout)
+        return r.status_code == 200
+    except requests.RequestException:
+        return False

@@ -4,7 +4,9 @@ plugins:
   - include_dir_to_nav
   - blog:
       authors: false
-  - privacy
+  - patch-retry
+  - privacy:
+      concurrency: 1
   - search
   - glightbox
   - rss:
@@ -13,6 +15,7 @@ plugins:
         as_creation: date
       categories:
         - categories
+  - optimize
 theme:
   name: material
   icon:
@@ -22,6 +25,10 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - content.code.copy
+    - content.code.select
   logo: assets/logo.svg
   favicon: assets/favicon.png
   palette:

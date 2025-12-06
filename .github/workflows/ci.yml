@@ -29,7 +29,8 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y libjpeg-dev
+        run: sudo apt-get update && sudo apt-get install -y libjpeg-dev pngquant
       - run: pip install -r requirements.txt
+      - run: pip install -e .
       - run: python3 src/build.py
       - run: mkdocs gh-deploy --force

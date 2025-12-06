@@ -10,7 +10,7 @@ import logging
 log = logging.getLogger('LOGGER_NAME')
 
 from parse_mod import ModParser
-from helper import get_value_if_exists
+from helper import get_value_if_exists, url_ok
 
 def build_mod_page(mod_repo, mod):
     try:
@@ -34,7 +34,8 @@ def build_mod_page(mod_repo, mod):
             mdMod.new_header(level=2, title="Screenshots")
             mdMod.write('<p>')
             for i, screenshot in enumerate(mod_repo["screenshots"]):
-                mdMod.new_paragraph(Html.image(path=screenshot, size='100'))
+                if url_ok(screenshot):
+                    mdMod.new_paragraph(Html.image(path=screenshot, size='100'))
             mdMod.write('</p>')
 
         mdMod.new_header(level=2, title="Submods")
