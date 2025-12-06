@@ -32,7 +32,10 @@ class ModParser:
         self.__extract_mod(self.__url)
 
     def __del__(self):
-        self.__tempdirname.cleanup()
+        try:
+            self.__tempdirname.cleanup()
+        except:
+            pass
         
     def __extract_mod(self, url):
         log.info('download mod: ' + url)
