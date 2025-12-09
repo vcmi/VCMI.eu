@@ -15,7 +15,7 @@ plugins:
         as_creation: date
       categories:
         - categories
-  - optimize
+#  - optimize
 theme:
   name: material
   icon:
