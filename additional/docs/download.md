@@ -27,7 +27,7 @@ hide:
 [:fontawesome-solid-gamepad: Heroes III: Complete (buy on gog.com)](https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition){ .md-button }
 
 ## Optional files
-### (as extension; Complete/SoD files still required)
+#### (as extension; Complete/SoD files still required)
 [:fontawesome-solid-gamepad: Heroes Chronicles (buy on gog.com)](https://www.gog.com/en/game/heroes_chronicles_all_chapters){ .md-button }
 [:fontawesome-solid-gamepad: Heroes of Might & Magic III - HD Edition (buy on Steam)](https://store.steampowered.com/app/297000/Heroes_of_Might__Magic_III__HD_Edition){ .md-button }
 
