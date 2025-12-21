@@ -19,7 +19,7 @@ Keybindings can now be viewed and configured in-game, making it much easier to t
 
 ## Better adventure gameplay and AI
 
-The default adventure map AI is now the improved Nullkiller2, bringing stronger decision-making and better overall flow (while the deprecated VCAI was removed). Gameplay mechanics received plenty of attention as well, including HotA 1.7 map features (like scroll-related Seer Hut / Pandora rewards), improved handling of quests and events, and a steady stream of “works like H3” fixes.
+The default adventure map AI is now the improved Nullkiller2, bringing stronger decision-making and better overall flow (while the deprecated VCAI was removed). The experimental machine learning based battle AI MMAI was added. Gameplay mechanics received plenty of attention as well, including HotA 1.7 map features (like scroll-related Seer Hut / Pandora rewards), improved handling of quests and events, and a steady stream of “works like H3” fixes.
 
 ## Multiplayer: lag compensation and simultaneous turns
 
