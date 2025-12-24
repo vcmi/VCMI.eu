@@ -20,6 +20,7 @@ hide:
 [:fontawesome-brands-google-play: Android (Play Store)](https://play.google.com/store/apps/details?id=is.xyz.vcmi){ .md-button .md-button--primary }
 [:fontawesome-brands-android: Android (ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-arm64-v8a.apk){ .md-button .md-button--primary }
 [:fontawesome-brands-android: Android (ARM32)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-armeabi-v7a.apk){ .md-button .md-button--primary }
+[:fontawesome-brands-android: Android (x64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-x86_64.apk){ .md-button .md-button--primary }
 
 [:fontawesome-brands-apple: iOS](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-iOS.ipa){ .md-button .md-button--primary }
 
