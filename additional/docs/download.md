@@ -13,9 +13,9 @@ hide:
 [:fontawesome-brands-apple: macOS (ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-macOS-arm.dmg){ .md-button .md-button--primary }
 [:fontawesome-brands-apple: macOS (Intel)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-macOS-intel.dmg){ .md-button .md-button--primary }
 
+[:fontawesome-brands-linux: Linux (Flathub)](https://flathub.org/apps/eu.vcmi.VCMI){ .md-button .md-button--primary }
 [:fontawesome-brands-linux: Linux (AppImage; x64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Linux-x64.AppImage){ .md-button .md-button--primary }
 [:fontawesome-brands-linux: Linux (AppImage; ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Linux-arm64.AppImage){ .md-button .md-button--primary }
-[:fontawesome-brands-linux: Linux (Flathub)](https://flathub.org/apps/eu.vcmi.VCMI){ .md-button .md-button--primary }
 
 ## Mobile
 [:fontawesome-brands-google-play: Android (Play Store)](https://play.google.com/store/apps/details?id=is.xyz.vcmi){ .md-button .md-button--primary }
