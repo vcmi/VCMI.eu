@@ -13,7 +13,8 @@ hide:
 [:fontawesome-brands-apple: macOS (ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-macOS-arm.dmg){ .md-button .md-button--primary }
 [:fontawesome-brands-apple: macOS (Intel)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-macOS-intel.dmg){ .md-button .md-button--primary }
 
-[:fontawesome-brands-linux: Linux](../players/Installation_Linux/){ .md-button .md-button--primary }
+[:fontawesome-brands-linux: Linux (AppImage; x64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Linux-x64.AppImage){ .md-button .md-button--primary }
+[:fontawesome-brands-linux: Linux (AppImage; ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Linux-arm64.AppImage){ .md-button .md-button--primary }
 [:fontawesome-brands-linux: Linux (Flathub)](https://flathub.org/apps/eu.vcmi.VCMI){ .md-button .md-button--primary }
 
 ## Mobile
