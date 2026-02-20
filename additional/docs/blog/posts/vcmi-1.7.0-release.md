@@ -9,6 +9,8 @@ date: 2025-12-24
 
 A new major release just arrived: VCMI 1.7.0! This time we focused on combat experience, quality-of-life improvements, big editor & modding upgrades, and smoother multiplayer.
 
+<!-- more -->
+
 ## Battle-only mode and smoother combat
 
 Want to jump straight into tactics? A new battle-only mode lets you play combat between heroes without the adventure map phase. We’ve also improved the combat UI with a new unit action panel for quick access to alternative actions, plus many refinements like a more compact battle window and extra options during tactics.
