@@ -42,3 +42,4 @@ hide:
 
 ## Other downloads
 [:fontawesome-brands-github: see on GitHub](https://github.com/vcmi/vcmi/releases/latest){ .md-button }
+[:fontawesome-solid-wrench: Daily Builds](https://builds.vcmi.download/){ .md-button }
