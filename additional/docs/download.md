@@ -22,6 +22,7 @@ hide:
 [:fontawesome-brands-android: Android (ARM32)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-armeabi-v7a.apk){ .md-button .md-button--primary }
 [:fontawesome-brands-android: Android (x64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-x86_64.apk){ .md-button .md-button--primary }
 
+[:fontawesome-brands-apple: iOS (Testflight)](https://testflight.apple.com/join/pJWHSbmu){ .md-button .md-button--primary }
 [:fontawesome-brands-apple: iOS](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-iOS.ipa){ .md-button .md-button--primary }
 
 ## Required files to play
@@ -41,3 +42,4 @@ hide:
 
 ## Other downloads
 [:fontawesome-brands-github: see on GitHub](https://github.com/vcmi/vcmi/releases/latest){ .md-button }
+[:fontawesome-solid-wrench: Daily Builds](https://builds.vcmi.download/){ .md-button }
