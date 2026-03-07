@@ -19,7 +19,7 @@ def build_mod_overview(mod_repo, cb):
 
         if "description" in mod:
             description = mod["description"].replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n").replace("<p", "\n<p")
-        else
+        else:
             description = "(no description provided)"
         description = re.sub(r"<[^>]*>", "", description)
         w = textwrap.TextWrapper(width=300,break_long_words=False,replace_whitespace=False)
