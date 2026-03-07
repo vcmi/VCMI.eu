@@ -19,7 +19,8 @@ def build_mod_page(mod_repo, mod):
 
         mdMod.new_header(level=1, title=mod["name"])
         mdMod.new_header(level=2, title="Description")
-        mdMod.new_line(re.sub(r"<[^>]*>", "", mod["description"].replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n").replace("<p", "\n<p")).replace("\n", "<br />"))
+        if "description" in mod:
+            mdMod.new_line(re.sub(r"<[^>]*>", "", mod["description"].replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n").replace("<p", "\n<p")).replace("\n", "<br />"))
         mdMod.new_header(level=2, title="Version")
         mdMod.new_line(mod["version"])
         if "author" in mod:
