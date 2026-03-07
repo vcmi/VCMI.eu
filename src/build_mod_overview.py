@@ -17,7 +17,10 @@ def build_mod_overview(mod_repo, cb):
 
         translations = [k for k, v in mod.items() if isinstance(v, dict) and "translations" in v]
 
-        description = mod["description"].replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n").replace("<p", "\n<p")
+        if "description" in mod:
+            description = mod["description"].replace("<br>", "\n").replace("<br/>", "\n").replace("<br />", "\n").replace("<p", "\n<p")
+        else
+            description = "(no description provided)"
         description = re.sub(r"<[^>]*>", "", description)
         w = textwrap.TextWrapper(width=300,break_long_words=False,replace_whitespace=False)
         description_short = w.wrap(description)
