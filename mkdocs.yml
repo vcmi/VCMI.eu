@@ -81,10 +81,15 @@ extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - theme/tablesort.js
 copyright: >
+  <style>.do-cr{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;}@media(max-width:600px){.do-cr{flex-wrap:wrap;}}</style>
+  <div class="do-cr">
+  <div style="flex:1 1 auto; min-width:0;">
   Copyright &copy; 2007 - <span id="copyyear"></span><script>document.getElementById('copyyear').innerHTML = new Date().getFullYear();</script> VCMI team
-  <p style="font-size:.42rem !important; margin-bottom: -0.25rem !important;; margin-top: 0.15rem !important;">VCMI, this page and the VCMI Team are in no way associated with or supported by Ubisoft Entertainment. Heroes, Might and Magic, Heroes of Might and Magic and their respective logos are registered trademarks of Ubisoft Entertainment in the U.S. and/or other countries. All Rights Reserved. All other trademarks are properties of their respective owners.</p>
+  <p style="font-size:.42rem !important; margin-bottom: -0.25rem !important; margin-top: 0.15rem !important;">VCMI, this page and the VCMI Team are in no way associated with or supported by Ubisoft Entertainment. Heroes, Might and Magic, Heroes of Might and Magic and their respective logos are registered trademarks of Ubisoft Entertainment in the U.S. and/or other countries. All Rights Reserved. All other trademarks are properties of their respective owners.</p>
   <p style="font-size:.42rem !important; margin-bottom: -0.6rem !important;">Buy Heroes III on <a href="https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition">gog.com</a>, we don't support piracy! Made with <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></p>
-  <p><a href="https://m.do.co/c/b2d5cf698ed1"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_white.svg" width="201px"></a></p>
+  </div>
+  <a href="https://m.do.co/c/b2d5cf698ed1" style="flex-shrink:0;"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_white.svg" width="201px"></a>
+  </div>
 markdown_extensions:
   - md_in_html
   - attr_list
