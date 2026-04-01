@@ -206,7 +206,7 @@ This page shows current lobby statistics.
     .then(resp=>{ if (!resp.ok) throw new Error('Network response not ok'); return resp.json(); })
     .then(json=>{
       if (elLoading) elLoading.style.display='none';
-      fillCombinedTable({ lobbyStartTime: json.lobbyStartTime, registeredPlayersCount: json.registeredPlayersCount }, json.gameCount, json.lobbyCount, json.onlinePlayersCount);
+      fillCombinedTable({ lobbyStartTime: json.lobbyStartTime, registeredPlayersCount: json.registeredPlayersCount.total }, json.gameCount, json.lobbyCount, json.onlinePlayersCount);
 
       if (elContent) elContent.style.display='block';
     })
@@ -215,10 +215,9 @@ This page shows current lobby statistics.
   // fetch rooms
   const roomsUrl = window.API_URL + window.API_ENDPOINT_ROOMS ;
   function statusEmoji(s){
-    // 1=PUBLIC,2=PRIVATE,3=BUSY
-    if (s === 1) return '🟢';
-    if (s === 2) return '🔑';
-    if (s === 3) return '⚔️';
+    if (s === "public") return '🟢';
+    if (s === "private") return '🔑';
+    if (s === "busy") return '⚔️';
     return '';
   }
 
@@ -226,8 +225,7 @@ This page shows current lobby statistics.
     const tbody = document.getElementById('tbl_rooms').getElementsByTagName('tbody')[0];
     tbody.innerHTML = '';
     if (!json || !Array.isArray(json.rooms)) return;
-    // filter only PUBLIC(1), PRIVATE(2), BUSY(3)
-    const rows = json.rooms.filter(r=>[1,2,3].includes(r.status));
+    const rows = json.rooms.filter(r=>["public", "private", "busy"].includes(r.status));
     // sort by createdAt desc
     rows.sort((a,b)=>{ const da = Date.parse(a.createdAt); const db = Date.parse(b.createdAt); return (isNaN(db)?0:db) - (isNaN(da)?0:da); });
     rows.forEach(r=>{
