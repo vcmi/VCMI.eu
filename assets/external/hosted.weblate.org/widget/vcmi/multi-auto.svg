@@ -1,0 +1,635 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="420" xml:lang="en">
+<defs>
+
+<style type="text/css">@import url(https://hosted.weblate.org/static/weblate_fonts/source-sans-3.css);</style>
+
+</defs>
+<g id="layer1">
+
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/be/" xlink:title="Belarusian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="20"
+   id="text20">Belarusian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="20"
+   id="percent20">2%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect20"
+   width="3"
+   height="6"
+   x="200"
+   rx="2"
+   y="14" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/bg/" xlink:title="Bulgarian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="35"
+   id="text35">Bulgarian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="35"
+   id="percent35">2%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect35"
+   width="3"
+   height="6"
+   x="200"
+   rx="2"
+   y="29" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/zh_Hans/" xlink:title="Chinese (Simplified Han script)">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="50"
+   id="text50">Chinese (Simplified Han script)</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="50"
+   id="percent50">90%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect50"
+   width="135"
+   height="6"
+   x="200"
+   rx="2"
+   y="44" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/cs/" xlink:title="Czech">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="65"
+   id="text65">Czech</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="65"
+   id="percent65">96%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect65"
+   width="145"
+   height="6"
+   x="200"
+   rx="2"
+   y="59" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/nl/" xlink:title="Dutch">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="80"
+   id="text80">Dutch</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="80"
+   id="percent80">37%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect80"
+   width="56"
+   height="6"
+   x="200"
+   rx="2"
+   y="74" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/en/" xlink:title="English">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="95"
+   id="text95">English</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="95"
+   id="percent95">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect95"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="89" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/fil/" xlink:title="Filipino">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="110"
+   id="text110">Filipino</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="110"
+   id="percent110">37%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect110"
+   width="56"
+   height="6"
+   x="200"
+   rx="2"
+   y="104" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/fi/" xlink:title="Finnish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="125"
+   id="text125">Finnish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="125"
+   id="percent125">2%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect125"
+   width="3"
+   height="6"
+   x="200"
+   rx="2"
+   y="119" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/fr/" xlink:title="French">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="140"
+   id="text140">French</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="140"
+   id="percent140">39%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect140"
+   width="59"
+   height="6"
+   x="200"
+   rx="2"
+   y="134" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/de/" xlink:title="German">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="155"
+   id="text155">German</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="155"
+   id="percent155">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect155"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="149" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/el/" xlink:title="Greek">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="170"
+   id="text170">Greek</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="170"
+   id="percent170">2%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect170"
+   width="3"
+   height="6"
+   x="200"
+   rx="2"
+   y="164" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/hu/" xlink:title="Hungarian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="185"
+   id="text185">Hungarian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="185"
+   id="percent185">58%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect185"
+   width="87"
+   height="6"
+   x="200"
+   rx="2"
+   y="179" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/it/" xlink:title="Italian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="200"
+   id="text200">Italian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="200"
+   id="percent200">58%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect200"
+   width="88"
+   height="6"
+   x="200"
+   rx="2"
+   y="194" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/ja/" xlink:title="Japanese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="215"
+   id="text215">Japanese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="215"
+   id="percent215">58%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect215"
+   width="87"
+   height="6"
+   x="200"
+   rx="2"
+   y="209" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/ko/" xlink:title="Korean">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="230"
+   id="text230">Korean</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="230"
+   id="percent230">2%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect230"
+   width="3"
+   height="6"
+   x="200"
+   rx="2"
+   y="224" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/lv/" xlink:title="Latvian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="245"
+   id="text245">Latvian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="245"
+   id="percent245">38%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect245"
+   width="57"
+   height="6"
+   x="200"
+   rx="2"
+   y="239" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/nb_NO/" xlink:title="Norwegian Bokmål">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="260"
+   id="text260">Norwegian Bokmål</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="260"
+   id="percent260">2%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect260"
+   width="3"
+   height="6"
+   x="200"
+   rx="2"
+   y="254" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/pl/" xlink:title="Polish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="275"
+   id="text275">Polish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="275"
+   id="percent275">96%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect275"
+   width="145"
+   height="6"
+   x="200"
+   rx="2"
+   y="269" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/pt/" xlink:title="Portuguese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="290"
+   id="text290">Portuguese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="290"
+   id="percent290">70%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect290"
+   width="105"
+   height="6"
+   x="200"
+   rx="2"
+   y="284" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/ro/" xlink:title="Romanian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="305"
+   id="text305">Romanian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="305"
+   id="percent305">84%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect305"
+   width="126"
+   height="6"
+   x="200"
+   rx="2"
+   y="299" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/ru/" xlink:title="Russian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="320"
+   id="text320">Russian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="320"
+   id="percent320">71%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect320"
+   width="107"
+   height="6"
+   x="200"
+   rx="2"
+   y="314" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/sr/" xlink:title="Serbian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="335"
+   id="text335">Serbian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="335"
+   id="percent335">38%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect335"
+   width="57"
+   height="6"
+   x="200"
+   rx="2"
+   y="329" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/es/" xlink:title="Spanish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="350"
+   id="text350">Spanish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="350"
+   id="percent350">96%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect350"
+   width="145"
+   height="6"
+   x="200"
+   rx="2"
+   y="344" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/sv/" xlink:title="Swedish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="365"
+   id="text365">Swedish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="365"
+   id="percent365">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect365"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="359" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/tr/" xlink:title="Turkish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="380"
+   id="text380">Turkish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="380"
+   id="percent380">94%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect380"
+   width="141"
+   height="6"
+   x="200"
+   rx="2"
+   y="374" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/uk/" xlink:title="Ukrainian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="395"
+   id="text395">Ukrainian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="395"
+   id="percent395">97%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect395"
+   width="145"
+   height="6"
+   x="200"
+   rx="2"
+   y="389" />
+</a>
+
+<a xlink:href="https://hosted.weblate.org/projects/vcmi/-/vi/" xlink:title="Vietnamese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="410"
+   id="text410">Vietnamese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="410"
+   id="percent410">59%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect410"
+   width="88"
+   height="6"
+   x="200"
+   rx="2"
+   y="404" />
+</a>
+
+
+</g>
+</svg>
+
+
