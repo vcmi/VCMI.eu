@@ -15,6 +15,7 @@ plugins:
         as_creation: date
       categories:
         - categories
+  - macros
 #  - optimize
 theme:
   name: material
@@ -38,6 +39,7 @@ theme:
   custom_dir: overrides
 nav:
   - Home: index.md
+  - Lobby: lobby.md
   - Blog: blog/index.md
   - Download: download.md
   - Changelog: ChangeLog.md
@@ -49,6 +51,10 @@ nav:
   - Translators: translators
   - Developers: developers
 extra:
+  api_url: "https://api.vcmi.eu"
+  api_endpoint_stats: "/api/v1/stats"
+  api_endpoint_chats: "/api/v1/chats"
+  api_endpoint_rooms: "/api/v1/rooms"
   social:
     - icon: fontawesome/solid/comments
       link: https://forum.vcmi.eu/

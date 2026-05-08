@@ -3,6 +3,7 @@ mkdocs-include-dir-to-nav==1.2.0
 mkdocs-material==9.7.0
 mkdocs-glightbox==0.3.7 # newer versions causes problem (lightbox works only for cached images)
 mkdocs-rss-plugin==1.17.7
+mkdocs-macros-plugin==1.5.0
 mdutils==1.8.1
 json_repair==0.54.2
 json5==0.12.1
