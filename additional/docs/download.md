@@ -14,11 +14,13 @@ hide:
 [:fontawesome-brands-apple: macOS (Intel)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-macOS-intel.dmg){ .md-button .md-button--primary }
 
 [:fontawesome-brands-linux: Linux (Flathub)](https://flathub.org/apps/eu.vcmi.VCMI){ .md-button .md-button--primary }
+[:fontawesome-brands-linux: Linux (Ubuntu PPA)](https://code.launchpad.net/~vcmi/+recipe/vcmi-stable){ .md-button .md-button--primary }
 [:fontawesome-brands-linux: Linux (AppImage; x64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Linux-x64.AppImage){ .md-button .md-button--primary }
 [:fontawesome-brands-linux: Linux (AppImage; ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Linux-arm64.AppImage){ .md-button .md-button--primary }
 
 ## Mobile
 [:fontawesome-brands-google-play: Android (Play Store)](https://play.google.com/store/apps/details?id=is.xyz.vcmi){ .md-button .md-button--primary }
+[:fontawesome-brands-android: Android (F-Droid)](https://f-droid.org/de/packages/is.xyz.vcmi/){ .md-button .md-button--primary }
 [:fontawesome-brands-android: Android (ARM64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-arm64-v8a.apk){ .md-button .md-button--primary }
 [:fontawesome-brands-android: Android (ARM32)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-armeabi-v7a.apk){ .md-button .md-button--primary }
 [:fontawesome-brands-android: Android (x64)](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Android-x86_64.apk){ .md-button .md-button--primary }
@@ -43,4 +45,4 @@ hide:
 
 ## Other downloads
 [:fontawesome-brands-github: see on GitHub](https://github.com/vcmi/vcmi/releases/latest){ .md-button }
-[:fontawesome-solid-wrench: Daily Builds](https://builds.vcmi.download/){ .md-button }
+[:fontawesome-solid-wrench: Daily Builds](https://download.vcmi.eu/){ .md-button }
