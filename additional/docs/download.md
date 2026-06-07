@@ -85,3 +85,4 @@ hide:
 |---|---|
 | :fontawesome-brands-github: GitHub Releases | [:fontawesome-solid-link: see on GitHub](https://github.com/vcmi/vcmi/releases/latest) |
 | :fontawesome-solid-wrench: Daily Builds | [:fontawesome-solid-link: download.vcmi.eu](https://download.vcmi.eu/) |
+| :fontawesome-solid-code: Source Code | [:fontawesome-solid-download: GitHub](https://github.com/vcmi/vcmi/releases/latest/download/VCMI-Sources.tar.gz) |
