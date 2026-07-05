@@ -21,8 +21,8 @@ def build_extract_main_repo(data):
         shutil.copy(os.path.join(tempdirname, 'vcmi-develop/ChangeLog.md'), 'docs/ChangeLog.md')
         with open('docs/ChangeLog.md', "r") as file:
             tmp = file.read()
-        tmp = re.sub(r"(# [\d])", r"#\1", tmp)
+        tmp = re.sub(r"^# .*\n?", "", tmp, flags=re.MULTILINE)
         with open('docs/ChangeLog.md', "w") as file:
-            file.write("---\nhide:\n  - navigation\n---\n\n# Changelog\n" + tmp)
+            file.write("---\nhide:\n  - navigation\ntoc_depth: 2\n---\n\n# Changelog\n" + tmp)
 
         shutil.copytree('static', 'docs', dirs_exist_ok=True)
