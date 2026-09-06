@@ -1,0 +1,543 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="360" xml:lang="en">
+<defs>
+
+<style type="text/css">@import url(https://weblate.vcmi.eu/static/weblate_fonts/source-sans-3.d177b4492cd5.css);</style>
+
+</defs>
+<g id="layer1">
+
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/be/" xlink:title="Belarusian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="20"
+   id="text20">Belarusian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="20"
+   id="percent20">63%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect20"
+   width="94"
+   height="6"
+   x="200"
+   rx="2"
+   y="14" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/bg/" xlink:title="Bulgarian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="35"
+   id="text35">Bulgarian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="35"
+   id="percent35">55%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect35"
+   width="82"
+   height="6"
+   x="200"
+   rx="2"
+   y="29" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/zh_Hans/" xlink:title="Chinese (Simplified Han script)">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="50"
+   id="text50">Chinese (Simplified Han script)</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="50"
+   id="percent50">99%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect50"
+   width="149"
+   height="6"
+   x="200"
+   rx="2"
+   y="44" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/cs/" xlink:title="Czech">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="65"
+   id="text65">Czech</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="65"
+   id="percent65">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect65"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="59" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/en/" xlink:title="English">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="80"
+   id="text80">English</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="80"
+   id="percent80">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect80"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="74" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/fi/" xlink:title="Finnish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="95"
+   id="text95">Finnish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="95"
+   id="percent95">25%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect95"
+   width="37"
+   height="6"
+   x="200"
+   rx="2"
+   y="89" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/fr/" xlink:title="French">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="110"
+   id="text110">French</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="110"
+   id="percent110">95%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect110"
+   width="142"
+   height="6"
+   x="200"
+   rx="2"
+   y="104" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/de/" xlink:title="German">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="125"
+   id="text125">German</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="125"
+   id="percent125">99%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect125"
+   width="149"
+   height="6"
+   x="200"
+   rx="2"
+   y="119" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/hu/" xlink:title="Hungarian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="140"
+   id="text140">Hungarian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="140"
+   id="percent140">65%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect140"
+   width="98"
+   height="6"
+   x="200"
+   rx="2"
+   y="134" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/it/" xlink:title="Italian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="155"
+   id="text155">Italian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="155"
+   id="percent155">63%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect155"
+   width="94"
+   height="6"
+   x="200"
+   rx="2"
+   y="149" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/ja/" xlink:title="Japanese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="170"
+   id="text170">Japanese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="170"
+   id="percent170">79%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect170"
+   width="119"
+   height="6"
+   x="200"
+   rx="2"
+   y="164" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/ko/" xlink:title="Korean">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="185"
+   id="text185">Korean</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="185"
+   id="percent185">86%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect185"
+   width="129"
+   height="6"
+   x="200"
+   rx="2"
+   y="179" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/lt/" xlink:title="Lithuanian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="200"
+   id="text200">Lithuanian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="200"
+   id="percent200">0%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect200"
+   width="0"
+   height="6"
+   x="200"
+   rx="2"
+   y="194" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/nb_NO/" xlink:title="Norwegian Bokmål">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="215"
+   id="text215">Norwegian Bokmål</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="215"
+   id="percent215">0%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect215"
+   width="0"
+   height="6"
+   x="200"
+   rx="2"
+   y="209" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/pl/" xlink:title="Polish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="230"
+   id="text230">Polish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="230"
+   id="percent230">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect230"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="224" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/pt_BR/" xlink:title="Portuguese (Brazil)">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="245"
+   id="text245">Portuguese (Brazil)</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="245"
+   id="percent245">99%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect245"
+   width="149"
+   height="6"
+   x="200"
+   rx="2"
+   y="239" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/ro/" xlink:title="Romanian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="260"
+   id="text260">Romanian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="260"
+   id="percent260">99%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect260"
+   width="149"
+   height="6"
+   x="200"
+   rx="2"
+   y="254" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/ru/" xlink:title="Russian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="275"
+   id="text275">Russian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="275"
+   id="percent275">96%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect275"
+   width="145"
+   height="6"
+   x="200"
+   rx="2"
+   y="269" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/es/" xlink:title="Spanish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="290"
+   id="text290">Spanish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="290"
+   id="percent290">79%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect290"
+   width="118"
+   height="6"
+   x="200"
+   rx="2"
+   y="284" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/sv/" xlink:title="Swedish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="305"
+   id="text305">Swedish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="305"
+   id="percent305">62%</text>
+<rect
+   style="fill:#1565c0;fill-opacity:1;stroke:none"
+   id="rect305"
+   width="93"
+   height="6"
+   x="200"
+   rx="2"
+   y="299" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/tr/" xlink:title="Turkish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="320"
+   id="text320">Turkish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="320"
+   id="percent320">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect320"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="314" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/uk/" xlink:title="Ukrainian">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="335"
+   id="text335">Ukrainian</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="335"
+   id="percent335">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect335"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="329" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/heroes-of-might-and-magic-3/-/vi/" xlink:title="Vietnamese">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="350"
+   id="text350">Vietnamese</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="350"
+   id="percent350">47%</text>
+<rect
+   style="fill:#cc3d20;fill-opacity:1;stroke:none"
+   id="rect350"
+   width="71"
+   height="6"
+   x="200"
+   rx="2"
+   y="344" />
+</a>
+
+
+</g>
+</svg>
+
+

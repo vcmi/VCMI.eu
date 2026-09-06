@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="45" xml:lang="en">
+<defs>
+
+<style type="text/css">@import url(https://weblate.vcmi.eu/static/weblate_fonts/source-sans-3.d177b4492cd5.css);</style>
+
+</defs>
+<g id="layer1">
+
+
+<a xlink:href="https://weblate.vcmi.eu/projects/the-lost-tales/-/en/" xlink:title="English">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="20"
+   id="text20">English</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="20"
+   id="percent20">100%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect20"
+   width="150"
+   height="6"
+   x="200"
+   rx="2"
+   y="14" />
+</a>
+
+<a xlink:href="https://weblate.vcmi.eu/projects/the-lost-tales/-/pl/" xlink:title="Polish">
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080;text-anchor:end;"
+   x="190"
+   y="35"
+   id="text35">Polish</text>
+<text
+   xml:space="preserve"
+   style="font-style:normal;font-weight:normal;font-size:11px;font-family:'Source Sans 3',sans-serif;fill:#808080"
+   x="360"
+   y="35"
+   id="percent35">96%</text>
+<rect
+   style="fill:#158068;fill-opacity:1;stroke:none"
+   id="rect35"
+   width="145"
+   height="6"
+   x="200"
+   rx="2"
+   y="29" />
+</a>
+
+
+</g>
+</svg>
+
+
