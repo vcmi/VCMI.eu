@@ -79,9 +79,9 @@ extra:
     - icon: fontawesome/brands/vk 
       link: https://vk.com/VCMIOfficial
       name: VK
-    - icon: custom/chatgpt 
-      link: https://chatgpt.com/g/g-1kNhX0mlO-vcmi-assistant
-      name: ChatGPT
+    - icon: custom/chatbot
+      link: https://chatbot.vcmi.eu
+      name: Chatbot
   generator: false
 extra_css:
   - theme/extra.css
