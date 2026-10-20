@@ -4,9 +4,11 @@ hide:
   - toc
 ---
 
-# Download
+# Download the latest release
 
 [ :fontawesome-solid-download: Download for your platform](#){ .md-button .md-button--primary id=dl-button style="font-size:1.2em; padding:0.6em 2em; margin-bottom:0.3em;" }
+
+For more ways to install (including development builds) see [Installation Guides](#help) below.
 
 <script>
 (function(){
